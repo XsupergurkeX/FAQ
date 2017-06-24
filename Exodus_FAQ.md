@@ -1,6 +1,6 @@
 # Exodus für Kodi -Deutsche Anleitung/ FAQ
 
-![](https://raw.githubusercontent.com/rene1980/FAQ/master/Exodus_Logo.png)
+![](https://github.com/lastship/FAQ/raw/master/Exodus_Logo.png)
 
 
 - [1. Allgemeines zum Addon](#1-allgemeines-zum-addon)
