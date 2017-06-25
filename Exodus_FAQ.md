@@ -144,7 +144,7 @@ Die Aktualisierung von Exodus erfolgt NUR über das Exodus Repository, so wie be
 
 Nach einem Update, werden dann auch neu hinzugefügte Index-Seiten automatisch angezeigt.
 
-Wollt Ihr nicht bis zu einem Update warten, könnt Ihr  die .py Dateien der Index Seiten von [Github downloaden](https://github.com/lastship/plugin.video.exodus/tree/master/resources/lib/sources/de) und in das entsprechende Verzeichnis kopieren (siehe Kap.5.3)
+Wollt Ihr nicht bis zu einem Update warten, könnt Ihr  die .py Dateien der Index Seiten von [Github downloaden](https://github.com/lastship/plugin.video.exodus/tree/nightly/resources/lib/sources/de) und in das entsprechende Verzeichnis kopieren (siehe Kap.5.3)
 
 **Wichtig**
 
