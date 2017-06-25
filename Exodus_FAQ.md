@@ -96,7 +96,7 @@ Die Funktion der folgenden Seiten ist auf Grund Fehlender Entwickler nicht gewä
 |Tata            | tata.to           | funktioniert           | 12.01.2017 |
 |Video4k         | video4k.to        | funktioniert           | 12.01.2017 |
 
-Empfehlungen und Vorschläge für neue Seiten können über das xStream Forum unter dem Bereich [Sonstiges, Projekt EXODUS](http://xstream-addon.square7.ch/showthread.php?tid=911) angefragt bzw. eingestellt werden.
+Empfehlungen und Vorschläge für neue Seiten können über das xStream Forum unter dem Bereich [Sonstiges, Projekt EXODUS](http://xstream-addon.square7.ch/showthread.php?tid=1094) angefragt bzw. eingestellt werden.
 
 Die Intergration der eingereichten Seiten ist nicht selbsverständlich und folgt daraufhin auch nicht automatisch. Sowohl das Potenzial der vorgeschlagenen Seite als auch der erforderliche Mehrwert wird geprüft und entscheidet über die Entwicklung eines neuen Site-Plugins.
 Grundsätzlich ist jedoch zu erwähnen, dass stätig an der Weiterentwicklung von Exodus und deren Site-Plugins gearbeitet wird.
