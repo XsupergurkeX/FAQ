@@ -165,19 +165,17 @@ Die Datei in “plugin.video.exodus-master.zip” umbenennen (quasi das “-mast
 Dann Datei öffnen (nicht entpacken) mit 7-Zip, WinRAR, WinZIP (oder einem anderen Packer), dort ist ein Ordner zu sehen der z.B. “plugin.video.exodus-master” heißt => auch hier das “-master”
 entfernen
 
-Die Zip dann installieren.
+Im Exodus Repo ist auch das tva-common repo enthalten
 
-Im Exodus Repo ist auch das TVAddons Repo  enthalten. 
+Dadurch aktualisiert sich auch der URL Resolver, wenn es ein URL Resolver Repo-Update gibt
 
-Wenn das installiert wird, aktualisiert sich auch der URL Resolver automatisch, wenn es ein URL Resolver Repo-Update gibt 
+Es wird übrigens der tknorris URL Resolver verwendet
 
-Es wird übrigens der tknorris URL Resolver Verwendet.
+Da tknorris jedoch keine Updates mehr macht, hat dies ein anderer User in sein eigenes Project übernommen: [Info Link](https://github.com/jsergio123/script.module.urlresolver)
 
-**Tipp:**
+Von dort beziehen auch wir die Informationen und aktualisieren, den URLResolver welcher im Repo liegt, selbst
 
-Da Exodus und xStream den gleichen URLResolver verwenden, könnt Ihr das Updaten des URLResolvers über xStream machen, sofern xStream installiert ist
-
-Alternativ kann Exodus auch über das Addon Fusion Installer installiert werden, jedoch nicht zu empfehlen da es zu umständlich ist
+Exodus und xStream verwenden  den gleichen metahandler
 
 ***WICHTIG:*** Jedoch muss an dieser Stelle klar darauf hingewiesen werden, dass unter der alternativen Bezugsquelle nicht für den aktuellsten Stand und Funktion der Software garantiert werden kann!
 
@@ -194,9 +192,6 @@ Nach dem das Repo Installiert wurde ist noch folgendes zu machen:
 - Exodus Repository
 - *Video-Addons*
 - Exodus (installieren/aktivieren)
-- *Addon Verzeichnis*
-  hier TVADDONS.ag Libraries Repository installieren/aktivieren
-  (dann wird der URL-Resolver automatisch aktualisiert)
 
 ### 2.2 Allgemeine Einstellungen
 
@@ -510,7 +505,8 @@ In dieser Einstellung, kann der Premium Service konfiguriert werden
 Es steht eine Vielzahl an Anbietern zur Verfügung z.B. Trakt, Premiumize, TMDb, IMDb usw
 Voraussetzung ist natürlich, dass ein Account/Abo vom jeweiligen Anbieter vorhanden ist
 
-Die Konfiguration der einzelnen Anbieter kann im englischen Formum nachgelesen werden: [Link](https://www.tvaddons.ag/exodus-tips/?utm_campaign=twitter&utm_medium=twitter&utm_source=twitter)
+
+Die Konfiguration der einzelnen Anbieter kann leider an dieser Stelle nicht erklärt werden, da das englische Forum geschlossen wurde
 
 **Trakt einrichten:**
 In der Kategorie *Konto* - *Trakt* auf Berechtigung klicken
@@ -692,6 +688,10 @@ Die Serie Flash. Es gibt 2 Serien mit dem exact dem gleiche Namen
 In der .nfo ist ein Link zu z.b TVDB
 
 So weiß der Scraper ganz genau um welche Serie es sich handelt, damit nicht die falschen Meta-Daten geladen werden
+
+Wenn Ihr eine Film oder eine Serie aus der Bibliothek löscht, erscheint sie beim nächsten aktualisieren der Bibliothek wieder
+
+Daher müsst Ihr die Datei aus dem Ordner (Speicherpfad der .strm) selbst entfernen
 
 **Serien automatisch aktualisieren**
 
@@ -931,7 +931,7 @@ Installation fehlgeschlagen --> Installation der Abhängigen fehlgeschlagen
 
 Sollte dies der Fall sein, bitte den aktuellste Version des "URLResolver" über dier folgende Bezugsquellen beziehen:
 
- https://github.com/tknorris/script.module.urlresolver/archive/master.zip
+[Download](https://github.com/lastship/tva-common/tree/master/zips/script.module.urlresolver)
 
 
 ### 3.3 Beobachtungen und Fehler im Betrieb
