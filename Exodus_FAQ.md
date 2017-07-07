@@ -936,6 +936,14 @@ Sollte dies der Fall sein, bitte den aktuellste Version des "URLResolver" über 
 
 ### 3.3 Beobachtungen und Fehler im Betrieb
 
+**Real Debrid (RD) Links werden mit VPN übersprungen/nicht angespielt**
+
+Versuch es mal mit einem VPN-Server in Deinem Heimatland, damit sollte es funktionieren
+
+Aus dem Ausland fragt RD ein Captcha ab, wenn Du Dich anmeldest. Deshalb überspringt Exodus die Links
+
+(Eventuell TCP auf UDP umstellen)
+
 **Exodus zeigt keine Filme mehr (mit Trakt Konto) in der Merkliste (Watchlist) an**
 
 Es kann Zeitweise zu Problemen mit dem Trakt Konto kommen und da kann es dann passiern, dass eben nichts mehr angezeigt wird in der Merkliste (evetuell auch in andern Listen)
