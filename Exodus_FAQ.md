@@ -87,14 +87,16 @@ Die Funktion der folgenden Seiten ist auf Grund Fehlender Entwickler nicht gewä
 |Movie4k	 |movie4k.to	     |funktioniert 	      |13.02.2017  |
 |Moviesever	 | moviesever.com    | funktioniert	      |10.02.2017  |
 |Netzkino  	 | netzkino.de 	     |funktioniert	      |16.03.2017  |
+|Proxer		 |proxer.me 	     |funktioniet	      |14.07.2017  |
 |Pureanime	 |pure-anime.tv      | funktioniert	      |24.03.2017  |
 |SerienStream    | serienstream.to   | funktioniert 	      |13.01.2017  |
 |SeriesEver 	 |seriesever.net     |funktioniert            | 12.01.2017 |
-|StreamDream	 | streamdream.ws    | funktioniert 	      |12.01.2017  |
+|StreamDream	 | streamdream.ws    | funktioniert 	      |12.07.2017  |
 |Streamflix 	 |streamflix.to      |funktioniert  	      |22.05.2017  |
 |Streamit	 | streamit.ws 	     | funktioniert	      | 17.03.2017 |
 |Tata            | tata.to           | funktioniert           | 12.01.2017 |
 |Video4k         | video4k.to        | funktioniert           | 12.01.2017 |
+|View4u 	 |view4u.co	     |funktioniert	      |14.07.2017  |
 
 Empfehlungen und Vorschläge für neue Seiten können über das xStream Forum unter dem Bereich [Sonstiges, Projekt EXODUS](http://xstream-addon.square7.ch/showthread.php?tid=1094) angefragt bzw. eingestellt werden.
 
