@@ -1,4 +1,4 @@
-# Exodus für Kodi -Deutsche Anleitung/ FAQ
+# Exodus (Convenant) für Kodi -Deutsche Anleitung/ FAQ
 
 ![](https://github.com/lastship/FAQ/raw/master/Exodus_Logo.png)
 
