@@ -134,7 +134,11 @@ Hier ist ein Video von Rechtsanwalt Christian Solmecke, der über das Thema rech
 
 ### 2.1 Bezugsquellen zur Installation
 
-**Das hinzufügen von Exodus über "als Quelle hinzufügen" in Kodi ist NICHT möglich!!!**
+**Das hinzufügen von Exodus/Covenant über "als Quelle hinzufügen" in Kodi ist NICHT möglich!!!**
+ 
+Das Video Addon Covenant wird über das COLOSSUS Repository installiert 
+
+Dieses ist hier verfügbar: [Download](https://github.com/Colossal1/repository.colossus/raw/master/repository.colossus/repository.colossus-999.999.2.zip)
  
 Das Video Addon Exodus wird über das  EXODUS Repository installiert 
 
