@@ -1,7 +1,7 @@
 # Exodus (Covenant) für Kodi -Deutsche Anleitung/ FAQ
 
 ![](https://github.com/lastship/FAQ/raw/master/Exodus_Logo.png)
-
+![](https://github.com/lastship/FAQ/blob/master/Convenant_Logo.png)
 
 - [1. Allgemeines zum Addon](#1-allgemeines-zum-addon)
     - [1.1 Verfügbare Webseiten](#11-verfügbare-webseiten)
