@@ -1056,6 +1056,26 @@ sieht fertig dann so aus:
 
 Speichern. Nun kann SuperFavoriten ohne Probleme mit Exodus genutzt werden
 
+**SuperFavouriten im Covenant Addon verwenden**
+
+Es ist auch in Covenant möglich die SuperFavouriten zu nutzen
+
+Von Haus aus geht das nicht,war auch in Exodus so
+
+Wie man es einrichtet steht ein paar Zeilen über diesem Text
+
+Ihr müsst auch die Favoriten nicht unbedingt neu anlegen
+
+Geht dazu in den ....kodi/userdata/addon_data/plugin.programm.super.favoriten/
+
+Oder wenn Ihr nur die Kodi Favoriten verwendet,dann dort in die Favoriten.xml schauen
+
+Schaut in diesem Pfad die Favoriten.xml  an. Da muss nur der Verweis von plugin.video.exodus auf plugin.video.covenat geändert werden
+
+Es gibt dafür Tools für den PC die das umbenennen automatisch machen, ich glaube Note++ kann das
+
+Dann habt Ihr schnell Eure Favoriten in Covenant 
+
 **Fehlermeldung: "Kein Stream verfügbar"**
 
 Exodus greift bei der  Suche, Film/Serienauswahl zuerst auf eine Filmdatenbank zu (IMDB), fragt diese nach Infos zum Film, zur Serie ab und zeigt diese dann an
