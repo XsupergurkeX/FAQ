@@ -41,6 +41,10 @@
 
 ## 1. Allgemeines zum Addon
 
+Diese Anleitung kann 1:1 für Covernant angewendet werden. 
+
+Anstelle von Exodus einfach Covernant "einsetzten", ausgenommen Exodus -nightly und Exodus .py Dateien
+
 Exodus ist, genau wie xStream,  ein Video Addon für die Media-Center-Software Kodi
 
 Exodus ist, ein Video Addon für die Media-Center-Software Kodi. 
@@ -138,7 +142,7 @@ Hier ist ein Video von Rechtsanwalt Christian Solmecke, der über das Thema rech
  
 Das Video Addon Covenant wird über das COLOSSUS Repository installiert 
 
-Dieses ist hier verfügbar: [Download](https://github.com/Colossal1/repository.colossus/raw/master/repository.colossus/repository.colossus-999.999.2.zip)
+Dieses ist hier verfügbar: [Download](https://github.com/Colossal1/repository.colossus/tree/master/repository.colossus)
  
 Das Video Addon Exodus wird über das  EXODUS Repository installiert 
 
@@ -150,7 +154,7 @@ Die Aktualisierung von Exodus erfolgt NUR über das Exodus Repository, so wie be
 
 Nach einem Update, werden dann auch neu hinzugefügte Index-Seiten automatisch angezeigt.
 
-Wollt Ihr nicht bis zu einem Update warten, könnt Ihr  die .py Dateien der Index Seiten von [Github downloaden](https://github.com/lastship/plugin.video.exodus/tree/nightly/resources/lib/sources/de) und in das entsprechende Verzeichnis kopieren (siehe Kap.5.3)
+Wollt Ihr nicht bis zu einem Update warten, könnt Ihr die aktuellen Daten aus der Exodus -nightly Version downloaden und in das entsprechende Verzeichnis kopieren: [Exodus Nightly](https://github.com/lastship/plugin.video.exodus/tree/nightly)
 
 **Wichtig**
 
