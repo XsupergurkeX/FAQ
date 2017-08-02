@@ -58,9 +58,12 @@ Anstelle von Lastship einfach Covernant/Exodus "einsetzten/denken"
 Lastship ist, genau wie xStream,  ein Video Addon für die Media-Center-Software Kodi
 
 Lastship ist,  ein Video Addon für die Media-Center-Software Kodi. 
+
 Mit Lastship ist es möglich über eine einfache Benutzeroberfläche mehrere Streaming-Seiten zu benutzen, mit denen man Filme und Serien anschauen kann.
 
-Dabei greift Lastship bei Film/Serienauswahl oder einer Suche zuerst auf eine Filmdatenbank zu (z.B.imdb, tvdb)zu und zeigt ein Ergebnis an. Erst nach der getroffenen Auswahl werden die Anbieter & Hoster durchsucht.
+Dabei greift Lastship bei Film/Serienauswahl oder einer Suche zuerst auf eine Filmdatenbank zu (z.B.imdb, tvdb)zu und zeigt ein Ergebnis an.
+
+Erst nach der getroffenen Auswahl werden die Anbieter & Hoster durchsucht.
 
 Der Menüaufbau von Lastship ist eigentlich selbsterklärend
 
@@ -109,7 +112,9 @@ Die Funktion der folgenden Seiten ist auf Grund Fehlender Entwickler nicht gewä
 Empfehlungen und Vorschläge für neue Seiten können über das Lastship Forum unter dem Bereich [Lastship](http://lastship.square7.ch/forum/forumdisplay.php?fid=28) angefragt bzw. eingestellt werden.
 
 Die Intergration der eingereichten Seiten ist nicht selbsverständlich und folgt daraufhin auch nicht automatisch. 
+
 Sowohl das Potenzial der vorgeschlagenen Seite als auch der erforderliche Mehrwert wird geprüft und entscheidet über die Entwicklung eines neuen Site-Plugins.
+
 Grundsätzlich ist jedoch zu erwähnen, dass stätig an der Weiterentwicklung von Lastship und deren Site-Plugins gearbeitet wird.
 
 
