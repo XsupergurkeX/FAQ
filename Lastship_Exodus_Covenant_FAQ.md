@@ -744,7 +744,7 @@ Ihr müsst dann also nur die oben genannte *video_cache.db* auf ein anderes Syst
 
 Thema: [Link](http://xstream-addon.square7.ch/showthread.php?tid=787)
 
-###2.11 Lastship Bibliothek###
+### 2.11 Lastship Bibliothek
 
 Eine sehr nützliche Funktion ist die Integration von Lastship Streams in die Bibliothek
 
