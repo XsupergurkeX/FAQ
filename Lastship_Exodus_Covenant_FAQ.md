@@ -125,12 +125,14 @@ Der Europäische Gerichtshof hat ein Urteil gefällt:
  - Der Nutzer muss sich in Anbetracht des neuen EuGH-Urteils stets über das zur Nutzung vorgesehene Angebot (Portal, Webseite) informieren – der Nutzer muss prüfen, ob das Angebot rechtswidrig ist oder sein könnte. 
 
  - Streamingseiten, die etwa brandaktuelle Kinofilme kostenlos anbieten, die man nicht mal bei den Bezahlanbietern zu sehen bekommt – hier hat man es wahrscheinlich mit einer „offensichtlich rechtswidrigen Vorlage“ zu tun. 
+ 
 Wer sich hier Streams anschaut, macht sich strafbar und kann sich nicht auf das Recht auf Privatkopie berufen.
 
  - Zukünftige Streaming-Abmahnungen sind also durchaus möglich,eine neue Abmahnwelle ist dennoch nicht zu befürchten
 Nutzer können nur über ihre IP-Adressen zurückverfolgt werden Genau diese IP-Adresse ist jedoch nur dem illegalen Portal bekannt, welches meist anonym operiert und oft keine IP-Adressen speichert
 
 Die meisten Streaming-Seiten speichern keine Zugriffsdaten
+
 Solltet Ihr einen Premium Dienst auf diversen Seiten nutzen, könnt Ihr natürlich leicht(er) gefunden werden
 
 Hier ist ein Video von Rechtsanwalt Christian Solmecke, der über das Thema rechtlich aufklärt: Stand 26.April 2017
@@ -139,114 +141,148 @@ Hier ist ein Video von Rechtsanwalt Christian Solmecke, der über das Thema rech
 [![EuGH: Streaming| Rechtsanwalt Christian Solmecke](https://i.ytimg.com/vi/uzOA09gomn0/hqdefault.jpg)](https://www.youtube.com/watch?v=uzOA09gomn0&feature=youtu.be)
 
 [Link](https://www.youtube.com/watch?v=uzOA09gomn0&feature=youtu.be)
+
 ## 2. Installation und Konfiguration
 
 
 ### 2.1 Bezugsquellen zur Installation
+
 **Das hinzufügen von Lastship/Covenant/Exodus über "als Quelle hinzufügen" in Kodi ist NICHT möglich!!!**
 
 [Info] Das (Deutsche)Lastship Project sucht Entwickler  zur Pflege der Index Seiten, Kenntnisse Programmiersprache Python (.py) erforderlich
 
 Das Video Addon Lastship  wird über das  LASTSHIP Repository installiert 
+
 Dieses ist hier verfügbar: [Download](https://github.com/lastship/Lastship-Repo/raw/master/zips/repository.lastship/repository.lastship-1.0.0.zip)
 
+Forum: [Link](http://lastship.square7.ch/forum/forumdisplay.php?fid=28)
+
 Das Video Addon Covenant wird über das  COLOSSUS Repository installiert 
+
 Dieses ist hier verfügbar: [Download](https://github.com/Colossal1/repository.colossus/tree/master/repository.colossus)
+
+Forum: [Link](http://lastship.square7.ch/forum/forumdisplay.php?fid=6)
 
 Das Video Addon Exodus  wird von uns nicht mehr zur Verfügung gestellt
  
 Die Entwicklung und Änderungen in Lastship können auf Github mitverfolgt werden, der Download sollte jedoch vom Downloadlink oben durchgeführt werden: [Lastship auf Github](https://github.com/lastship/plugin.video.lastship/tree/nightly)
 
 Die Aktualisierung von Lastship erfolgt NUR über das Lastship Repository, so wie bei jedem anderen Repo auch. 
+
 Nach einem Update, werden dann auch neu hinzugefügte Index-Seiten automatisch angezeigt.
 
 Wollt Ihr nicht bis zu einem Update warten, könnt Ihr die aktuellen Daten aus der Lastship -nightly Version downloaden und in das entsprechende Verzeichnis kopieren: [Lastship Nightly](https://github.com/lastship/plugin.video.lastship/archive/nightly.zip)
 
 **Wichtig**
+
 Die Index-Seiten welche so hinzugefügt werden, können sofort verwendet werden, jedoch sind Sie in den Einstellungen (Index-Seiten) NICHT sichtbar. 
- Die Sichtbarkeit erfolgt, mit dem nächsten Repo Update!!
+
+Die Sichtbarkeit erfolgt, mit dem nächsten Repo Update!!
 
 **BEACHTE:**
+
 *Beim gesamten Daten Download von Github* gilt es folgendes zu Beachten:
+
 Um eine Korrekte Installation zu Gewährleisten, ist es immer notwendig, den Anhang Master, Beta, Nightly aus den .zip Dateien und dem Unterordner zu entfernen
 
 *Geht wie folgt:*
+
 Die Datei in “plugin.video.lastship-master.zip” umbenennen (quasi das “-master" entfernen)
 
-Dann Datei öffnen (nicht entpacken) mit 7-Zip, WinRAR, WinZIP (oder einem anderen Packer), dort ist ein Ordner zu sehen der z.B. “plugin.video.exodus-master” heißt => auch hier das “-master”
-entfernen
+Dann Datei öffnen (nicht entpacken) mit 7-Zip, WinRAR, WinZIP (oder einem anderen Packer), dort ist ein Ordner zu sehen der z.B. “plugin.video.exodus-master” heißt => auch hier das “-master” entfernen
+
 Die Zip dann installieren.
  
 Im Lastship Repo ist auch das lastship-common repo enthalten
+
 Dadurch aktualisiert sich auch der URL Resolver, wenn es ein URL Resolver Repo-Update gibt
 
 Es wird übrigens der tknorris URL Resolver verwendet
+
 Da tknorris jedoch keine Updates mehr macht, haben das anderer User übernommen, Infos dazu im Changelog
 
 Von dort beziehen auch wir die Informationen und aktualisieren, den URLResolver welcher im Repo liegt, selbst
 
+Aktueller URL Resolver: [Link](https://github.com/lastship/lastship-common/tree/master/zips/script.module.urlresolver)
+
 Lastship und xStream verwenden  den gleichen metahandler
 
 ***WICHTIG:*** 
+
 Jedoch muss an dieser Stelle klar darauf hingewiesen werden, dass unter der alternativen Bezugsquelle nicht für den aktuellsten Stand und Funktion der Software garantiert werden kann!
 
 Repo Installieren:
 
 - öffne die Kategorie Addons
+
 - aus zip installieren
+
 - Downloadordner suchen und installieren
 
 Nach dem das Repo Installiert wurde ist noch folgendes zu machen:
 
 - öffnet die Kategorie Addons
+
 - Aus Repository installieren
+
 - Lastship Repository
+
 - *Video-Addons*
+
 - Lastship (installieren/aktivieren)
 
 
 ### 2.2 Allgemeine Einstellungen
 
 Wenn gesehene Filme auf einmal weg sind, liegt das an den Einstellungen im Seitenmenü. 
+
 Hier die Markierung „gesehene Filme“ deaktivieren!
 
 In Lastship  Kategorie *WERKZEUGE* öffnen
+
 Hier werden alle Lastship Einstellungen angezeigt
 
 ####**Einstellungen Allgemein**
 
 ***Erscheinungsbild***
+
 Es werden  nur die Icons und der Hintergrund anders dargestellt
+
 Ansonst hat diese Einstellung keine Auswirkung
 
 Zur Auswahl stehen:
+
 Exuary
+
 Lastship
+
 Genesis
 
 Lastship verwendet ein zugehöriges Artwork Addon für Themen Unterstützung
+
 Das Lastship Artwork Addon wird standardmäßig mit installiert
 
-
-
 ***Zeitlimit für Index Seiten:***
-*Standard (default):* 30 Sekunden
+*Standard (default):* 20 Sekunden
 
 Ist die Zeit, wie lange Lastship die Anbieter durchsuchen soll  bevor das Suchergebniss , als Liste zur Auswahl  angezeigt  wird
 
-Lastship liefert ein exzellentes Ergebnisse mit einem Wert von 12 -  
-15 Sekunden, vor allem wenn ihr einen Premium Service verwendet.
+Lastship liefert ein exzellentes Ergebnisse mit einem Wert von 12 - 15 Sekunden, vor allem wenn ihr einen Premium Service verwendet.
 
 Wenn Ihr Schwierigkeiten habt Streams zu finden, kann dieser Wert erhöht werden
 
 ***Indikator***
+
 *Standard (default): Lokal*
 
 *Lokal:* 
+
 der gesehen Status wird innerhalb von Kodi behandelt
 
 *Trakt:* 
+
 wenn Ihr bei dem Menüpunkt *Konto* Euer Trakt Konto aktiviert habt, kann hier auch Trakt ausgewählt werden
+
 Wird Trakt verwendet, dann werden alle gesehen Status  auf der Trakt Homepage gespeichert 
 
 ***Sprache für Informationen***
@@ -254,18 +290,23 @@ Wird Trakt verwendet, dann werden alle gesehen Status  auf der Trakt Homepage ge
 *Standard (default):* Auto
 
 Es wird automatisch die in Kodi verwendete Sprache benutzt
+
 Wenn notwendig, kann die Sprache manuell eingestellt werden
 
 Diese Einstellung kontrolliert die Sprache, welche Angezeigt/Wiedergegeben wird, wenn Lastship Abfragen von Titel, Beschreibungen und andere Metadaten Informationen, für Filme und Serien durchführt
+
 Diese Einstellung bezieht sich nur auf die Informationen für Lastship und hat KEINE Auswirkung auf die Stream Sprache
 
 ***Sprache für Index Seiten***
 
 Hier wird die Sprache für die Webseiten Eingestellt
+
 Zur Auswahl stehen verschiedene Sprachen, wie z.B. German, English usw...
 
 **Serien-Staffeln reduzieren**
+
 EIN: Alle Staffeln werden in einer Liste angezeigt 
+
 AUS: Staffeln werden in eigenen Staffel Ordnern angezeigt
 
 **Fanart verwenden**
@@ -273,35 +314,47 @@ AUS: Staffeln werden in eigenen Staffel Ordnern angezeigt
 *Standard (default):* aktiviert
 
 Wenn Ihr Probleme mit dieser Funktion habt, solltet Ihr überlegen diese zu deaktivieren um zu sehen, ob sich dadurch die Leistung verbessert
+
 Dadurch verliert Ihr natürlich die Bilder und Kosmetische Aspekte. Aber es könnte zur Leistungsverbesserung beitragen
 
 **MENÜ**
 
 *Neue Filme:*
+
 Einstellung, welcher Inhalt angezeigt wird, wenn die Kategorie Neue Filme in Lastship gewählt wird (Im Kino, am populärsten, Empfohlen, Deaktivieren
 
 *Neue Episoden:*
+
 Einstellung, welcher Inhalt angezeigt wird, wenn die Kategorie Neue Episoden in Lastship gewählt wird (Episoden, Deaktiviert)
 
 *Meine Listen:*
+
 wenn aktiviert, wird im Hauptmenü die Kategorie Meine Liste angezeigt. 
+
 Funktion nur mit Trakt Konto (und anderen Konten)
 
 ####**Einstellungen Wiedergabe**
+
 **Standard Aktion (default):**   Verzeichnis
 
 *Verzeichnis*
+
 Die Anzeige ist wie eine Liste Aufgebaut
 
 *Dialog*
+
 Die Anzeige erfolgt in einem kleineren Fenster, Aufbau wie eine Liste
  
 *Auto-Play*
+
 Es wird keine Liste angezeigt
+
 Die Wiedergabe nach Filmauswahl/Serienauswahl startet automatisch
+
 Es wird der beste verfügbare Hoster & die beste verfügbare Qualität gewählt
 
 Die Auswahlreihenfolge der Hoster richtet sich nach deren Priorität (und auch Qualität, HD vor SD usw.)
+
 Die Priorität kann im URLResolver unter “Resolver Settings” angepasst werden.
 
 ***Niedrige Werte werden vor hohen Werten gewählt***
@@ -309,61 +362,86 @@ Die Priorität kann im URLResolver unter “Resolver Settings” angepasst werde
 **Fortschrittsdialog**
 
 Vordergrund: 
+
 nach Streamauswahl wird das Info-Fenster, groß in der mitte des Bildschirmes dargestellt
 
 Hintergrund: 
+
 nach Streamauswahl wird das Info-Fenster, klein am Rand des Bildschirmes dargestellt
 
 **DATEIANBIETER FILTER**
+
 **Höchste Qualität: **
+
 4k, 1440p, 1080p, 720p und 480p stehen zur Auswahl
+
 Das was hier engestellt wird, ist die max. Auflösung nach der die Index-Seiten durchsucht werden. 
+
 Ist auch die max. Auflösung, welche bei Autoplay verwendet wird
 
 Bei Seriesever & Moviesever ist 4k verfügbar, aber nur mit einem Premium Account (Bezahlung)
 
 **SD Anbieter in Autoplay**
+
 *Wenn aktiviert:*
+
 werden im Auto-Play Modus nur SD Streams wiedergegeben. 
-HD Streams werden dabei ignoriert. 
+
+HD Streams werden dabei ignoriert
+
 Ist nur dann sinnvoll, wenn man einen langsamen Internet Anbieter oder eine schwache Hardware hat
 
 **Dateianbieter mit Captcha Abfrage**
+
 Wenn deaktiviert, werden alle Hoster die Captcha-Abfragen durchführen ignoriert
 
 **Nach Index-Seiten sortieren**
-Wenn aktiviert, werden nur die Streams der Ausgewählten Anbieter angezeigt.
+
+Wenn aktiviert, werden nur die Streams der Ausgewählten Anbieter angezeigt
+
 Premium Services sind immer Gruppiert und stehen  an der Spitze der Liste
+
 Beispiel: Alle Streams, die z.B. auf PrimeWire gefunden werden, sind aufgelistet
 
 ***Wenn Wiedergabe startet......***
+
 *Wiedergabe fortsetzen*
 
 Wenn ein Stream gestoppt wird, wird automatisch  ein Fortsetzungspunkt gespeichert/erstellt (aber erst ab einer Wiedergabezeit von 3 Minuten )
 
 *Option Wiedergabe fortsetzten EIN:*
+
 Es erscheint bei Fortsetzung des Streams eine  Anzeige  wo gewählt werden kann: Fortsetzen oder Vom Anfang abspielen an, egal welcher Hoster dabei gewählt wird
 
 *Option Wiedergabe fortsetzten AUS:*
+
 Stream startet immer vom Anfang (auch wenn Ihr eine advancedsettings.xml verwendet)
 
 
 Wenn in Kodi unter: 
+
 Addons-Seitenmenü, Automatische Aktualisierung auf AUS gestellt ist, wird Lastship nicht automatisch aktualisiert
 
 **LASTSHIP: Cache löschen/Index Seiten löschen**
+
 Löscht den Cache (Speicher) von Lastship
+
 Keine Angst, hierbei passiert nichts!!
 
 **Suche**
+
 Die Suche in Lastship ist eine Globale Suche. Das heißt, es werden immer alle Anbieter/Hoster durchsucht
+
 Es kann vorkommen, dass eine Serie/ein Film nicht gefunden wird, näheres dazu siehe Kapitel 3.3
 
 **Kategorie: Meine Filme / Meine TV Serien**
+
 Diese beiden Kategorien sind nur nutzbar, wenn z.B. Trakt aktiviert ist
+
 Hier findet Ihr dann Eure gesehenen Serien/Filme, Filmvorschläge usw.
 
 **LASTSHIP: Anzeige Typen**
+
 Hier wird die Ansicht (view) eingestellt, wie Filme/Serien/Episoden usw. dargestellt werden (Liste, Wall, InfoWall, Poster usw...)
 
 Diese Ansichten werden in einer eigenen Datenbank gespeichert:
@@ -379,53 +457,75 @@ Nun wird die Ansicht in Lastship so dargestellt, wie sie eben eingestellt wurde
 Wollt Ihr die Datenbak zurücksetzen, dann kann sie gelöscht werden
 
 Erklärung zur Datenbank:
+
 *views.db *
+
 speichert eine festgelegte Ansicht über das Lastship Menü, welche bei jedem Seitenaufruf (Pfad: Bsp. Filme -> Trakt -> Sammlung) die - vom Skin in der ViewModes.db gespeicherte -ViewID überscheibt 
 
 Thema: [Link](http://lastship.square7.ch/forum/showthread.php?tid=56)
 
 **Kanäle**
+
 Hier werden Euch Sky Sparten angezeigt
+
 Diese sind jedoch KEINE Live Streams
+
 Die Sparten dienen nur so als Vorschlag was man schauen könnte
+
 Deutscher SkyEPG wird nicht eingebaut, da Lastship International ist und die Vorschläge für alle gleich sind
 
 **Nach welcher Logik werden Filme unter "neue Filme" aufgelistet**
+
 Dort kommen nicht neueste Filme zuerst und nach hinten werden sie immer älter, sondern neue Filme stehen teilweise einfach irgendwo weiter unten in der Liste
+
 Warum können Neuerscheinungen nicht einfach immer chronologisch von vorne ergänzt werden? 
 
 *Antwort:*
+
 Es zeigt die Filme des letztes Jahres (mit einem 60 tägigen Delay, weil ein Film der heute im Kino gekommen ist bringt meistens recht wenig)
+
 Geordnet ist es nach Moviemeter. Wie genau das zusammen gesetzt ist kann bei IMDB nachgelesen werden
 
 ### 2.3 Index Seiten Aktivieren und Deaktivieren
+
 *Standard:* Alle Index Seiten aktiviert
 
 In Lastship, unter dem Menüpunkt Werkzeuge, *Index-Seiten*, besteht die Möglichkeit bestimmte Seiten an bzw. auszuschalten. 
 
 Ebenso kann jetzt hier eingestellt werden ob Deutsche und/oder Englische Seiten durchsucht werden
-Dies kann von Nutzen sein, wenn kein Interesse an bestimmten Medien besteht. 
+
+Dies kann von Nutzen sein, wenn kein Interesse an bestimmten Medien besteht
+
 Diese werden dann auch nicht in der Suche angezeigt
 
 Einige Index-Seiten unterschützen Multi-Part
+
 Aktuelle sind das ddl.me und Filmpalast
 
 *Was ist MultiPart?*
+
 MultiPart bedeutet: das der Film in zwei Teilen auf der Seite hochgeladen ist und Lastship diese nahtlos nacheinander abspielt
-Der Film sollte auch grob in der Mitte mal nachladen, beim Wechsel auf den zweiten Stream. 
+
+Der Film sollte auch grob in der Mitte mal nachladen, beim Wechsel auf den zweiten Stream
+
 Auch beim Start des zweiten Stream etwas langsamer, aber besser so als gar nicht
 
 *Anmerkung:*
-Wenn Ihr Probleme mit kinox habt, hilft es wenn Ihr Eure DNS (z.B. auf die von Google 8.8.8.8) Adresse ändert. 
+
+Wenn Ihr Probleme mit kinox habt, hilft es wenn Ihr Eure DNS (z.B. auf die von Google 8.8.8.8) Adresse ändert
+
 Manche Seiten werden von den Internet Providern geblockt 
 
-Nache einem Lastship Update werden auch neu hinzugefügte Seiten automatisch angezeigt. 
+Nache einem Lastship Update werden auch neu hinzugefügte Seiten automatisch angezeigt
+
 Das Update erfolgt aber nur, wenn das Lastship Repo installiert ist, wie am Anfang beschrieben
 
 Im Verzeichnis `...kodi/addons/plugin.video.lastship/resources/lib/sources_de` sind die .py Daten  der einzelnen Webseiten abgelegt.
+
 Hier könnt Ihr auch neue Deutsche Seiten hinzufügen, oder bestehende bearbeiten
 
-Bei diesem Pfad handelt es sich um "versteckte Dateien". 
+Bei diesem Pfad handelt es sich um "versteckte Dateien"
+
 Diese müssen erst sichtbar gemacht werden
 
 ### 2.4 Hosterwahl
@@ -435,7 +535,9 @@ Wenn Ihr im Menü z.B. Filme- Jahr- 2017- beliebigen Film auswählen- klickt, we
 Auch nachdem eine Suche gestartet wurde, werden alle verfügbaren Anbieter/ Hoster angezeigt. 
 
 Die Anzeige sieht wie Folgt aus:
+
 BS | OPENLOAD | HD
+
 (Anbieter | Hoster | Qualität)
 
 Die Qualität des Streams kann sein:  4k, HD, SD, CAM usw.
@@ -443,67 +545,91 @@ Die Qualität des Streams kann sein:  4k, HD, SD, CAM usw.
 Wie lange das durchsuchen der Hoster dauert hängt von der Einstellung *Zeitlimit für Index Seiten* ab
 
 *Wenn Ihr einen Film/Serie angewählt habt, könnt Ihr ein zusätzliches Menü (Kontexmenü) öffnen:*
+
 am PC: rechte Maus Taste
+
 am Handy/Tablet: langer Druck auf den Film
+
 am FireTV: die Menü Taste drücken
 
 Ist der von Euch gewählte Anbieter/Hoster nicht verfügbar, nimmt Lastship AUTOMATISCH den nächsten, bis ein lauffähiger gefunden wird
 
 ***Anmerkung zu den Hostern Openload (HD), TheVideo:***
-Wenn Ihr einen dieser Hoster zum Streamen auswählt, erscheint ein Fenster, welches Euch auffordert Eure Gerät zu Pairen.
-Das könnt ihr mit ruhigen Gewissen machen.
+
+Wenn Ihr einen dieser Hoster zum Streamen auswählt, erscheint ein Fenster, welches Euch auffordert Eure Gerät zu Pairen
+
+Das könnt ihr mit ruhigen Gewissen machen
 
 Ihr müsst im selben WLAN sein wie das zu Pairende Gerät (z.B. FireTV, Apple TV usw.)
+
 Öffnet am Handy/Tablet/PC einen Browser mit der angezeigten Adresse von openload (http://olpair.com/) bzw. thevideo (https://thevideo.me/pair)
+
 Klickt in dem Kasten bei “Ich bin kein Roboter”
+
 Dann ganz runter und klick auf “Pair”
-Das wars.
+
+Das wars
+
 Dieser Vorgang muss immer wieder Wiederholt werden (nach 4 Stunden oder 5 Streams)
 
 *Warum ist das "pairen" nötig?*
+
 Auf der Homepage muss immer eine Werbung betrachet werden
+
 Da wir ja die Homepage des Hostbetreibers nicht besuchen müssen, entgehen dem Betreiber Werbeeinnahmen. 
 
 Damit dies nicht der Fall ist und die Hoster Lastship so arbeiten lassen, wurde mit den Betreibern diese "pair" Funktion vereinbart.
+
 Durch den klick auf "pair" bekommen die Hoster Ihre Werbeeinnahme.
 
 Für Euch entstehen dadurch KEINE Kosten!!
 
 ### 2.5 Konten
+
 In dieser Einstellung, kann der Premium Service konfiguriert werden
+
 Es steht eine Vielzahl an Anbietern zur Verfügung z.B. Trakt, Premiumize, TMDb, IMDb usw
+
 Voraussetzung ist natürlich, dass ein Account/Abo vom jeweiligen Anbieter vorhanden ist
 
 Die Konfiguration der einzelnen Anbieter kann leider an dieser Stelle nicht erklärt werden, da das englische Forum geschlossen wurde
 
 **Trakt einrichten:**
+
 In der Kategorie *Konto* - *Trakt* auf Berechtigung klicken
 
 *Es wird ein Infofenster angezeigt:*
 
 Webseite besuchen: https://trakt.tv/activate
+
 Dort werdet Ihr dann aufgefordert den Code (der in Lastship angezeigt wird)  einzugeben, Continue.
 
 Allow Lastship to use Your Accout (Erlaube Lastship die Verwendung Deines Kontos), YES
 
 WooHoo! Your device is now connected and will automatically refresh in a few seconds.
 
-Zurück in Lastship, steht jetzt bei Trakt Euer Benutzername.
+Zurück in Lastship, steht jetzt bei Trakt Euer Benutzername
+
 Der Takt Service kann ab jetzt genutzt weren
 
 Weiteres zum Thema Trakt findet Ihr hier: [Link](http://xstream-addon.square7.ch/showthread.php?tid=948)
 
 ### 2.6 Untertitel
+
 *Standard (default):* deaktiviert
 
 Um Untertitel zu aktivieren, gehen in den Einstellungen zu Kategorie *Untertitel*
+
 Untertitel aktivieren
 
 Hauptsprache und Zweitsprache wählen
+
 (Es ist jedoch möglich, dass diese Einstellung Funktionslos bleibt)
+
 Während der Stream läuft könnt Ihr nun am unteren Rand, die Untertitel ein/ausschalten
 
 ### 2.7 Downloads
+
 Kategorie *Werkzeuge*, Lastship Downloads
 
 Herunterladen aktivieren
@@ -511,26 +637,31 @@ Herunterladen aktivieren
 Speicherplatz Ordner für Filme bzw. Serien anlegen/auswählen
 
 Zurück zur Film/Serien Auswahl
+
 Einen Film/Serie suchen, Film auswählen.
 
-Wenn dann die Anbieter/Hoste angezeigt werden, das Kontexmenü öffnen
+Wenn dann die Anbieter/Hoster angezeigt werden, das Kontexmenü öffnen
 
 Download wählen
 
 Es öffnet sich ein Fenster, wo der Name des Films und die Dateigröße angezeigt wird
 
-Nach Klick auf Confirm, starte der Download. 
+Nach Klick auf Confirm, starte der Download
+
 Es wird kurz: *Download in Progress* angezeigt
 
 Ihr findet den Film/Serie dann in Eurem Download Ordner
 
 ### 2.8 URL Resolver Konfiguration
+
 Es besteht die Möglichkeit, in den Einstellungen des URL Resolvers die Priorität der Hoster festzulegen also welche Hoster als ersters angezeigt bzw. verwendet werden sollen.
 
 *Da Lastship & xStream den gleichen URL Resolver verwenden, hat diese Einstellung auch Auswirkung auf beide Addons!!*
 
-Lastship probiert automatisch alle verfügbaren Hoster aus, bis ein Stream abgespielt werden kann.
-Die Auswahlreihenfolge der Hoster richtet sich nach deren Priorität.
+Lastship probiert automatisch alle verfügbaren Hoster aus, bis ein Stream abgespielt werden kann
+
+Die Auswahlreihenfolge der Hoster richtet sich nach deren Priorität
+
 Diese kann unter “Resolver Settings” angepasst werden.
 
 ***Niedrige Werte werden vor hohen Werten gewählt***
@@ -538,34 +669,43 @@ Diese kann unter “Resolver Settings” angepasst werden.
 Sind Eure Priorisierten (Lieblings) Hoster nicht nicht verfügbar, nimmt Lastship den nächsten Hoster der funktioniert
 
 Den URL Resolver findet Ihr in Kodi:
+
 Optionen - Einstellungen - Addons - System Addons - Abhängigkeiten - URL Resolver:  Konfigurieren
 
 Den URL Resolver findet Ihr in Kodi 17:
+
 Einstellungen - System - Addons - Abhängigkeiten verwalten - URLResolver: Konfigurieren
 
 ### 2.9 Trakt
+
 Die Einrichtung des Trakt Kontos steht in Kapitel 2.5
 
 *Wollt Ihr nun eine Staffel zur Merkliste hinzufügen, geht das wie folgt:*
 
 Serienstaffel suchen, Kontexmenü öffnen- Trakt Manager
+
 In dem sich nun öffnenden Fenster, könnt Ihr eine Liste wählen, wo die Staffel gespeichert werden soll
 
 **Kategorie:  Meine TV Serien**
+
 In dieser Kategorie, findet Ihr die zuvor angezeigte Liste und somit die von Euch gespeicherte Serie
 
 *Wollt Ihr nun eine Serie zu Takt hinzufügen, geht das wie folgt:*
 
 Serie wählen - Staffel wählen - Episode wählen - Kontexmenü öffnen - In Trakt angesehen klicken
+
 Auf die gleiche Weise, könnt Ihr auch die komplette Staffel als "In Trakt gesehen" wählen
 
 *Wollt Ihr nun einen Film zur Merkliste hinzufügen, geht das wie folgt:*
 
 Das vorgehen ist dabei gleich wie bei den Serien
+
 Film wählen - Kontexmenü öffnen - Trakt manager 
+
 In dem sich nun öffnenden Fenster, könnt Ihr eine Liste wählen, wo der Film gespeichert werden soll
 
 **Kategorie:  Meine Filme**
+
 In dieser Kategorie, findet Ihr die zuvor angezeigte Liste und somit den von Euch gespeicherten Film
 
 *Wollt Ihr nun einen Film zu Takt hinzufügen, geht das wie folgt:*
@@ -573,6 +713,7 @@ In dieser Kategorie, findet Ihr die zuvor angezeigte Liste und somit den von Euc
 Film wählen - Kontext Menü öffnen - In Trakt angesehen wählen
 
 *INFO:*
+
 Immer wenn ein Film/Serie in Lastship als gesehen oder "In Trakt gesehen" markieret wird, springt Lastship zum Listenanfang zurück
 
 Das ist leider ein normales verhalten von Lastship und liegt an Kodi 17
@@ -582,12 +723,15 @@ Thema: [Link](http://xstream-addon.square7.ch/showthread.php?tid=948)
 Auch wenn Trakt nicht genutzt wird in/mit Lastship, benutzt Lastship trotzdem die Suche von Trakt.tv
 
 Ihr könnt auf der Homepage von Trakt.tv, Filme&Serien selbst zur Trakt Datenbank hinzufügen/nachtragen, wenn diese nicht vorhanden sind
+
 Dazu benötigt Ihr die Film oder Serien ID Nummer, welche Euch auf thevdb.com angezeigt wird
+
 Am unteren Ende der Trakt Homepage, findet Ihr das Import Menü für Filme (Import Movie) und Serien (Import TV Show), hier müsst Ihr die ID Nummer eingeben
 
 ### 2.10 Gemeinsamer gesehen Status in Lastship und xStream
 
 Lastship benutzt standardmaäßig den metahandler
+
 Wenn dieser auch in xStream aktiviert wurde, dann wird der gesehen Status aus xStream auch in Lastship angezeigt und umgekehrt, weil dann beide Addons in die gleiche Datenbank schreiben
 
 Die Datenbank befindet sich unter:  
@@ -603,14 +747,18 @@ Thema: [Link](http://xstream-addon.square7.ch/showthread.php?tid=787)
 ###2.11 Lastship Bibliothek###
 
 Eine sehr nützliche Funktion ist die Integration von Lastship Streams in die Bibliothek
+
 Somit hat man seine lokale Bibliothek und die Online Streams übersichtlich in EINER Bibliothek vereint
 
 Streams in der Bibliothek werden erst als *gesehen* markiert, wenn Sie komplett zu Ende gesehen werden
 Oder man setzt den "gesehen Status" über das Kontexmenü selbst
 
 Es ist *nicht* möglich innerhalb der Bibliothek eigene Ordner zu erstellen und somit lokale Streams von Online Streams zu trennen
+
 (Eventuell bietet ein anderes Skin diese Möglichkeit)
+
 Eigene Ordner sind Sachen die Ihr in Kodi regeln müsst
+
 Lastship selbst legt nur eine Datei ab, so dass Kodi diese Datei annimmt
 
 Es besteht  *nicht* die Möglichkeit, zu sehen, ob eine Neue Folge einer Serie bei dem Provider XY erschienen ist
@@ -619,6 +767,7 @@ Wenn Ihr eine Serie, einen Film zur Bibliothek hinzufügt, erzeugt Lastship (im 
 Die Informationen dafür kommen von den Online Datenbanken (TVDB, IMDB, The Movie DB usw.)
 
 Aufgrund dieser Informationen, werden die .strm Dateien erzeugt
+
 In der .strm steht im Endeffekt nur drin "Spiel mal IMDB-ID xy ab"
 
 Es werden dabei weder die Anbieter noch die Hoster mit Anfragen/Abfragen belastet
@@ -626,55 +775,75 @@ Es werden dabei weder die Anbieter noch die Hoster mit Anfragen/Abfragen belaste
 Erst wenn eine Episode ausgewählt wird, erfolgt eine Anfrage/Abfrage bei den Anbietern & Hostern
 
 Die .nfo ist nur eine Hilfe für den Scraper
+
 *Beispiel:*
+
 Die Serie Flash. Es gibt 2 Serien mit dem exact dem gleiche Namen
+
 In der .nfo ist ein Link zu z.b TVDB
+
 So weiß der Scraper ganz genau um welche Serie es sich handelt, damit nicht die falschen Meta-Daten geladen werden
 
 Wenn Ihr eine Film oder eine Serie aus der Bibliothek löscht, erscheint sie beim nächsten aktualisieren der Bibliothek wieder. Daher müsst Ihr die Datei aus dem Ordner (Speicherpfad der .strm) selbst entfernen
 
 **Serien automatisch aktualisieren**
+
 *Wann wird das gemacht?*
+
 Das passiert beim Start von Kodi
+
 Wenn jemand eine neue Folge deiner Serien einträgt (normal passiert das bei Ausstrahlung) wird diese Automatisch hinzugefügt
+
 Beim Start von Kodi sollte eine kleine Meldung zu sehen sein
 
 Ist es nicht erwünscht, das bei jedem Kodi Start die (Lastship) Bibliothek aktualisiert wird, dann kann dies in Lastship deaktiviert werden:
 
 - Lastship - Werkzeuge - Bibliothek - Einstellungen
+
 TV-Serien automatisch aktualisieren: deaktivieren
 
 Das aktualisieren, muss dan selbst gemacht werden:
 
 - Lastship - Werkzeuge - Bibliothek
+
 Bibliothek updaten klicken
   
 **Erklärung Menüpunkte:**
 
 *Bibliothek nach dem Hinzufügen von Inhalten aktualisieren:*
+
 heißt das ein Refresh der lokalen Bibliothek durchgeführt wird nach, dem Hinzufügen
+
 Sprich Kodi prüft auf neue Daten
+
 Wenn man das Deaktiviert macht Kodi das nur beim ersten Neustart
 
 *TV Serien automatisch aktualisieren:*
+
  fügt neue Folgen zur Kategorie Serien hinzu
+ 
  Der Intervall dafür liegt bei 6 Stunden
 
 *Es wird in der Kodi Bibliothek in 2 Kategorien unterschieden:*
+
 Serien & Filme
 
 **Speicherort der TV Serien (TV Shows) & Filme (Movies)**
 
 Dieser Speicherort ist wichtig, da Ihr diesen zur Bibliothek selbst hinzufügen müsst
+
 Ihr könnt den Pfad auch ändern
 
 Serien Pfad:  *...userdata/addon_data/plugin.video.lastship/TV Shows*
+
 Filme Pfad: *...userdata/addon_data/plugin.video.lastship/Movies*
 
 *Wenn Ihr den Pfad nicht auf einen Pfad Eurer Wahl (z.B. Netzwerk) ändern könnt, dann geht wie folgt vor:*
 
 - Kodi Starten und geöffnet lassen
-Dann mit dem Windows Explorer/ES File Explorer zu dem oben angeführten Pfad gehen und den Ordner löschen.
+
+Dann mit dem Windows Explorer/ES File Explorer zu dem oben angeführten Pfad gehen und den Ordner löschen
+
 Zurück in Kodi kann nun der Wunschpfad eingetragen werden
 
 Den genauen Speicherort (abhängig vom Betriebssystem) findet Ihr im Kapitel 5.3
@@ -682,22 +851,28 @@ Den genauen Speicherort (abhängig vom Betriebssystem) findet Ihr im Kapitel 5.3
 **Lastship Serien & Filme zur Bibliothek hinzufügen**
 
 **Serien**
+
 *Gehe zu: *
 
  - Kategorie Videos-Dateien
- Videos hinzufüge 
-Videoquelle hinzufügen: klicke auf *Durchsuchen*
-  Suche jetzt den oben angeführten Pfad für die Serien
-  Dann gib im unteren Feld einen Namen ein und klick OK
+ 
+   Videos hinzufüge 
+ 
+   Videoquelle hinzufügen: klicke auf *Durchsuchen*
+
+   Suche jetzt den oben angeführten Pfad für die Serien
+  
+   Dann gib im unteren Feld einen Namen ein und klick OK
 
  
-*Inhalt festlegen: *
+*Inhalt festlegen:*
+
 hier wird eingestellt, ob es eine Serie oder ein Film ist
 
-*Dieser Ordner beinhaltet:  *
+*Dieser Ordner beinhaltet:*
 wähle aus was du brauchst, z.B. Serien
 
-*Bitte Informationsquelle wählen: *
+*Bitte Informationsquelle wählen:*
 The TVDB
 
 *Einstellungen:*
@@ -709,71 +884,102 @@ OK
 Inhalt Scanning Einstellungen kann man alles deaktiviert lassen
 
 **Filme**
-*Gehe zu: *
+
+*Gehe zu:*
 
 - Kategorie Videos- Dateien
-Videos hinzufüge 
-   Videoquelle hinzufügen: klicke auf *Durchsuchen*
+
+  Videos hinzufüge 
+
+  Videoquelle hinzufügen: klicke auf *Durchsuchen*
+   
   Suche jetzt den oben angeführten Pfad für Filme
+  
   Dann gib im unteren Feld einen Namen ein und klick OK
 
  
-*Inhalt festlegen: *
+*Inhalt festlegen:*
+
 hier wird eingestellt, ob es eine Serie oder ein Film ist
 
-*Dieser Ordner beinhaltet:  *
+*Dieser Ordner beinhaltet:*
+
 wähle aus was du brauchst, z.B. Filme
 
-*Bitte Informationsquelle wählen: *
+*Bitte Informationsquelle wählen:*
+
 The Movie Database
 
 *Einstellungen:*
+
 Verwende Original Titel: kann deaktiviert werden
+
 Aktiviere Fanart: aktivieren
+
 Aktiviere Trailer: wenn gewünscht, EIN
+
 Sprache: de
+
 Altersbewertung: de
+
 Lade die Bewertung von: TMDb oder IMDb wählen
 
 OK
+
 *Inhalt Scanning Einstellungen:* 
+
 Rekursives Scannen aktivieren
+
 (damit die Unterordner ordentlich eingelesen werden)
+
 Filme liegen in getrennten Ordnern, die dem Filmtitel entsprechen aktivieren
 
 Fertig
 
 Serien & Filme werden jetzt im Kodi Menü Serien bzw. Filme angezeigt
+
 Solltet Ihr jetzt Eure Filme/Serien noch nicht sehen, dann das “Seitenmenü” (Optionen) öffnen und Bibliothek aktualisieren klicken, oder wie oben beschrieben
 
 Wird die Bibliothek verwendet, ist die Hoster Anzeige nur als Dialog (kleines Fenster in der Bildschirm Mitte) möglich
-Das liegt daran, dass es innerhalb der Library-Navigation nicht möglich ist, dass Kodi ein Verzeichnis (Liste) öffnet
+D
+as liegt daran, dass es innerhalb der Library-Navigation nicht möglich ist, dass Kodi ein Verzeichnis (Liste) öffnet
 
 *Vorteil gegenüber Trakt?*
+
 Der Vorteil der meisten ist einfach die Verwaltung in Kodi direkt
+
 Trakt kann auch  mit der Library genutzt werden
 
 **Lastship Bibliothek Ordner in das lokale Netzwerk (USB Stick am Router, Festplatte am Router)auslagern**
 
 Es auch möglich, den Speicherort auf einen am Router angeschlossenen USB Stick oder USB Festplatte, festzulegen
+
 Das ist vorallem dann zu empfehlen, wenn Ihr mit mehreren Kodis   auf die Bibliothek zugreifen wollt
 
 Wie solche Netzwerkfreigaben für Kodi funktionieren findet Ihr in der Kodi Anleitung: [Link](https://www.dropbox.com/s/vlaf0ap156267pr/Kodi_17_Anleitung.pdf?dl=0)
 
 Es musst dann aber auf jedem Kodi, immer wenn Ihr was neues hinzugefügt habt, die Bibliothek aktualisiert werden
 
-Wollt Ihr das auch nicht selbst machen, dann kann das Addon *Watchdog* verwendet werden. Dieses Addon, aktualisiert einen von Euch festgelegten Pfad (z.B. am USB Stick der am Router hängt), automatisch zur lokalen Bibliothek
+Wollt Ihr das auch nicht selbst machen, dann kann das Addon *Watchdog* verwendet werden. 
+
+Dieses Addon, aktualisiert einen von Euch festgelegten Pfad (z.B. am USB Stick der am Router hängt), automatisch zur lokalen Bibliothek
+
 Es erkennt auch wenn Einträge gelöscht werden und aktualisiert auch das in der lokalen Bibliothek
+
 Es ist sowohl in den Kodi- als auch in den Lastship-Einstellungen keine automatische Bibliothek-Aktualisierung eingestellt, das macht dann Watchdog
 
 Es ist leider nicht möglich den Fortsetzungspunkt zu exportieren (ist nur möglich wenn Trakt + Trakt Addon verwendet werden)
 
-Für den Export des "gesehen Status" benötigt Ihr ebenfalls ein eigenes Addon, wie z.B. *Watched List. *
+Für den Export des "gesehen Status" benötigt Ihr ebenfalls ein eigenes Addon, wie z.B. *Watched List.*
 
 Nach dem Watched List Konfiguriert wurde arbeitet es automatisch
+
 Es legt eine eigene Datenbank für den gesehen Status an 
+
 Der Speicherort für diese Datenbank kann frei gewählt werden, z.B. am USB Stick der am Router hängt. Somit habt Ihr den gesehen Status lokal im Netzwerk
+
 Das Gute an WatchedList ist, dass das Addon optional an Dropbox angebunden werden kann
+
 Einziger Nachteil: man darf nicht mehrere Geräte gleichzeitig betreiben, weil immer nur eine Kodi-Instanz auf die Datei zugreifen darf
 
 Eine Englische Beschreibung (kodi.wiki) zum Addon findet Ihr hier: [Link](http://kodi.wiki/view/Add-on:WatchedList)
@@ -783,20 +989,26 @@ Eine Englische Beschreibung (kodi.wiki) zum Addon findet Ihr hier: [Link](http:/
 Als erstes muss ein Trakt Konto erstellt werden und dann in Lastship den Trakt API  (unter Konto) aktivieren
 
 Dann wählt man den gewünschten Trakt Ordner (Filme,Serien usw.)aus
+
 Über das Kontexmenü *"zur Bibliothek hinzufügen"* wählen (ein Fenster "Hinzufügen zur Bibliothek" wird angezeigt)
+
 Im Anschluss öffnet  die entsprechende Kategorie in Kodi z.B. Serien
+
 Solltet Ihr jetzt Eure Filme/Serien noch nicht sehen, dann das "Seitenmenü" (Optionen) öffnen und Bibliothek aktualisieren klicken
 
 **Trakt gesehen Status in die Bibliothek importieren**
 
 Um den aktuellen gesehen Status von Trakt zu erhalten, ist es notwendig das Addon Trakt (Scrobbler) zu installieren und entsprechend einrichten
+
 Nach dem synchronisieren mittels Trakt Addon, wird der korrekte gesehen Status in der Bibliothek angezeigt
+
 Wähle nun im Seitenmenü (Optionen)*"Bibliothek aktualisieren"* 
+
 Es wird ein Fenster angezeigt ("Durchsuchen Serien/Filme mit ....). Wenn das fertig ist habt Ihr Eure Serien/Filme in der Bibliothek
 
 Mittels Trakt Addon könnt Ihr ganz einfach den "gesehen Status" & den "Fortsetzungspunk" synchronisieren
-Wollt Ihr den Status sofort synchronisieren, dann muss das manuell im trakt Addon gemacht werden (ansonst gibt es eine Zeitverzögerung beim synchronisieren)
 
+Wollt Ihr den Status sofort synchronisieren, dann muss das manuell im trakt Addon gemacht werden (ansonst gibt es eine Zeitverzögerung beim synchronisieren)
 
 
 ## 3. Bekannte Probleme
@@ -804,9 +1016,11 @@ Wollt Ihr den Status sofort synchronisieren, dann muss das manuell im trakt Addo
 ### 3.1 Fehler bei der Installation
 
 **Bei der Installation von Lastship erscheint folgende Fehlermeldung**
+
 Installation fehlgeschlagen --> Installation der Abhängigen fehlgeschlagen
 
 - Lösung: Deaktiviert alle Repositorys, welche Lastship/Exodus/Covenant anbieten 
+
 - Danach Lastship aus der offiziellen Lastship Repo installieren und alles funktioniert
 
 ### 3.2 URL Resolver Fehler
@@ -826,13 +1040,17 @@ Aus dem Ausland fragt RD ein Captcha ab, wenn Du Dich anmeldest. Deshalb übersp
 (Eventuell TCP auf UDP umstellen)
 
 **Lastship zeigt keine Filme mehr (mit Trakt Konto) in der Merkliste (Watchlist) an**
+
 Es kann Zeitweise zu Problemen mit dem Trakt Konto kommen und da kann es dann passiern, dass eben nichts mehr angezeigt wird in der Merkliste (evetuell auch in andern Listen)
 
 *Lösung*:
+
 Lastship Cache zu löschen (Menüpunkt Werkzeuge)
+
 Trakt Konto Verbindung trennen (disconnecten) --> Trakt Konto neu verbinden (connecten)
 
 **Nach Film/Serien Auswahl werden wenig HD Anbieter angezeigt**
+
 Wenn Ihr einen Film oder eine Serie auswählt, dann kann es sein, dass nur wenig HD/720P/1080P usw. Anbieter angezeigt werden
 
 Das ist KEIN Fehler von Lastship
@@ -840,6 +1058,7 @@ Das ist KEIN Fehler von Lastship
 Der Fehler liegt hier bei Trakt bzw. deren Datenbank
 
 *Lösung:* 
+
 Einen Schritt zurück gehen und die Serie/ den Film ein zweites oder drittes mal Auswählen bis mehr HD Hoster angezeigt werden
 
 **Suche liefert kein Ergebnis, Suche zeigt kein Ergebnis an**
@@ -849,7 +1068,9 @@ Lastship findet eine Serie oder einen Film bei der Suche nicht,obwohl auf thetvd
 Ein Beispiele: Die Biene Maja 2012
 
 *Wie kann ich die Serien in Lastship finden??*
+
 Die Suche basiert auf Trakt.tv. Trakt nutzt thevdb & imdb Datenbank
+
 Wenn auf Trakt.tv der Film oder die Serie gefunden wird,  findet es auch Lastship
 
 Der Film oder die Serie kann dabei in der Datenbank auch einen Englischen Namen enthalten/haben
@@ -859,42 +1080,59 @@ Das Beispiel Biene Maja:  wird gefunden wenn es "Maya" geschrieben wird
 Auch wenn Trakt nicht genutzt wird in/mit Lastship, benutzt Lastship trotzdem die Suche von Trakt.tv
 
 Des weiteren, könnt Ihr auf der Homepage von Trakt.tv, Filme&Serien selbst zur Datenbank hinzufügen/nachtragen, wenn diese nicht vorhanden sind
+
 Dazu benötigt Ihr die Film oder Serien ID Nummer, welche Euch auf thevdb.com angezeigt wird
+
 Am unteren Ende der Trakt Homepage, findet Ihr das Import Menü für Filme (Import Movie) und Serien (Import TV Show), hier müsst Ihr die ID Nummer eingeben
 
 **Trakt watched Status & Lastship**
 
 - einmal in Lastship "mit trakt angesehen" markierte Filme lassen sich nicht mehr als "mit trakt ungesehen" markieren und werden auf trakt.tv aber auch nicht als watched übernommen
-- Staffeln in Serien lassen sich nicht einzeln als watched oder unwatched markieren. 
+
+- Staffeln in Serien lassen sich nicht einzeln als watched oder unwatched markieren
+
 Die Markierung einer Staffel als "watched/unwatched" markiert immer gleich alle Staffeln
 
 *Lösung:* derzeit keine
 
 **Trakt arbeitet sehr langsam/Inhalte werden nur langsam geladen**
-Das Trakt langsam lädt liegt leider am Trakt. 
-Es gab keine Änderung an der Trakt-Integration, es liegt daher nicht an Lastship.
+
+Das Trakt langsam lädt liegt leider am Trakt
+
+Es gab keine Änderung an der Trakt-Integration, es liegt daher nicht an Lastship
+
 Das Laden z.B. der Merkliste kann schon mal ein paar Minuten dauern
 
 **Abbruch der Streams/Buffern der Streams während der Wiedergabe**
-Gehört eigentlich nicht hier in diese Kategorie, da es kein Fehler von Lastship ist. 
+
+Gehört eigentlich nicht hier in diese Kategorie, da es kein Fehler von Lastship ist
+
 Aber da es oft gefagt wird, bzw. öfters vorkommt steht es eben hier
-Wenn der Stream an Kodi übergeben hat, ist die die Sache für Lastship durch/erledigt. 
+
+Wenn der Stream an Kodi übergeben hat, ist die die Sache für Lastship durch/erledigt
+
 Wenn Streams abbrechen/buffern oder ähnliches, ist das ein Problem von Kodi und nicht von Lastship
+
 Was das verursacht müsste man genauer klären, eventuell hilft eine advancedsettings.xml
 
 **Super Favoriten funktioniert nur teilweise mit Lastship**
-Bei Filmen gibt es meistens kein Problem mit dem Addon SuperFavoriten.
+
+Bei Filmen gibt es meistens kein Problem mit dem Addon SuperFavoriten
+
 Bei Serien ist es jedoch so, dass diese in den SuperFavoriten Ordner integriert werden können, jedoch kann der Stream nicht abgespielt werden, es tut sich gar nichts
+
 Mit einem kleinen Trick, behebt Ihr diese Problem. 
 
 *Folgender Vorgang muss nach jedem Lastship Update erneut durchgeführt werden*
 
 Navigiere zu folgendem Ordner: 
+
 (Kap.4.2 steht der ganze Speicherpfad)
 
 ...../.kodi/addons/plugin.video.lastship/resources/lib/modules/control.py
 
 Öffne die control.py 
+
 Suche folgenden Eintrag
 		 
 		  def moderator():
@@ -902,6 +1140,7 @@ Suche folgenden Eintrag
 Füge hier folgendes hinzu:
 
 	'plugin.program.super.favourites'
+
 sieht fertig dann so aus:
 
 	def moderator():
@@ -914,6 +1153,7 @@ Speichern. Nun kann SuperFavoriten ohne Probleme mit Lastship genutzt werden
 **SuperFavouriten im Exodus/Covenant Addon verwenden**
 
 Es ist auch in Exodus/Covenant möglich die SuperFavouriten zu nutzen
+
 Von Haus aus geht das nicht,war auch in Lastship so
 
 Wie man es einrichtet steht ein paar Zeilen über diesem Text
@@ -925,6 +1165,7 @@ Geht dazu in den ....kodi/userdata/addon_data/plugin.programm.super.favoriten/
 Oder wenn Ihr nur die Kodi Favoriten verwendet,dann dort in die Favoriten.xml schauen
 
 Schaut in diesem Pfad die Favoriten.xml  an
+
 Da muss nur der Verweis von plugin.video.lastship auf plugin.video.covenat/plugin.video.exodus geändert werden
 
 Es gibt dafür Tools für den PC die das umbenennen automatisch machen, z.B. Note++ kann das
@@ -954,8 +1195,11 @@ Da steht dann neben dem Hoster HD/1080p obwohl es nur ein SD Stream ist.
 Bekannte Hoster wo die Auflösung (Qualität) neben dem Stream meistens falsch ist,da diese keine HD/1080p anbieten:
 
 Streamcloud 
+
 Vidto 
+
 Vidiz 
+
 Flashx
 
 ## 4. Fehlerbericht über Log-Datei
@@ -970,12 +1214,14 @@ In dem log File werden alle Aktivitäten/Programmabläufe von Kodi protokolliert
 
 Den Speicherpfad von Kodi anzeigen lassen – Scroll weiter runter zum Punkt Debug_Logging und folgen den Beschreibungen.
 
-Das ist immer vom Betriebssystem abhängig.
+Das ist immer vom Betriebssystem abhängig
+
 Im Folgenden werden bekannte Ordnerstrukturen der jeweiligen Betriebssysteme aufgelistet. Anstelle von "xbmc" kann in den Ordnern auch "kodi" stehen
+
 (die Ordnerstruktur kann jedoch auch leicht von dieser Anleitung abweichen):
 
 - Windows XP
-    - `Documents and Settings\<your_user_name>\Application Data\Kodi`
+   - `Documents and Settings\<your_user_name>\Application Data\Kodi`
 - Vista/Windows 7
     - `C:\Users\<your_user_name>/%APPDATA%/Roaming/Kodi/Kodi.log`
 - Mac OS X
@@ -993,19 +1239,25 @@ Im Folgenden werden bekannte Ordnerstrukturen der jeweiligen Betriebssysteme auf
 
 Die Ordner sind meist versteckt und müssen sichtbar gemacht werden, im Windows Explorer oder auf Android mit dem ESDateiexplorer.
 
-Das Log File kann am besten mit Notepad++  unter Windows oder gedit unter Linux betrachtet werden.
-Auch der normale Texteditor unter Windows geht, Notepad ist aber übersichtlicher.
-Auf Android einen Texteditor verwenden zum Betrachten.
+Das Log File kann am besten mit Notepad++  unter Windows oder gedit unter Linux betrachtet werden
+
+Auch der normale Texteditor unter Windows geht, Notepad ist aber übersichtlicher
+
+Auf Android einen Texteditor verwenden zum Betrachten
+
 Übrigens die Kodi „log.old“ ist die Logdatei vom letzten Neustart/Crash. Also wenn man keine mehr erstellen kann, dann diese nehmen.
 
 
 ### 4.3. Erstellen und Hochladen der Log-Datei
 
-Kodi hat Standardmäßig die beiden wichtigen Log Addons integriert (eines zum Lesen der Log, das andere zum Hochladen). Damit ist das Erstellen der Log Datei und Posten im Forum sehr viel einfacher.
+Kodi hat Standardmäßig die beiden wichtigen Log Addons integriert (eines zum Lesen der Log, das andere zum Hochladen). 
+
+Damit ist das Erstellen der Log Datei und Posten im Forum sehr viel einfacher
 
 In Kodi gehe zu:
 
 - Addons
+
 - Suche
 
 In die Zeile "log" ein und Klicks auf Fertig.
@@ -1013,24 +1265,31 @@ In die Zeile "log" ein und Klicks auf Fertig.
 Folgende Addons auswählen und installieren diese:
 
 Log Viewer für Kodi (nur zum Lesen der Log-Datei)
+
 Kodi Log Uploader (zum Auslesen & Uploaden der Log-Datei)
 
 Mit dem LogViewer kann man die Log Datei ansehen, mit dem LogUploaded das Log-File auf den angezeigten Homepage-Link hochladen, die Anweisungen der Anzeige befolgen
 
 Bei der Installation eine E-Mail Adresse angeben. An diese wird dir dann nach dem LogUpload ein Link zur Log Datei geschickt.
+
 Diesen Link im Forum Posten oder alles in einen Texteditor koperien, Die Datei speicherun und im Forum hochladen.
 
 Debug-Logging (Kodi GUI):
 
-Manchmal ist es gut das Debug Logging in Kodi zu aktivieren um noch mehr Informationen zu erhalten. 
+Manchmal ist es gut das Debug Logging in Kodi zu aktivieren um noch mehr Informationen zu erhalten
+
 (geht nur wenn, wenn es nicht schon in der advancedsettings.xml akttiviert wurde)
 
 Folgendes Ausführen:
+
  Desktop-Optionen
  
 - Einstellungen
+
 - System
+
 - Debugging
+
 - "Debug-Logging aktivieren" anklicken
 
 Fertig
@@ -1050,20 +1309,30 @@ Unter dem Punkt  Komponentenspezifische Protokollierung kann man bei der Kategor
 ### 5.1. Allgemeines zur .py-Datei
 
 Eine .py Datei ist eigentlich eine Textdatei
+
 Die Endung .py verweist auf die Programmiersprache Python, welche in Kodi zur Anwendung kommt.Diese .py Dateien werden in sämtlichen/den meisten Addons verwendet.
  
  
 ### 5.2 Bearbeiten einer .py-Datei
 
-Manchmal werdet Ihr lesen z.B. Wechsel die .py Datei in dem Ordner „xyz“, oder ändere den Eintrag in Zeile 134.Öffnen könnt Ihr die Datei mit vielen Programmen z.B. Notepad++ (Freeware) oder Texteditor. In Notepad werden Euch die Zeilen-Nummern angezeigt und ist somit übersichtlicher, aber es geht auch mit dem EditorMit Notepad++ könnt Ihr die .py Datei sofort öffnen und wieder speichern.
+Manchmal werdet Ihr lesen z.B. Wechsel die .py Datei in dem Ordner „xyz“, oder ändere den Eintrag in Zeile 134.
 
-Bei Verwendung des Text-Editors müsst Ihr die Endung vorher von .py auf .txt ändern. Dann könnt Ihr die Datei öffnen und Änderungen vornehmen. Im Anschluss bitte „Speichern unter“ wählen und bei „Dateityp“ alle wählen, und wieder als .py Datei speichern
+Öffnen könnt Ihr die Datei mit vielen Programmen z.B. Notepad++ (Freeware) oder Texteditor. 
+
+In Notepad werden Euch die Zeilen-Nummern angezeigt und ist somit übersichtlicher, aber es geht auch mit dem EditorMit Notepad++ könnt Ihr die .py Datei sofort öffnen und wieder speichern.
+
+Bei Verwendung des Text-Editors müsst Ihr die Endung vorher von .py auf .txt ändern. 
+
+Dann könnt Ihr die Datei öffnen und Änderungen vornehmen. 
+
+Im Anschluss bitte „Speichern unter“ wählen und bei „Dateityp“ alle wählen, und wieder als .py Datei speichern
 
 
 ### 5.3 Speicherort der einzelnen Webseiten (.py Dateien)
 
-In den folgenden Ordnern findet Ihr alle Addons von Kodi. 
-Das Addon Lastship wird in aller Regel unter plugin.video.lastship installiert.
+In den folgenden Ordnern findet Ihr alle Addons von Kodi
+
+Das Addon Lastship wird in aller Regel unter plugin.video.lastship installiert
 
 - Android 
 	- `/Android/data/org.xbmc.kodi/files/.kodi/addons/`
