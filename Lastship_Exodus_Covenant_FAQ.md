@@ -23,7 +23,7 @@
     - [2.8 URL Resolver Konfiguration](#28-url-resolver-konfiguration)
     - [2.9 Trakt](#29-trakt)
     - [2.10 Gemeinsamer gesehen Status in Lastship und xStream](#210-gemeinsamer-gesehen-status-in-lastship-und-xstream)
-    - [2.11 Lastship Bibliothek](#211-exodus-bibliothek)
+    - [2.11 Lastship Bibliothek](#211-lastship-bibliothek)
  
 - [3. Bekannte Probleme](#3-bekannte-probleme)
     - [3.1 Fehler bei der Installation](#31-fehler-bei-der-installation)
@@ -785,6 +785,79 @@ In der .nfo ist ein Link zu z.b TVDB
 So weiß der Scraper ganz genau um welche Serie es sich handelt, damit nicht die falschen Meta-Daten geladen werden
 
 Wenn Ihr eine Film oder eine Serie aus der Bibliothek löscht, erscheint sie beim nächsten aktualisieren der Bibliothek wieder. Daher müsst Ihr die Datei aus dem Ordner (Speicherpfad der .strm) selbst entfernen
+
+**Bibliothek Anpassung an neues Addon (.strm Dateien von einem Addon, in einem anderen Addon verwenden/anpassen)**
+
+Lastship, Exodus und Convenant sind gleich aufgebaut und bieten quasi dieselben Features
+
+In jedem Stream, den Ihr über eines der genannten Addons in die Bibliothek mit aufgenommen habt, wird gespeichert welches Addon das war
+
+Dies ist nötig, damit der Stream zum Abspielen, auch dem entsprechenden Addon zugewiesen werden kann
+
+Ändert man aber nun das Addon, können alle Einträge der Bibliothek nicht mehr abgespielt werden und sind somit nutzlos
+
+Man müsste nun theoretisch alle Stream Dateien einzeln mit einem Editor öffnen und manuell an das andere Addon anpassen oder die komplette Bibliotek neu hinzufügen
+
+Daher hier einige Möglichkeiten, welche mithilfe eines Programms nach kurzen Einstellungen alles automatisch und innerhalb kürzester Zeit erledigt
+
+Beispiel:
+
+alles auf Lastship umstellen
+
+**1.Möglichkeit:**
+
+Ladet euch folgendes Programm für euren Windows Rechner herunter: [grepWin](https://sourceforge.net/projects/grepwin/files/)
+
+1. Installiert das Programm und startet es
+
+2. Folgende Einstellungen vornehmen oder überprüfen:
+
+    *Search in:*
+    
+     Quelle zum  Filme und Serien Ordner z.B. C:\ 
+
+    (nutzt ihr einen NAS, dann fügt diesem am besten vorher einen Laufwerksbuchstaben hinzu)
+
+    *Search:*
+    
+     hier muss Regex Search ausgewählt werden
+     
+    *Search for (suchen nach):*
+    
+    Um alle .strm's von Exodus und Covenant (in einem Arbeitsgang) auf Lastship "umzubenennen" , tragen wir ein "exodus|covenant" (durch das "|"  können wir gleich nach beidem suchen)
+     
+
+    *Replace with (ersetzen durch):* 
+    
+    Da wir auf Lastship umsteigen, schreiben wir hier "lastship"
+     
+    *Limit Search:* 
+    
+    setzt einen Haken bei include subfolders und schreibt bei File Names Match "*.strm"
+     
+    Achtet bitte darauf, dass Text match ausgewählt wird und NICHT Regex wie oben!
+
+3. Jetzt klickt ihr einfach auf Replace und wartet ab.
+
+4. Fertig
+
+**2.Möglichkeit:**
+
+Ladet Euch [Note++](https://notepad-plus-plus.org/) herunter und installiert es
+
+Dann gibt es oben den Reiter Suchen, auswählen
+
+In Datei Suchen, wähle *Find in Files*
+
+Folgende Felder ausfüllen: 
+
+Suche nach, Ersetzten durch und Verzeichnis
+
+Bei Groß/Kleinschreibung beachten einen Haken setzen
+
+Alle suchen klicken.Nach diesem Vorgang, wähle Ersetzen in Dateien
+
+Das war es 
 
 **Serien automatisch aktualisieren**
 
