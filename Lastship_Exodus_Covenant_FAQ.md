@@ -77,6 +77,7 @@ Die Funktion der folgenden Seiten ist auf Grund Fehlender Entwickler nicht gewä
 
 | Name           | Domain            | Verfügbarkeit          | Stand      |
 |:-------------- |:----------------- | :------------------| :--------- |
+|Alluc  |alluc.ee  |funktioniert|13.08.2017|
 |1Kino| 1kino.in| 	funktioniert| 12.01.2017
 |Animebase	 |anime-base.net     |funktioniert     |07.05.2017  |
 |Animeloads  |anime-loads.org  | funktioniert  | 23.02.2017 |
@@ -613,6 +614,41 @@ Zurück in Lastship, steht jetzt bei Trakt Euer Benutzername
 Der Takt Service kann ab jetzt genutzt weren
 
 Weiteres zum Thema Trakt findet Ihr hier: [Link](http://xstream-addon.square7.ch/showthread.php?tid=948)
+
+**Alluc**
+
+Benutzung des Alluc-Scrapers
+
+Mit Version 1.1.4 wurde in Lastship ein Plugin für den Multi-Indexer "alluc.ee" integriert. 
+
+Dieser kann sowohl deutsche als auch englische Inhalte liefern und kann  in den Addon-Einstellungen, unter Index Seiten, für Deutsch und Englisch separat ein- oder ausgeschaltet werden
+
+Um Alluc zu benutzen, braucht man einen persönlichen API-Key, den man automatisch bekommt, wenn man dort ein Benutzerkonto anlegt
+
+Auf der Seite http://accounts.alluc.com klickt man auf den Link "register" und gibt auf der folgenden Seite einen Benutzernamen, eine E-Mail Adresse und ein Passwort an
+
+Die E-Mail Adresse kann auch eine Einmal- bzw. "Wegwerf"-Adresse sein, die man nur für die Anmeldung benutzt
+
+Dann kreuzt man "Ich bin kein Roboter" an und falls man dazu aufgefordert wird, löst man das angezeigte Captcha
+
+"Sign me up for the Alluc newsletter" kann man abwählen und bestätigt
+
+Noch "I agree to the terms of use and privacy policy" und klickt den "Save"-Button
+
+Man bekommt dann eine Nachricht an die angegebene E-Mail Adresse von "noreply@alluc.net" (falls man die Nachricht vermisst, im Junk/Spam-Ordner nachschauen)
+
+In der Nachricht ist ein Aktivierungscode und ein Link
+
+Nachdem man diesen Link im Browser aufgerufen und damit den Acount bestätigt hat, wird eine Seite mit den Zugangsdaten und einem API-key angezeigt
+
+Den API-key kopiert man und trägt ihn in den Lastship-Einstellungen unter "Konten" bei Alluc ein (es gibt dort einen Punkt "Alluc API-key")
+
+Ist das erledigt, hat man seinen Alluc-Account in Lastship integriert und kann den Content genießen
+
+Wer Alluc im Browser ausprobieren möchte, bevor er sich dort anmeldet, kann das unter http://www.alluc.ee tun 
+
+Gibt man hinter dem Suchbegriff "lang:de" ein, bekommt man nur Links zu deutschen Inhalten.
+
 
 ### 2.6 Untertitel
 
