@@ -78,7 +78,7 @@ Die Funktion der folgenden Seiten ist auf Grund Fehlender Entwickler nicht gewä
 | Name           | Domain            | Verfügbarkeit          | Stand      |
 |:-------------- |:----------------- | :------------------| :--------- |
 |Alluc  |alluc.ee  |funktioniert|13.08.2017|
-|1Kino| 1kino.in| 	funktioniert| 12.01.2017
+|1Kino| 1kino.in| 	keine Funktion| 24.08.2017
 |Animebase	 |anime-base.net     |funktioniert     |07.05.2017  |
 |Animeloads  |anime-loads.org  | funktioniert  | 23.02.2017 |
 | BurningSeries  | bs.to             | funktioniert           | 12.01.2017 |
@@ -86,7 +86,7 @@ Die Funktion der folgenden Seiten ist auf Grund Fehlender Entwickler nicht gewä
 |  Cinenator|cinenator.com  |funktioniert  | 06.04.2017 |
 | DirectDownLoad | ddl.me            | funktioniert           | 12.01.2017 |
 | FilmPalast     | filmpalast.to     | funktioniert           | 12.01.2017 |
-|Foxx |foxx.to |funktioniert |24.03.2017 | 
+|Foxx |foxx.to |keine Funktion |24.08.2017 | 
 | HDfilme        | hdfilme.tv        | funktioniert           | 12.01.2017 |
 |HDStreams	 |hd-streams.org     |funktioniert            |14.06.2017  |
 | Horrorkino | horrorkino.do.am | funktioniert | 02.06.2017 |
@@ -94,7 +94,6 @@ Die Funktion der folgenden Seiten ist auf Grund Fehlender Entwickler nicht gewä
 | KinoDogs|  kinodogs.to| funktioniert|28.01.2017
 | Kinow |kinow.to  |funktioniert  | 23.05.2017 |
 | KinoX          | kinox.to          | funktioniert          | 12.01.2017 |
-|MeinKino 	 |meinkino.to  	 |funktioniert 	 |12.01.2017|
 | Movie4k|movie4k.to |funktioniert |13.02.2017
 |Moviesever| moviesever.com  | funktioniert  |10.02.2017  |
 |Netzkino  |netzkino.de  |funktioniert  | 16.0.2017 |
@@ -105,7 +104,7 @@ Die Funktion der folgenden Seiten ist auf Grund Fehlender Entwickler nicht gewä
 |StreamDream| 	streamdream.ws| 	funktioniert |12.07.2017
 |Streamflix  |streamflix.to  |funktioniert  |22.05.2017  |
 | Streamit | streamit.ws | funktioniert | 17.03.2017 
-| Tata           | tata.to           | funktioniert           | 12.01.2017 |
+| Tata           | tata.to           | keine Funktion        | 12.01.2017 |
 | Video4k        | video4k.to        | funktioniert           | 12.01.2017 |
 |View4u 	 |view4u.co	     |funktioniert	      |14.07.2017  |
 
@@ -492,6 +491,9 @@ Geordnet ist es nach Moviemeter. Wie genau das zusammen gesetzt ist kann bei IMD
 *Standard:* Alle Index Seiten aktiviert
 
 In Lastship, unter dem Menüpunkt Werkzeuge, *Index-Seiten*, besteht die Möglichkeit bestimmte Seiten an bzw. auszuschalten. 
+
+Ebenso besteht hier die Möglichkeit, die Funktion "Lokale Dateine/Bibliothek" einzuschalten
+Dann werden auch die lokal gespeicherten Filme/Serien mitgesucht
 
 Ebenso kann jetzt hier eingestellt werden ob Deutsche und/oder Englische Seiten durchsucht werden
 
