@@ -92,10 +92,12 @@ Die Funktion der folgenden Seiten ist auf Grund Fehlender Entwickler nicht gewä
 | Horrorkino | horrorkino.do.am | funktioniert | 02.06.2017 |
 |iLoad |iload.to |funktioniert|	12.01.2017
 | KinoDogs|  kinodogs.to| funktioniert|28.01.2017
+|Kinoking  |kinoking.to  |funktioniert  |30.08.2017 |
 | Kinow |kinow.to  |funktioniert  | 23.05.2017 |
 | KinoX          | kinox.to          | funktioniert          | 12.01.2017 |
 | Movie4k|movie4k.to |funktioniert |13.02.2017
 |Moviesever| moviesever.com  | funktioniert  |10.02.2017  |
+|MovieTown| 	movietown.org| 	funktioniert| 	30.08.2017|
 |Netzkino  |netzkino.de  |funktioniert  | 16.0.2017 |
 |Proxer		 |proxer.me 	     |funktioniet	      |14.07.2017  |
 |Pureanime	 |pure-anime.tv      |funktioniert  |24.03.2017  |
@@ -705,6 +707,10 @@ Diese kann unter “Resolver Settings” angepasst werden.
 ***Niedrige Werte werden vor hohen Werten gewählt***
 
 Sind Eure Priorisierten (Lieblings) Hoster nicht nicht verfügbar, nimmt Lastship den nächsten Hoster der funktioniert
+
+**Direkten Zugriff auf den URL Resolver hab über Lastship wie folgt:**
+
+Einstellungen - Konten - Debrid-Dienste
 
 Den URL Resolver findet Ihr in Kodi:
 
