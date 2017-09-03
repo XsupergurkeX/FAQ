@@ -95,6 +95,8 @@ Die Funktion der folgenden Seiten ist auf Grund Fehlender Entwickler nicht gewä
 |Kinoking  |kinoking.to  |funktioniert  |30.08.2017 |
 | Kinow |kinow.to  |funktioniert  | 23.05.2017 |
 | KinoX          | kinox.to          | funktioniert          | 12.01.2017 |
+|Movie2k  |movie2k.ac/ ag  |funktioniert  | 01.09.2017 |
+|Movie2z |movie2z.to/ de  |funktioniert  | 03.09.2017 |
 | Movie4k|movie4k.to |funktioniert |13.02.2017
 |Moviesever| moviesever.com  | funktioniert  |10.02.2017  |
 |MovieTown| 	movietown.org| 	funktioniert| 	30.08.2017|
