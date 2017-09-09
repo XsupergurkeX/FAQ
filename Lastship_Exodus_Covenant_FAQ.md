@@ -24,6 +24,7 @@
     - [2.9 Trakt](#29-trakt)
     - [2.10 Gemeinsamer gesehen Status in Lastship und xStream](#210-gemeinsamer-gesehen-status-in-lastship-und-xstream)
     - [2.11 Lastship Bibliothek](#211-lastship-bibliothek)
+    - [2.12 Sortierung der gefundenen Links in der Ergebnisliste](#212-sortierung-der-gefundenen-links-in-der-ergebnisliste)
  
 - [3. Bekannte Probleme](#3-bekannte-probleme)
     - [3.1 Fehler bei der Installation](#31-fehler-bei-der-installation)
@@ -698,6 +699,8 @@ Ihr findet den Film/Serie dann in Eurem Download Ordner
 
 Es besteht die Möglichkeit, in den Einstellungen des URL Resolvers die Priorität der Hoster festzulegen also welche Hoster als ersters angezeigt bzw. verwendet werden sollen.
 
+**Jedoch aufgrund der Arbeitsweise von Lastship/Covenant wird diese Einstellung im Lastship/Covenant Addon nicht berücksichtigt**
+
 *Da Lastship & xStream den gleichen URL Resolver verwenden, hat diese Einstellung auch Auswirkung auf beide Addons!!*
 
 Lastship probiert automatisch alle verfügbaren Hoster aus, bis ein Stream abgespielt werden kann
@@ -1129,6 +1132,74 @@ Mittels Trakt Addon könnt Ihr ganz einfach den "gesehen Status" & den "Fortsetz
 
 Wollt Ihr den Status sofort synchronisieren, dann muss das manuell im trakt Addon gemacht werden (ansonst gibt es eine Zeitverzögerung beim synchronisieren)
 
+### 2.12 Sortierung der gefundenen Links in der Ergebnisliste
+
+Im folgendem wird versucht zu Erklären, wie die Ergebnisliste arbeitet
+
+- Als erstes werden (falls vorhanden) lokale Dateien aus der Kodi-Library gelistet
+
+- Danach werden werden die Links aufgelistet, in verschiedene Kategorien eingeteilt :
+
+    1) 1080p        - Debrid Links
+    2) 720p (HD)    - Debrid Links
+    3) 1080p        - direkte Links
+    4) 720p (HD)    - direkte Links
+    5) SD / unbek.  - Debrid Links
+    6) SD / unbek.  - direkte Links
+
+
+Wenn die Einstellung "Nach Indexseiten sortieren" aktiv ist, werden innerhalb der einzelnen Kategorien die Ergebnisse alphabetisch nach Provider sortiert.
+
+Das ergibt pro Kategorie und Provider jeweils eine Unter-Kategorie :
+
+    1) 1080p        - Debrid Links
+         - Premium-Provider a
+         - Premium-Provider b
+         - ...
+    2) 720p (HD)    - Debrid Links
+         - Premium-Provider a
+         - ...
+    3) 1080p        - direkte Links
+         - Provider a
+         - Provider b
+         - ...
+    4) 720p (HD)    - direkte Links
+         - Provider a
+         - ...
+    5) SD / unbek.  - Debrid Links
+         - Premium-Provider a
+         - ...
+    6) SD / unbek.  - direkte Links
+         - Provider a
+         - ...
+
+
+Innerhalb dieser (Unter-)Kategorien wiederum werden die verschiedenen Hoster nach Zufall sortiert.
+
+Die Prioritäts-Einstellungen im URLresolver haben also KEINE Auswirkung auf die Sortierung der Hoster
+        3) 1080p        - direkte Links
+         - Provider a
+              - Hoster X
+	      
+              - Hoster W
+	      
+              - Hoster Z
+	      
+              - Hoster Y
+	      
+	      - Provider b
+	      
+              - Hoster Z
+	      
+              - Hoster X
+	      
+              - Hoster W
+	      
+              - Hoster Y
+        
+Das zufällige Mischen der Hoster-Reihenfolge ist erforderlich, um zu vermeiden dass eine einzelne Quelle die Zugriffe aller Autoplay-Nutzer tragen muss.
+
+Die Last soll hierdurch soweit möglich zwischen den verschiedenen Hostern aufgeteilt werden.
 
 ## 3. Bekannte Probleme
 
