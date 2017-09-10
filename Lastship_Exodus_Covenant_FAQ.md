@@ -79,7 +79,6 @@ Die Funktion der folgenden Seiten ist auf Grund Fehlender Entwickler nicht gewä
 | Name           | Domain            | Verfügbarkeit          | Stand      |
 |:-------------- |:----------------- | :------------------| :--------- |
 |Alluc  |alluc.ee  |funktioniert|13.08.2017|
-|1Kino| 1kino.in| 	keine Funktion| 24.08.2017
 |Animebase	 |anime-base.net     |funktioniert     |07.05.2017  |
 |Animeloads  |anime-loads.org  | funktioniert  | 23.02.2017 |
 | BurningSeries  | bs.to             | funktioniert           | 12.01.2017 |
@@ -113,6 +112,12 @@ Die Funktion der folgenden Seiten ist auf Grund Fehlender Entwickler nicht gewä
 | Video4k        | video4k.to        | funktioniert           | 12.01.2017 |
 |View4u 	 |view4u.co	     |funktioniert	      |14.07.2017  |
 
+
+Für die Verwendung von Serienstream.to, ist auf deren Homepage das Anlegen eines Benutzer Kontos erforderlich.
+
+Als E-Mailadresse kann auch eine Wegwerf-EMail-Adresse verwednet werden
+
+Diese Daten dann bitte in Lastship unter: Werkzeuge - Konten - Serienstream eingeben, ab da kann Serienstream genutzt werden
 
 Empfehlungen und Vorschläge für neue Seiten können über das Lastship Forum unter dem Bereich [Lastship](http://lastship.square7.ch/forum/forumdisplay.php?fid=28) angefragt bzw. eingestellt werden.
 
