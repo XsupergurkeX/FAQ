@@ -1226,6 +1226,22 @@ Sollte dies der Fall sein, bitte den aktuellste Version des "URLResolver" über 
 
 ### 3.3 Beobachtungen und Fehler im Betrieb
 
+**Probleme mit bs.to**
+
+Laut Auskunft der Betreiber von BS.to, die sagen:
+
+Dass bei ihnen bestimmte IP-Ranges als "sauber" eingestuft werden 
+
+Bei Zugriff von einer dieser "sauberen" IPs wird kein Captcha angezeigt, bei den anderen, zu denen die meisten ausländischen gehören, schon
+
+Die Betreiber der Site machen das, um Linkcrawler von anderen Index-Seiten abzuwehren, die die Streams auf ihrer eigenen Seite verlinken möchten
+
+So soll die Verbreitung der Links und damit die Zahl der gemeldeten (und damit gelöschten) Files verringert werden.
+
+Für Lastship-Anwender, die das Glück haben, eine "saubere" IP zu haben, funktioniert die aktuelle Version aus dem Repo
+
+Für die anderen leider nicht
+
 **Real Debrid (RD) Links werden mit VPN übersprungen/nicht angespielt**
 
 Versuch es mal mit einem VPN-Server in Deinem Heimatland, damit sollte es funktionieren
