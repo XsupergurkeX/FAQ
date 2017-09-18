@@ -1226,6 +1226,10 @@ Sollte dies der Fall sein, bitte den aktuellste Version des "URLResolver" über 
 
 ### 3.3 Beobachtungen und Fehler im Betrieb
 
+**URL Resolver Einstellungen werden nach Update gelöscht**
+
+Lösung: die Option *"Cache-Funktion benutzen"* ausgeschaltet, befindet sich in den URL Resolver Einstellungen
+
 **Probleme mit bs.to**
 
 Laut Auskunft der Betreiber von BS.to, die sagen:
