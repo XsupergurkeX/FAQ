@@ -256,23 +256,21 @@ Hier werden alle Lastship Einstellungen angezeigt
 
 ***Erscheinungsbild***
 
-Es werden  nur die Icons und der Hintergrund anders dargestellt
+Es werden Icons und der Hintergrund anders dargestellt
 
 Ansonst hat diese Einstellung keine Auswirkung
 
-Zur Auswahl stehen:
-
-Exuary
-
-Lastship
-
-Genesis
+Zur Auswahl stehen in Lastship:
+Lastship (Standard)
+Lastship2
+Exodus
 
 Lastship verwendet ein zugehöriges Artwork Addon für Themen Unterstützung
 
 Das Lastship Artwork Addon wird standardmäßig mit installiert
 
 ***Zeitlimit für Index Seiten:***
+
 *Standard (default):* 20 Sekunden
 
 Ist die Zeit, wie lange Lastship die Anbieter durchsuchen soll  bevor das Suchergebniss , als Liste zur Auswahl  angezeigt  wird
