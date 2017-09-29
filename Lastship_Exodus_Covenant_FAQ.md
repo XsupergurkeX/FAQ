@@ -76,41 +76,42 @@ Unterstützung und Anfragen zu den Deutschen Seiten, Problemen usw. werden über
 
 Die Funktion der folgenden Seiten ist auf Grund Fehlender Entwickler nicht gewährleistet
 
-| Name           | Domain            | Verfügbarkeit          | Stand      |
-|:-------------- |:----------------- | :------------------| :--------- |
-|Alluc  |alluc.ee  |funktioniert|13.08.2017|
-|Animebase	 |anime-base.net     |funktioniert     |07.05.2017  |
-|Animeloads  |anime-loads.org  | funktioniert  | 23.02.2017 |
-| BurningSeries  | bs.to             | funktioniert           | 12.01.2017 |
-| Cine           | cine.to           | funktioniert           | 12.01.2017 |
-|  Cinenator|cinenator.com  |funktioniert  | 06.04.2017 |
-| DirectDownLoad | ddl.me            | funktioniert           | 12.01.2017 |
-| FilmPalast     | filmpalast.to     | funktioniert           | 12.01.2017 |
-|Foxx |foxx.to |keine Funktion |24.08.2017 | 
-| HDfilme        | hdfilme.tv        | funktioniert           | 12.01.2017 |
-|HDStreams	 |hd-streams.org     |funktioniert            |14.06.2017  |
-| Horrorkino | horrorkino.do.am | funktioniert | 02.06.2017 |
-|iLoad |iload.to |funktioniert|	12.01.2017
-| KinoDogs|  kinodogs.to| funktioniert|28.01.2017
-|Kinoking  |kinoking.to  |funktioniert  |30.08.2017 |
-| Kinow |kinow.to  |funktioniert  | 23.05.2017 |
-| KinoX          | kinox.to          | funktioniert          | 12.01.2017 |
-|Movie2k  |movie2k.ac/ ag  |funktioniert  | 01.09.2017 |
-|Movie2z |movie2z.to/ de  |funktioniert  | 03.09.2017 |
-| Movie4k|movie4k.to |funktioniert |13.02.2017
-|Moviesever| moviesever.com  | funktioniert  |10.02.2017  |
-|MovieTown| 	movietown.org| 	funktioniert| 	30.08.2017|
-|Netzkino  |netzkino.de  |funktioniert  | 16.0.2017 |
-|Proxer		 |proxer.me 	     |funktioniet	      |14.07.2017  |
-|Pureanime	 |pure-anime.tv      |funktioniert  |24.03.2017  |
-|SerienStream | serienstream.to | funktioniert |13.01.2017
-|SeriesEver |seriesever.net |funktioniert | 12.01.2017|
-|StreamDream| 	streamdream.ws| 	funktioniert |12.07.2017
-|Streamflix  |streamflix.to  |funktioniert  |22.05.2017  |
-| Streamit | streamit.ws | funktioniert | 17.03.2017 
-| Tata           | tata.to           | keine Funktion        | 12.01.2017 |
-| Video4k        | video4k.to        | funktioniert           | 12.01.2017 |
-|View4u 	 |view4u.co	     |funktioniert	      |14.07.2017  |
+| Name           | Domain            | Hinzugefügt        |
+|:-------------- |:----------------- | :------------------|
+|Alluc  |alluc.ee | 13.08.2017|
+|Animebase	 |anime-base.net     | 07.05.2017 |
+|Animeloads      |anime-loads.org    | 23.02.2017 |
+|BurningSeries   |bs.to              | 12.01.2017 |
+|Cine            |cine.to            | 12.01.2017 |
+|Cinenator       |cinenator.com      | 06.04.2017 |
+|DirectDownLoad  |ddl.me             | 12.01.2017 |
+|FilmPalast      |filmpalast.to      | 12.01.2017 |
+|Foxx            |foxx.to            | 24.08.2017 | 
+|HDfilme         |hdfilme.tv         | 12.01.2017 |
+|HDStreams	 |hd-streams.org     | 14.06.2017 |
+|Horrorkino      |horrorkino.do.am   | 02.06.2017 |
+|iLoad           |iload.to           | 12.01.2017 |
+|KinoDogs        |kinodogs.to        | 28.01.2017 |
+|Kinoking        |kinoking.to        | 30.08.2017 |
+|Kinow           |kinow.to           | 23.05.2017 |
+|KinoX           |kinox.to           | 12.01.2017 |       
+|Movie2k         |movie2k.ac/ag      | 01.09.2017 |
+|Movie2z         |movie2z.to/de      | 03.09.2017 |
+|Movie4k         |movie4k.to         | 13.02.2017 |
+|Moviesever      |moviesever.com     | 10.02.2017 |
+|MovieTown       |movietown.org      | 30.08.2017 |
+|Netzkino        |netzkino.de        | 16.04.2017 |  
+|Proxer		 |proxer.me          | 14.07.2017 |
+|Pureanime	 |pure-anime.tv      | 24.03.2017 |
+|SerienStream    |serienstream.to    | 13.01.2017 |
+|SeriesEver      |seriesever.net     | 12.01.2017 |
+|Stream          |stream.to          | 18.09.2017 |  
+|StreamDream     |streamdream.ws     | 12.07.2017 |
+|Streamflix      |streamflix.to      | 22.05.2017 |
+|Streamit        |streamit.ws        | 17.03.2017 |
+|Tata            |tata.to            | 24.08.2017 |
+|Video4k         |video4k.to         | 12.01.2017 |
+|View4u 	 |view4u.co   	     | 14.07.2017 |
 
 
 Für die Verwendung von Serienstream.to, ist auf deren Homepage das Anlegen eines Benutzer Kontos erforderlich.
@@ -207,9 +208,7 @@ Im Lastship Repo ist auch das lastship-common repo enthalten
 
 Dadurch aktualisiert sich auch der URL Resolver, wenn es ein URL Resolver Repo-Update gibt
 
-Es wird übrigens der tknorris URL Resolver verwendet
-
-Da tknorris jedoch keine Updates mehr macht, haben das anderer User übernommen, Infos dazu im Changelog
+Es wird übrigens der Jsergio URL Resolver verwendet, tknorris URL Resolver gibt es nicht mehr
 
 Von dort beziehen auch wir die Informationen und aktualisieren, den URLResolver welcher im Repo liegt, selbst
 
@@ -261,8 +260,11 @@ Es werden Icons und der Hintergrund anders dargestellt
 Ansonst hat diese Einstellung keine Auswirkung
 
 Zur Auswahl stehen in Lastship:
+
 Lastship (Standard)
+
 Lastship2
+
 Exodus
 
 Lastship verwendet ein zugehöriges Artwork Addon für Themen Unterstützung
@@ -324,6 +326,7 @@ AUS: Staffeln werden in eigenen Staffel Ordnern angezeigt
 Wenn Ihr Probleme mit dieser Funktion habt, solltet Ihr überlegen diese zu deaktivieren um zu sehen, ob sich dadurch die Leistung verbessert
 
 Dadurch verliert Ihr natürlich die Bilder und Kosmetische Aspekte. Aber es könnte zur Leistungsverbesserung beitragen
+
 
 **MENÜ**
 
@@ -399,7 +402,7 @@ HD Streams werden dabei ignoriert
 
 Ist nur dann sinnvoll, wenn man einen langsamen Internet Anbieter oder eine schwache Hardware hat
 
-**Dateianbieter mit Captcha Abfrage**
+**Dateianbieter mit Pairing (Captcha)**
 
 Wenn deaktiviert, werden alle Hoster die Captcha-Abfragen durchführen ignoriert
 
@@ -425,6 +428,19 @@ Es erscheint bei Fortsetzung des Streams eine  Anzeige  wo gewählt werden kann:
 
 Stream startet immer vom Anfang (auch wenn Ihr eine advancedsettings.xml verwendet)
 
+*Nach der Wiedergabe:*
+
+Verzeichnis neu laden (Container-Aktualisierung erzwingen)
+
+*Verzeichnis neu laden* ist eine Kodi-interne Funktion
+
+Sie bewirkt, dass das aktuell geöffnete Verzeichnis neu eingelesen wird
+
+Dadurch sollte der Trakt-Status aktualisiert werden, nachdem man einen Film / eine Episode gesehen hat
+
+Weil das nicht auf jedem Gerät so funktioniert hat wie es sollte, hat man eine Option draus gemacht
+
+Für die meisten ist es wohl am besten, das zu deaktivieren (ist auch die Standrard-Einstellung), weil es nur Zeit kostet
 
 Wenn in Kodi unter: 
 
