@@ -95,6 +95,7 @@ Die Funktion der folgenden Seiten ist auf Grund Fehlender Entwickler nicht gewä
 |Kinoking        |kinoking.to        | 30.08.2017 |
 |Kinow           |kinow.to           | 23.05.2017 |
 |KinoX           |kinox.to           | 12.01.2017 |       
+|Lichtspielhaus  |lichtspielhaus.stream  | 11.09.2017 |
 |Movie2k         |movie2k.ac/ag      | 01.09.2017 |
 |Movie2z         |movie2z.to/de      | 03.09.2017 |
 |Movie4k         |movie4k.to         | 13.02.2017 |
@@ -105,7 +106,7 @@ Die Funktion der folgenden Seiten ist auf Grund Fehlender Entwickler nicht gewä
 |Pureanime	 |pure-anime.tv      | 24.03.2017 |
 |SerienStream    |serienstream.to    | 13.01.2017 |
 |SeriesEver      |seriesever.net     | 12.01.2017 |
-|Stream          |stream.to          | 18.09.2017 |  
+|Stream.to       |stream.to          | 18.09.2017 |  
 |StreamDream     |streamdream.ws     | 12.07.2017 |
 |Streamflix      |streamflix.to      | 22.05.2017 |
 |Streamit        |streamit.ws        | 17.03.2017 |
@@ -251,7 +252,7 @@ In Lastship  Kategorie *WERKZEUGE* öffnen
 
 Hier werden alle Lastship Einstellungen angezeigt
 
-####**Einstellungen Allgemein**
+#### **Einstellungen Allgemein**
 
 ***Erscheinungsbild***
 
@@ -332,15 +333,15 @@ Dadurch verliert Ihr natürlich die Bilder und Kosmetische Aspekte. Aber es kön
 
 *Neue Filme:*
 
-Einstellung, welcher Inhalt angezeigt wird, wenn die Kategorie Neue Filme in Lastship gewählt wird (Im Kino, am populärsten, Empfohlen, Deaktivieren
+Einstellung, welcher Inhalt angezeigt wird, wenn die Kategorie Neue Filme in Lastship gewählt wird (Neue Filme in Deutsch, Im Kino, am populärsten, Empfohlen, Deaktivieren
 
 *Neue Episoden:*
 
 Einstellung, welcher Inhalt angezeigt wird, wenn die Kategorie Neue Episoden in Lastship gewählt wird (Episoden, Deaktiviert)
 
-*Meine Listen:*
+*Meine Filme/TVSerien (Trakt/IMDb):*
 
-wenn aktiviert, wird im Hauptmenü die Kategorie Meine Liste angezeigt. 
+wenn aktiviert, wird im Hauptmenü die Kategorie Meine Liste angezeigt
 
 Funktion nur mit Trakt Konto (und anderen Konten)
 
