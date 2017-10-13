@@ -1245,6 +1245,15 @@ Sollte dies der Fall sein, bitte den aktuellste Version des "URLResolver" über 
 
 Lösung: die Option *"Cache-Funktion benutzen"* ausgeschaltet, befindet sich in den URL Resolver Einstellungen
 
+Wenn das nicht helfen sollte, dann bitte wie folgt:
+
+Da nach einem URL Resolver Update die Einstellungen (settings) weg sind, solltet Ihr diese vor einem Update sichern, damit Ihr nicht alles neu einrichten müsst
+
+Nach dem Update, dann wieder in das Verzeichnis einfügen
+Es ist nach dem URLResolver Update KEINE settings.xml vorhanden!!
+
+Ihr findet die settings.xml hier: ....kodi/userdata/addon_data/script.module.urlresolver
+
 **Probleme mit bs.to**
 
 Laut Auskunft der Betreiber von BS.to, die sagen:
