@@ -5,7 +5,6 @@
 
 ![Covenant Logo](https://raw.githubusercontent.com/lastship/FAQ/master/Convenant_Logo.png)
 
-![Exodus Logo](https://raw.githubusercontent.com/lastship/FAQ/master/Exodus_Logo.png)
 
 - [1. Allgemeines zum Addon](#1-allgemeines-zum-addon)
     - [1.1 Verfügbare Webseiten](#11-verfügbare-webseiten)
