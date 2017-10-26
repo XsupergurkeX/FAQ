@@ -273,7 +273,7 @@ Das Lastship Artwork Addon wird standardmäßig mit installiert
 
 ***Zeitlimit für Index Seiten:***
 
-*Standard (default):* 20 Sekunden
+*Standard (default):* 30 Sekunden
 
 Ist die Zeit, wie lange Lastship die Anbieter durchsuchen soll  bevor das Suchergebniss , als Liste zur Auswahl  angezeigt  wird
 
@@ -281,7 +281,7 @@ Lastship liefert ein exzellentes Ergebnisse mit einem Wert von 12 - 15 Sekunden,
 
 Wenn Ihr Schwierigkeiten habt Streams zu finden, kann dieser Wert erhöht werden
 
-***Indikator***
+***Gesehen/Fortsetzungspunkte***
 
 *Standard (default): Lokal*
 
@@ -307,7 +307,7 @@ Diese Einstellung kontrolliert die Sprache, welche Angezeigt/Wiedergegeben wird,
 
 Diese Einstellung bezieht sich nur auf die Informationen für Lastship und hat KEINE Auswirkung auf die Stream Sprache
 
-***Sprache für Index Seiten***
+***Indexseiten Sprache(n)***
 
 Hier wird die Sprache für die Webseiten Eingestellt
 
@@ -327,6 +327,8 @@ Wenn Ihr Probleme mit dieser Funktion habt, solltet Ihr überlegen diese zu deak
 
 Dadurch verliert Ihr natürlich die Bilder und Kosmetische Aspekte. Aber es könnte zur Leistungsverbesserung beitragen
 
+**Filme nach Jahrgang filtern**
+Hier kann die Zeitspanne eingestellt werden, inerhalb der Lastship suchen soll
 
 **MENÜ**
 
@@ -380,7 +382,7 @@ Hintergrund:
 
 nach Streamauswahl wird das Info-Fenster, klein am Rand des Bildschirmes dargestellt
 
-**DATEIANBIETER FILTER**
+**FILTER Optionen**
 
 **Höchste Qualität: **
 
@@ -392,7 +394,7 @@ Ist auch die max. Auflösung, welche bei Autoplay verwendet wird
 
 Bei Seriesever & Moviesever ist 4k verfügbar, aber nur mit einem Premium Account (Bezahlung)
 
-**SD Anbieter in Autoplay**
+**Autoplay nur in SD**
 
 *Wenn aktiviert:*
 
@@ -414,9 +416,9 @@ Premium Services sind immer Gruppiert und stehen  an der Spitze der Liste
 
 Beispiel: Alle Streams, die z.B. auf PrimeWire gefunden werden, sind aufgelistet
 
-***Wenn Wiedergabe startet......***
+***Bei Wiedergabe Start...***
 
-*Wiedergabe fortsetzen*
+*Fortsetzen*
 
 Wenn ein Stream gestoppt wird, wird automatisch  ein Fortsetzungspunkt gespeichert/erstellt (aber erst ab einer Wiedergabezeit von 3 Minuten )
 
@@ -615,11 +617,13 @@ Für Euch entstehen dadurch KEINE Kosten!!
 
 In dieser Einstellung, kann der Premium Service konfiguriert werden
 
+Premium Links werden in Lastship farblich dargestellt, gelb markiert
+
 Es steht eine Vielzahl an Anbietern zur Verfügung z.B. Trakt, Premiumize, TMDb, IMDb usw
 
 Voraussetzung ist natürlich, dass ein Account/Abo vom jeweiligen Anbieter vorhanden ist
 
-Die Konfiguration der einzelnen Anbieter kann leider an dieser Stelle nicht erklärt werden, da das englische Forum geschlossen wurde
+Die Konfiguration aller Anbieter kann leider nicht erklärt werden
 
 **Trakt einrichten:**
 
