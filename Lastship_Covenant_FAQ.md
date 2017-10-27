@@ -328,7 +328,8 @@ Wenn Ihr Probleme mit dieser Funktion habt, solltet Ihr überlegen diese zu deak
 Dadurch verliert Ihr natürlich die Bilder und Kosmetische Aspekte. Aber es könnte zur Leistungsverbesserung beitragen
 
 **Filme nach Jahrgang filtern**
-Hier kann die Zeitspanne eingestellt werden, inerhalb der Lastship suchen soll
+
+Hier kann eingestellt werden, dass nur Filme aus einer bestimmten Zeitspanne angezeigt werden sollen
 
 **MENÜ**
 
