@@ -584,7 +584,7 @@ am FireTV: die Menü Taste drücken
 
 Ist der von Euch gewählte Anbieter/Hoster nicht verfügbar, nimmt Lastship AUTOMATISCH den nächsten, bis ein lauffähiger gefunden wird
 
-***Anmerkung zu den Hostern Openload (HD), TheVideo:***
+***Anmerkung zu den Hostern Openload (HD), TheVideo, Flashx:***
 
 Wenn Ihr einen dieser Hoster zum Streamen auswählt, erscheint ein Fenster, welches Euch auffordert Eure Gerät zu Pairen
 
@@ -592,15 +592,17 @@ Das könnt ihr mit ruhigen Gewissen machen
 
 Ihr müsst im selben WLAN sein wie das zu Pairende Gerät (z.B. FireTV, Apple TV usw.)
 
-Öffnet am Handy/Tablet/PC einen Browser mit der angezeigten Adresse von openload (http://olpair.com/) bzw. thevideo (https://thevideo.me/pair)
+Öffnet am Handy/Tablet/PC einen Browser mit der angezeigten Adresse von openload (http://olpair.com/) bzw. thevideo 
 
-Klickt in dem Kasten bei “Ich bin kein Roboter”
+(https://thevideo.me/pair) bzw. bei flashx (https://www.flashx.tv/pair)
+
+(Klickt in dem Kasten bei “Ich bin kein Roboter”)
 
 Dann ganz runter und klick auf “Pair”
 
 Das wars
 
-Dieser Vorgang muss immer wieder Wiederholt werden (nach 4 Stunden oder 5 Streams)
+Dieser Vorgang muss immer wieder Wiederholt werden (nach 3-4 Stunden oder 5 Streams)
 
 *Warum ist das "pairen" nötig?*
 
