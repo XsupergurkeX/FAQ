@@ -592,6 +592,8 @@ Das könnt ihr mit ruhigen Gewissen machen
 
 Ihr müsst im selben WLAN sein wie das zu Pairende Gerät (z.B. FireTV, Apple TV usw.)
 
+Für Flashx müsst Ihr Euch auf Flashx.tv ein Benutzerkonto anlegen, dafür kann auch eine Wegwerf E-Mailadresse verwendet werden
+
 Öffnet am Handy/Tablet/PC einen Browser mit der angezeigten Adresse von openload (http://olpair.com/) bzw. thevideo 
 
 (https://thevideo.me/pair) bzw. bei flashx (https://www.flashx.tv/pair)
