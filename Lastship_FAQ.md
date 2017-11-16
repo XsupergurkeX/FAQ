@@ -3,8 +3,6 @@
 
 ![Lastship Logo](https://raw.githubusercontent.com/lastship/FAQ/master/Lastship_Logo1.png)
 
-![Covenant Logo](https://raw.githubusercontent.com/lastship/FAQ/master/Convenant_Logo.png)
-
 
 - [1. Allgemeines zum Addon](#1-allgemeines-zum-addon)
     - [1.1 Verfügbare Webseiten](#11-verfügbare-webseiten)
@@ -49,12 +47,6 @@ Wir suchen Entwickler!!
 
 Dies Anleitung bezieht sich auf das Addon Lastship
 
-Diese Anleitung kann 1:1 für Covenant/Exodus angewendet werden
-
-Anstelle von Lastship einfach Covernant/Exodus "einsetzten/denken"
-
-*Ausgenommen Lastship -nightly und Lastship .py Dateien*
-
 Lastship ist, genau wie xStream,  ein Video Addon für die Media-Center-Software Kodi
 
 Lastship ist,  ein Video Addon für die Media-Center-Software Kodi. 
@@ -94,7 +86,6 @@ Die Funktion der folgenden Seiten ist auf Grund Fehlender Entwickler nicht gewä
 |Kinoking        |kinoking.to        | 30.08.2017 |
 |Kinow           |kinow.to           | 23.05.2017 |
 |KinoX           |kinox.to           | 12.01.2017 |       
-|Lichtspielhaus  |lichtspielhaus.stream  | 11.09.2017 |
 |Movie2k         |movie2k.ac/ag      | 01.09.2017 |
 |Movie2z         |movie2z.to/de      | 03.09.2017 |
 |Movie4k         |movie4k.to         | 13.02.2017 |
@@ -107,7 +98,6 @@ Die Funktion der folgenden Seiten ist auf Grund Fehlender Entwickler nicht gewä
 |SeriesEver      |seriesever.net     | 12.01.2017 |
 |Stream.to       |stream.to          | 18.09.2017 |  
 |StreamDream     |streamdream.ws     | 12.07.2017 |
-|Streamflix      |streamflix.to      | 22.05.2017 |
 |Streamit        |streamit.ws        | 17.03.2017 |
 |Tata            |tata.to            | 24.08.2017 |
 |Video4k         |video4k.to         | 12.01.2017 |
@@ -119,6 +109,8 @@ Für die Verwendung von Serienstream.to, ist auf deren Homepage das Anlegen eine
 Als E-Mailadresse kann auch eine Wegwerf-EMail-Adresse verwednet werden
 
 Diese Daten dann bitte in Lastship unter: Werkzeuge - Konten - Serienstream eingeben, ab da kann Serienstream genutzt werden
+
+Für die Verwendung von foxx.to muss zusätzlich das script.module.request installiert sein/werden (wird normalerweise bei der Installation mit installiert
 
 Empfehlungen und Vorschläge für neue Seiten können über das Lastship Forum unter dem Bereich [Lastship](http://lastship.square7.ch/forum/forumdisplay.php?fid=28) angefragt bzw. eingestellt werden.
 
@@ -158,7 +150,7 @@ Hier ist ein Video von Rechtsanwalt Christian Solmecke, der über das Thema rech
 
 ### 2.1 Bezugsquellen zur Installation
 
-**Das hinzufügen von Lastship/Covenant/Exodus über "als Quelle hinzufügen" in Kodi ist NICHT möglich!!!**
+**Das hinzufügen von Lastship über "als Quelle hinzufügen" in Kodi ist NICHT möglich!!!**
 
 [Info] Das (Deutsche)Lastship Project sucht Entwickler  zur Pflege der Index Seiten, Kenntnisse Programmiersprache Python (.py) erforderlich
 
@@ -167,14 +159,6 @@ Das Video Addon Lastship  wird über das  LASTSHIP Repository installiert
 Dieses ist hier verfügbar: [Download](https://github.com/lastship/Lastship-Repo/raw/master/zips/repository.lastship/repository.lastship-1.0.1.zip)
 
 Forum: [Link](http://lastship.square7.ch/forum/forumdisplay.php?fid=28)
-
-Das Video Addon Covenant wird über das  COLOSSUS Repository installiert 
-
-Dieses ist hier verfügbar: [Download](https://github.com/Colossal1/repository.colossus/tree/master/repository.colossus)
-
-Forum: [Link](http://lastship.square7.ch/forum/forumdisplay.php?fid=6)
-
-Das Video Addon Exodus  wird von uns nicht mehr zur Verfügung gestellt
  
 Die Entwicklung und Änderungen in Lastship können auf Github mitverfolgt werden, der Download sollte jedoch vom Downloadlink oben durchgeführt werden: [Lastship auf Github](https://github.com/lastship/plugin.video.lastship/tree/nightly)
 
@@ -208,7 +192,7 @@ Im Lastship Repo ist auch das lastship-common repo enthalten
 
 Dadurch aktualisiert sich auch der URL Resolver, wenn es ein URL Resolver Repo-Update gibt
 
-Es wird übrigens der Jsergio URL Resolver verwendet, tknorris URL Resolver gibt es nicht mehr
+**Es wird momentan KEIN URLResolver verwendet, tknorris URL Resolver & Jsergio gibt es nicht mehr**
 
 Von dort beziehen auch wir die Informationen und aktualisieren, den URLResolver welcher im Repo liegt, selbst
 
@@ -266,6 +250,8 @@ Lastship (Standard)
 Lastship2
 
 Exodus
+
+Exuary
 
 Lastship verwendet ein zugehöriges Artwork Addon für Themen Unterstützung
 
