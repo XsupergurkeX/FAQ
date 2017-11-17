@@ -1,4 +1,4 @@
-# Lastship/Covenant/Exodus für Kodi -Deutsche Anleitung/ FAQ
+# Lastship für Kodi -Deutsche Anleitung/ FAQ
 
 
 ![Lastship Logo](https://raw.githubusercontent.com/lastship/FAQ/master/Lastship_Logo1.png)
