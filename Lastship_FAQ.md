@@ -89,7 +89,6 @@ Die Funktion der folgenden Seiten ist auf Grund Fehlender Entwickler nicht gewä
 |Movie2k         |movie2k.ac/ag      | 01.09.2017 |
 |Movie2z         |movie2z.to/de      | 03.09.2017 |
 |Movie4k         |movie4k.to         | 13.02.2017 |
-|Moviesever      |moviesever.com     | 10.02.2017 |
 |MovieTown       |movietown.org      | 30.08.2017 |
 |Netzkino        |netzkino.de        | 16.04.2017 |  
 |Proxer		 |proxer.me          | 14.07.2017 |
@@ -1383,28 +1382,6 @@ sieht fertig dann so aus:
 
 Speichern. Nun kann SuperFavoriten ohne Probleme mit Lastship genutzt werden
 
-**SuperFavouriten im Exodus/Covenant Addon verwenden**
-
-Es ist auch in Exodus/Covenant möglich die SuperFavouriten zu nutzen
-
-Von Haus aus geht das nicht,war auch in Lastship so
-
-Wie man es einrichtet steht ein paar Zeilen über diesem Text
-
-Ihr müsst auch die Favoriten nicht unbedingt neu anlegen
-
-Geht dazu in den ....kodi/userdata/addon_data/plugin.programm.super.favoriten/
-
-Oder wenn Ihr nur die Kodi Favoriten verwendet,dann dort in die Favoriten.xml schauen
-
-Schaut in diesem Pfad die Favoriten.xml  an
-
-Da muss nur der Verweis von plugin.video.lastship auf plugin.video.covenat/plugin.video.exodus geändert werden
-
-Es gibt dafür Tools für den PC die das umbenennen automatisch machen, z.B. Note++ kann das
-
-Dann habt Ihr schnell Eure Favoriten in Covenant 
-
 **Fehlermeldung: "Kein Stream verfügbar"**
 
 Lastship greift bei der Suche, Film/Serienauswahl zuerst auf eine Filmdatenbank zu (IMDB), fragt diese nach Infos zum Film, zur Serie ab und zeigt diese dann an
@@ -1434,6 +1411,14 @@ Vidto
 Vidiz 
 
 Flashx
+
+**Fehlende Filmcover**
+
+Bei neueren Artwork kann es helfen, sich bei Fanart.tv einen API-Key zu besorgen und den in den Konten-Einstellungen einzutragen
+
+Noch besser dort einen Premium-acc anlegen, dann bekommt man die Bilder schneller
+
+TitanSkin und Artwork Probleme sind bekann, liegt am TitanSkin
 
 ## 4. Fehlerbericht über Log-Datei
 
