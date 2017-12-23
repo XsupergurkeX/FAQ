@@ -95,10 +95,7 @@ Die Funktion der folgenden Seiten ist auf Grund Fehlender Entwickler nicht gewä
 |Pureanime	 |pure-anime.tv      | 24.03.2017 |
 |SerienStream    |serienstream.to    | 13.01.2017 |
 |SeriesEver      |seriesever.net     | 12.01.2017 |
-|Stream.to       |stream.to          | 18.09.2017 |  
-|StreamDream     |streamdream.ws     | 12.07.2017 |
 |Streamit        |streamit.ws        | 17.03.2017 |
-|Tata            |tata.to            | 24.08.2017 |
 |Video4k         |video4k.to         | 12.01.2017 |
 |View4u 	 |view4u.co   	     | 14.07.2017 |
 
