@@ -93,10 +93,8 @@ Die Funktion der folgenden Seiten ist auf Grund Fehlender Entwickler nicht gewä
 |Netzkino        |netzkino.de        | 16.04.2017 |  
 |Proxer		 |proxer.me          | 14.07.2017 |
 |Pureanime	 |pure-anime.tv      | 24.03.2017 |
-|SerienStream    |serienstream.to    | 13.01.2017 |
 |SeriesEver      |seriesever.net     | 12.01.2017 |
 |Streamit        |streamit.ws        | 17.03.2017 |
-|Video4k         |video4k.to         | 12.01.2017 |
 |View4u 	 |view4u.co   	     | 14.07.2017 |
 
 
@@ -156,13 +154,19 @@ Dieses ist hier verfügbar: [Download](https://github.com/lastship/Lastship-Repo
 
 Forum: [Link](http://lastship.square7.ch/forum/forumdisplay.php?fid=28)
  
-Die Entwicklung und Änderungen in Lastship können auf Github mitverfolgt werden, der Download sollte jedoch vom Downloadlink oben durchgeführt werden: [Lastship auf Github](https://github.com/lastship/plugin.video.lastship/tree/nightly)
+Die Entwicklung und Änderungen in Lastship können auf Github mitverfolgt werden, der Download sollte jedoch vom Downloadlink oben durchgeführt werden: [Lastship auf Github](https://github.com/lastship?tab=repositories)
 
 Die Aktualisierung von Lastship erfolgt NUR über das Lastship Repository, so wie bei jedem anderen Repo auch. 
 
 Nach einem Update, werden dann auch neu hinzugefügte Index-Seiten automatisch angezeigt.
 
-Wollt Ihr nicht bis zu einem Update warten, könnt Ihr die aktuellen Daten aus der Lastship -nightly Version downloaden und in das entsprechende Verzeichnis kopieren: [Lastship Nightly](https://github.com/lastship/plugin.video.lastship/archive/nightly.zip)
+Wollt Ihr nicht bis zu einem Update warten, könnt Ihr die aktuellen Daten aus der Lastship -nightly Version downloaden und in das entsprechende Verzeichnis kopieren: 
+
+[plugin.video.lastship](https://github.com/lastship/plugin.video.lastship/tree/nightly)
+
+[script.module.lastship](https://github.com/lastship/script.module.lastship)
+
+Die meisten Änderungen werden im script.module.lastship stattfinden
 
 **Wichtig**
 
@@ -365,7 +369,7 @@ Hintergrund:
 
 nach Streamauswahl wird das Info-Fenster, klein am Rand des Bildschirmes dargestellt
 
-**FILTER Optionen**
+**Dateianbieter Filter**
 
 **Höchste Qualität: **
 
@@ -386,6 +390,10 @@ werden im Auto-Play Modus nur SD Streams wiedergegeben.
 HD Streams werden dabei ignoriert
 
 Ist nur dann sinnvoll, wenn man einen langsamen Internet Anbieter oder eine schwache Hardware hat
+
+**Zusatzinfos für Quellen anzeigen**
+
+Es werden dann neben dem Stream noch weiter Infos (wenn verfügbar) angezeigt, z.B. die Audioqualität
 
 **Dateianbieter mit Pairing (Captcha)**
 
