@@ -61,7 +61,19 @@ Der Menüaufbau von Lastship ist eigentlich selbsterklärend
 
 Die Menüsprache von Lastship ist jene Sprache, auf die Kodi eingestellt ist
 
-Unterstützung und Anfragen zu den Deutschen Seiten, Problemen usw. werden über das Lastship Forum abgewickelt.
+Unterstützung und Anfragen zu den Deutschen Seiten, Problemen usw. werden über das Lastship Forum abgewickelt
+
+Einstellungen welche in Lastship gemacht werden, sind in einer sogenannten settings.xml gespeichert
+
+Diese kann von einem System auf ein anderes kopiert werden um auch dort die gleichen Einstellungen (Konten usw,) zu haben
+
+Die settings.xml von Lastship findet man hier:
+
+....kodi/userdata/addon_data/plugin.video.lastship
+
+Der .kodi Ordner ist ein versteckter Ordner und muss in Windows  und Android erst sichtbar gemacht werden
+
+Weiter Pfade stehen im Kap. 4.2
 
 ### 1.1 Verfügbare Webseiten
 
@@ -100,11 +112,13 @@ Die Funktion der folgenden Seiten ist auf Grund Fehlender Entwickler nicht gewä
 
 Für die Verwendung von Serienstream.to, ist auf deren Homepage das Anlegen eines Benutzer Kontos erforderlich.
 
-Als E-Mailadresse kann auch eine Wegwerf-EMail-Adresse verwednet werden
+Als E-Mailadresse kann auch eine Wegwerf-EMail-Adresse verwendet werden
 
 Diese Daten dann bitte in Lastship unter: Werkzeuge - Konten - Serienstream eingeben, ab da kann Serienstream genutzt werden
 
 Für die Verwendung von foxx.to muss zusätzlich das script.module.request installiert sein/werden (wird normalerweise bei der Installation mit installiert
+
+Für die Verwendung von Alluc muss ein Benutzerkonto erstellt werden (sie Kapitel Konten/Alluc)
 
 Empfehlungen und Vorschläge für neue Seiten können über das Lastship Forum unter dem Bereich [Lastship](http://lastship.square7.ch/forum/forumdisplay.php?fid=28) angefragt bzw. eingestellt werden.
 
@@ -192,7 +206,7 @@ Im Lastship Repo ist auch das lastship-common repo enthalten
 
 Dadurch aktualisiert sich auch der URL Resolver, wenn es ein URL Resolver Repo-Update gibt
 
-**Es wird momentan KEIN URLResolver verwendet, tknorris URL Resolver & Jsergio gibt es nicht mehr**
+**Es wird momentan TVAddons als Quelle für den URLResolver verwendet**
 
 Von dort beziehen auch wir die Informationen und aktualisieren, den URLResolver welcher im Repo liegt, selbst
 
@@ -200,9 +214,9 @@ Aktueller URL Resolver: [Link](https://github.com/lastship/lastship-common/tree/
 
 Lastship und xStream verwenden  den gleichen metahandler
 
-***WICHTIG:*** 
+***Hinweis:*** 
 
-Jedoch muss an dieser Stelle klar darauf hingewiesen werden, dass unter der alternativen Bezugsquelle nicht für den aktuellsten Stand und Funktion der Software garantiert werden kann!
+An dieser Stelle muss darauf hingewiesen werden, dass unter alternativen Bezugsquellen nicht für den aktuellsten Stand und Funktion der Software garantiert werden kann!
 
 Repo Installieren:
 
@@ -489,7 +503,7 @@ Diese sind jedoch KEINE Live Streams
 
 Die Sparten dienen nur so als Vorschlag was man schauen könnte
 
-Deutscher SkyEPG wird nicht eingebaut, da Lastship International ist und die Vorschläge für alle gleich sind
+Englischer SkyEPG, Streams aber in deutsch
 
 **Nach welcher Logik werden Filme unter "neue Filme" aufgelistet**
 
@@ -540,7 +554,7 @@ Nache einem Lastship Update werden auch neu hinzugefügte Seiten automatisch ang
 
 Das Update erfolgt aber nur, wenn das Lastship Repo installiert ist, wie am Anfang beschrieben
 
-Im Verzeichnis `...kodi/addons/plugin.video.lastship/resources/lib/sources_de` sind die .py Daten  der einzelnen Webseiten abgelegt.
+Im Verzeichnis ...kodi/addons/script.module.lastship/lib/resources/lib/sources_de sind die .py Daten der einzelnen Webseiten abgelegt. 
 
 Hier könnt Ihr auch neue Deutsche Seiten hinzufügen, oder bestehende bearbeiten
 
@@ -556,9 +570,9 @@ Auch nachdem eine Suche gestartet wurde, werden alle verfügbaren Anbieter/ Host
 
 Die Anzeige sieht wie Folgt aus:
 
-BS | OPENLOAD | HD
+BS | OPENLOAD | HD|5.1
 
-(Anbieter | Hoster | Qualität)
+(Anbieter | Hoster | Qualität|z.B Audio, optionale Zusatzinfo)
 
 Die Qualität des Streams kann sein:  4k, HD, SD, CAM usw.
 
@@ -646,7 +660,7 @@ Benutzung des Alluc-Scrapers
 
 Mit Version 1.1.4 wurde in Lastship ein Plugin für den Multi-Indexer "alluc.ee" integriert. 
 
-Dieser kann sowohl deutsche als auch englische Inhalte liefern und kann  in den Addon-Einstellungen, unter Index Seiten, für Deutsch und Englisch separat ein- oder ausgeschaltet werden
+Unter Index Seiten ein- oder ausgeschaltet, Standard ist AUS
 
 Um Alluc zu benutzen, braucht man einen persönlichen API-Key, den man automatisch bekommt, wenn man dort ein Benutzerkonto anlegt
 
@@ -717,7 +731,13 @@ Ihr findet den Film/Serie dann in Eurem Download Ordner
 
 Es besteht die Möglichkeit, in den Einstellungen des URL Resolvers die Priorität der Hoster festzulegen also welche Hoster als ersters angezeigt bzw. verwendet werden sollen.
 
-**Jedoch aufgrund der Arbeitsweise von Lastship/Covenant wird diese Einstellung im Lastship/Covenant Addon nicht berücksichtigt**
+Diese Einstellungen werden in der settings.xml gespeichert.
+
+Diese befindet sich hier und kann auch auf ein anderes System kopiert werden:
+
+ ....kodi/userdata/addon_data/script.module.urlresolver
+
+**Jedoch aufgrund der Arbeitsweise von Lastship wird diese Einstellung im Lastship/Covenant Addon nicht berücksichtigt**
 
 *Da Lastship & xStream den gleichen URL Resolver verwenden, hat diese Einstellung auch Auswirkung auf beide Addons!!*
 
@@ -1227,7 +1247,7 @@ Die Last soll hierdurch soweit möglich zwischen den verschiedenen Hostern aufge
 
 Installation fehlgeschlagen --> Installation der Abhängigen fehlgeschlagen
 
-- Lösung: Deaktiviert alle Repositorys, welche Lastship/Exodus/Covenant anbieten 
+- Lösung: Deaktiviert alle Repositorys, welche Lastship/Placent/Incursion/Covenant anbieten 
 
 - Danach Lastship aus der offiziellen Lastship Repo installieren und alles funktioniert
 
@@ -1423,6 +1443,16 @@ Bei neueren Artwork kann es helfen, sich bei Fanart.tv einen API-Key zu besorgen
 
 Noch besser dort einen Premium-acc anlegen, dann bekommt man die Bilder schneller
 
+*Helfen kannn auch folgendes:*
+
+Löschen des kompletten thumbnails Ordners (wird bei Kodi Neustart wieder neu angelegt):
+
+...kodi/userdata/thumbnail
+
+und löschen der Textures13.db:
+
+...kodi/userdata/Database/Texture13.db
+
 TitanSkin und Artwork Probleme sind bekann, liegt am TitanSkin
 
 ## 4. Fehlerbericht über Log-Datei
@@ -1555,7 +1585,7 @@ Im Anschluss bitte „Speichern unter“ wählen und bei „Dateityp“ alle wä
 
 In den folgenden Ordnern findet Ihr alle Addons von Kodi
 
-Das Addon Lastship wird in aller Regel unter plugin.video.lastship installiert
+Das Addon Lastship wird  unter plugin.video.lastship und script.module.lastship installiert.
 
 - Android 
 	- `/Android/data/org.xbmc.kodi/files/.kodi/addons/`
