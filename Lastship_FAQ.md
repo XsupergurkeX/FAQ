@@ -105,6 +105,7 @@ Die Funktion der folgenden Seiten ist auf Grund Fehlender Entwickler nicht gewä
 |Netzkino        |netzkino.de        | 16.04.2017 |  
 |Proxer		 |proxer.me          | 14.07.2017 |
 |Pureanime	 |pure-anime.tv      | 24.03.2017 |
+|Serienstream	 |serienstream.to    | 08.01.2018 |
 |SeriesEver      |seriesever.net     | 12.01.2017 |
 |Streamit        |streamit.ws        | 17.03.2017 |
 |View4u 	 |view4u.co   	     | 14.07.2017 |
