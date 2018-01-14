@@ -414,6 +414,12 @@ Es werden dann neben dem Stream noch weiter Infos (wenn verfügbar) angezeigt, z
 
 Wenn deaktiviert, werden alle Hoster die Captcha-Abfragen durchführen ignoriert
 
+**HEVC**
+
+Streams mit HEVC anzeigen (h.265 Codec)
+
+HEVC wird nichtt von jeder Android Box unterstützt
+
 **Nach Index-Seiten sortieren**
 
 Wenn aktiviert, werden nur die Streams der Ausgewählten Anbieter angezeigt
