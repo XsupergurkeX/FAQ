@@ -117,7 +117,7 @@ Als E-Mailadresse kann auch eine Wegwerf-EMail-Adresse verwendet werden
 
 Diese Daten dann bitte in Lastship unter: Werkzeuge - Konten - Serienstream eingeben, ab da kann Serienstream genutzt werden
 
-Für die Verwendung von foxx.to muss zusätzlich das script.module.request installiert sein/werden (wird normalerweise bei der Installation mit installiert
+Für die Verwendung von foxx.to muss zusätzlich das script.module.request installiert sein/werden (wird normalerweise bei der Installation mit installiert)
 
 Für die Verwendung von Alluc muss ein Benutzerkonto erstellt werden (sie Kapitel Konten/Alluc)
 
@@ -386,7 +386,7 @@ nach Streamauswahl wird das Info-Fenster, klein am Rand des Bildschirmes dargest
 
 **Dateianbieter Filter**
 
-**Höchste Qualität: **
+**Höchste Qualität:**
 
 4k, 1440p, 1080p, 720p und 480p stehen zur Auswahl
 
@@ -468,7 +468,9 @@ Keine Angst, hierbei passiert nichts!!
 
 **Suche**
 
-Die Suche in Lastship ist eine Globale Suche. Das heißt, es werden immer alle Anbieter/Hoster durchsucht
+Die Suche in Lastship ist eine Globale Suche
+
+Das heißt, es werden immer alle Anbieter/Hoster durchsucht
 
 Es kann vorkommen, dass eine Serie/ein Film nicht gefunden wird, näheres dazu siehe Kapitel 3.3
 
@@ -561,7 +563,7 @@ Nache einem Lastship Update werden auch neu hinzugefügte Seiten automatisch ang
 
 Das Update erfolgt aber nur, wenn das Lastship Repo installiert ist, wie am Anfang beschrieben
 
-Im Verzeichnis ...kodi/addons/script.module.lastship/lib/resources/lib/sources_de sind die .py Daten der einzelnen Webseiten abgelegt. 
+Im Verzeichnis ...kodi/addons/script.module.lastship/lib/resources/lib/sources_de sind die .py Daten der einzelnen Webseiten abgelegt 
 
 Hier könnt Ihr auch neue Deutsche Seiten hinzufügen, oder bestehende bearbeiten
 
@@ -577,7 +579,7 @@ Auch nachdem eine Suche gestartet wurde, werden alle verfügbaren Anbieter/ Host
 
 Die Anzeige sieht wie Folgt aus:
 
-BS | OPENLOAD | HD|5.1
+BS | OPENLOAD | HD | 5.1
 
 (Anbieter | Hoster | Qualität|z.B Audio, optionale Zusatzinfo)
 
@@ -605,9 +607,11 @@ Ihr müsst im selben WLAN sein wie das zu Pairende Gerät (z.B. FireTV, Apple TV
 
 Für Flashx müsst Ihr Euch auf Flashx.tv ein Benutzerkonto anlegen, dafür kann auch eine Wegwerf E-Mailadresse verwendet werden
 
-Öffnet am Handy/Tablet/PC einen Browser mit der angezeigten Adresse von openload (http://olpair.com/) bzw. thevideo 
+Öffnet am Handy/Tablet/PC einen Browser mit der angezeigten Adresse von openload (http://olpair.com/) bzw. 
 
-(https://thevideo.me/pair) bzw. bei flashx (https://www.flashx.tv/pair)
+thevideo (https://thevideo.me/pair) bzw. 
+
+flashx (https://www.flashx.tv/pair)
 
 (Klickt in dem Kasten bei “Ich bin kein Roboter”)
 
@@ -649,17 +653,15 @@ In der Kategorie *Konto* - *Trakt* auf Berechtigung klicken
 
 Webseite besuchen: https://trakt.tv/activate
 
-Dort werdet Ihr dann aufgefordert den Code (der in Lastship angezeigt wird)  einzugeben, Continue.
+Dort werdet Ihr dann aufgefordert den Code (der in Lastship angezeigt wird)  einzugeben, Continue
 
 Allow Lastship to use Your Accout (Erlaube Lastship die Verwendung Deines Kontos), YES
 
-WooHoo! Your device is now connected and will automatically refresh in a few seconds.
+WooHoo! Your device is now connected and will automatically refresh in a few seconds
 
 Zurück in Lastship, steht jetzt bei Trakt Euer Benutzername
 
 Der Takt Service kann ab jetzt genutzt weren
-
-Weiteres zum Thema Trakt findet Ihr hier: [Link](http://xstream-addon.square7.ch/showthread.php?tid=948)
 
 **Alluc**
 
@@ -812,8 +814,6 @@ Immer wenn ein Film/Serie in Lastship als gesehen oder "In Trakt gesehen" markie
 
 Das ist leider ein normales verhalten von Lastship und liegt an Kodi 17
 
-Thema: [Link](http://xstream-addon.square7.ch/showthread.php?tid=948)
-
 Auch wenn Trakt nicht genutzt wird in/mit Lastship, benutzt Lastship trotzdem die Suche von Trakt.tv
 
 Ihr könnt auf der Homepage von Trakt.tv, Filme&Serien selbst zur Trakt Datenbank hinzufügen/nachtragen, wenn diese nicht vorhanden sind
@@ -844,8 +844,7 @@ Eine sehr nützliche Funktion ist die Integration von Lastship Streams in die Bi
 
 Somit hat man seine lokale Bibliothek und die Online Streams übersichtlich in EINER Bibliothek vereint
 
-Streams in der Bibliothek werden erst als *gesehen* markiert, wenn Sie komplett zu Ende gesehen werden
-Oder man setzt den "gesehen Status" über das Kontexmenü selbst
+Streams in der Bibliothek werden erst als *gesehen* markiert, wenn Sie komplett zu Ende gesehen werden oder man setzt den "gesehen Status" über das Kontexmenü selbst
 
 Es ist *nicht* möglich innerhalb der Bibliothek eigene Ordner zu erstellen und somit lokale Streams von Online Streams zu trennen
 
@@ -858,6 +857,7 @@ Lastship selbst legt nur eine Datei ab, so dass Kodi diese Datei annimmt
 Es besteht  *nicht* die Möglichkeit, zu sehen, ob eine Neue Folge einer Serie bei dem Provider XY erschienen ist
 
 Wenn Ihr eine Serie, einen Film zur Bibliothek hinzufügt, erzeugt Lastship (im weiter unten angeführten Pfad) .strm & .nfo Dateien
+
 Die Informationen dafür kommen von den Online Datenbanken (TVDB, IMDB, The Movie DB usw.)
 
 Aufgrund dieser Informationen, werden die .strm Dateien erzeugt
@@ -878,11 +878,13 @@ In der .nfo ist ein Link zu z.b TVDB
 
 So weiß der Scraper ganz genau um welche Serie es sich handelt, damit nicht die falschen Meta-Daten geladen werden
 
-Wenn Ihr eine Film oder eine Serie aus der Bibliothek löscht, erscheint sie beim nächsten aktualisieren der Bibliothek wieder. Daher müsst Ihr die Datei aus dem Ordner (Speicherpfad der .strm) selbst entfernen
+Wenn Ihr eine Film oder eine Serie aus der Bibliothek löscht, erscheint sie beim nächsten aktualisieren der Bibliothek wieder
+
+Daher müsst Ihr die Datei aus dem Ordner (Speicherpfad der .strm) selbst entfernen
 
 **Bibliothek Anpassung an neues Addon (.strm Dateien von einem Addon, in einem anderen Addon verwenden/anpassen)**
 
-Lastship, Exodus und Convenant sind gleich aufgebaut und bieten quasi dieselben Features
+Lastship, Placent und Incursion sind gleich aufgebaut und bieten quasi dieselben Features
 
 In jedem Stream, den Ihr über eines der genannten Addons in die Bibliothek mit aufgenommen habt, wird gespeichert welches Addon das war
 
@@ -1003,7 +1005,7 @@ Ihr könnt den Pfad auch ändern
 
 Serien Pfad:  *...userdata/addon_data/plugin.video.lastship/TV Shows*
 
-Filme Pfad: *...userdata/addon_data/plugin.video.lastship/Movies*
+Filme Pfad:   *...userdata/addon_data/plugin.video.lastship/Movies*
 
 *Wenn Ihr den Pfad nicht auf einen Pfad Eurer Wahl (z.B. Netzwerk) ändern könnt, dann geht wie folgt vor:*
 
@@ -1023,7 +1025,7 @@ Den genauen Speicherort (abhängig vom Betriebssystem) findet Ihr im Kapitel 5.3
 
  - Kategorie Videos-Dateien
  
-   Videos hinzufüge 
+   Videos hinzufügen 
  
    Videoquelle hinzufügen: klicke auf *Durchsuchen*
 
@@ -1056,7 +1058,7 @@ Inhalt Scanning Einstellungen kann man alles deaktiviert lassen
 
 - Kategorie Videos- Dateien
 
-  Videos hinzufüge 
+  Videos hinzufügen 
 
   Videoquelle hinzufügen: klicke auf *Durchsuchen*
    
@@ -1121,13 +1123,13 @@ Trakt kann auch  mit der Library genutzt werden
 
 Es auch möglich, den Speicherort auf einen am Router angeschlossenen USB Stick oder USB Festplatte, festzulegen
 
-Das ist vorallem dann zu empfehlen, wenn Ihr mit mehreren Kodis   auf die Bibliothek zugreifen wollt
+Das ist vorallem dann zu empfehlen, wenn Ihr mit mehreren Kodis auf die Bibliothek zugreifen wollt
 
 Wie solche Netzwerkfreigaben für Kodi funktionieren findet Ihr in der Kodi Anleitung: [Link](https://www.dropbox.com/s/vlaf0ap156267pr/Kodi_17_Anleitung.pdf?dl=0)
 
 Es musst dann aber auf jedem Kodi, immer wenn Ihr was neues hinzugefügt habt, die Bibliothek aktualisiert werden
 
-Wollt Ihr das auch nicht selbst machen, dann kann das Addon *Watchdog* verwendet werden. 
+Wollt Ihr das auch nicht selbst machen, dann kann das Addon *Watchdog* verwendet werden 
 
 Dieses Addon, aktualisiert einen von Euch festgelegten Pfad (z.B. am USB Stick der am Router hängt), automatisch zur lokalen Bibliothek
 
@@ -1242,9 +1244,9 @@ Die Prioritäts-Einstellungen im URLresolver haben also KEINE Auswirkung auf die
 	      
               - Hoster Y
         
-Das zufällige Mischen der Hoster-Reihenfolge ist erforderlich, um zu vermeiden dass eine einzelne Quelle die Zugriffe aller Autoplay-Nutzer tragen muss.
+Das zufällige Mischen der Hoster-Reihenfolge ist erforderlich, um zu vermeiden dass eine einzelne Quelle die Zugriffe aller Autoplay-Nutzer tragen muss
 
-Die Last soll hierdurch soweit möglich zwischen den verschiedenen Hostern aufgeteilt werden.
+Die Last soll hierdurch soweit möglich zwischen den verschiedenen Hostern aufgeteilt werden
 
 ## 3. Bekannte Probleme
 
@@ -1444,7 +1446,7 @@ Vidiz
 
 Flashx
 
-**Fehlende Filmcover**
+**Fehlende Artworks (Filmcover)**
 
 Bei neueren Artwork kann es helfen, sich bei Fanart.tv einen API-Key zu besorgen und den in den Konten-Einstellungen einzutragen
 
@@ -1467,7 +1469,11 @@ TitanSkin und Artwork Probleme sind bekann, liegt am TitanSkin
 
 ### 4.1. Allgemeines zur Log-Datei
 
-In dem log File werden alle Aktivitäten/Programmabläufe von Kodi protokolliert und gespeichert. Wenn man nun Probleme mit Kodi hat, ist es sehr hilfreich, dieses Log File im Forum zu Posten. Nur so kann eine schnelle und Zielgerichtete Lösung erfolgen.
+In dem log File werden alle Aktivitäten/Programmabläufe von Kodi protokolliert und gespeichert
+
+Wenn man nun Probleme mit Kodi hat, ist es sehr hilfreich, dieses Log File im Forum zu Posten
+
+Nur so kann eine schnelle und Zielgerichtete Lösung erfolgen.
 
 
 ### 4.2 Speicherort der Log Datei
@@ -1476,7 +1482,9 @@ Den Speicherpfad von Kodi anzeigen lassen – Scroll weiter runter zum Punkt Deb
 
 Das ist immer vom Betriebssystem abhängig
 
-Im Folgenden werden bekannte Ordnerstrukturen der jeweiligen Betriebssysteme aufgelistet. Anstelle von "xbmc" kann in den Ordnern auch "kodi" stehen
+Im Folgenden werden bekannte Ordnerstrukturen der jeweiligen Betriebssysteme aufgelistet
+
+Anstelle von "xbmc" kann in den Ordnern auch "kodi" stehen
 
 (die Ordnerstruktur kann jedoch auch leicht von dieser Anleitung abweichen):
 
@@ -1554,7 +1562,7 @@ Folgendes Ausführen:
 
 Fertig
 
-Es wird nun am oberen Rand eine Statuszeile eingeblendet mit Infos; **Hier ist auch der Speicherort der Log-Datei zu sehen!**
+Es wird nun am oberen Rand eine Statuszeile eingeblendet mit Infos, **Hier ist auch der Speicherort der Log-Datei zu sehen!**
 
 Starte Kodi neu und öffne das Addon welches einen Fehler verursacht. Erstellen dann sofort eine Log-Datei (dann ist der Fehler leichter herauszulesen).
 
