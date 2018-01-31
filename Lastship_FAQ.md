@@ -1600,7 +1600,9 @@ Im Anschluss bitte „Speichern unter“ wählen und bei „Dateityp“ alle wä
 
 In den folgenden Ordnern findet Ihr alle Addons von Kodi
 
-Das Addon Lastship wird  unter plugin.video.lastship und script.module.lastship installiert.
+Das Addon Lastship wird  unter plugin.video.lastship und script.module.lastship installiert
+
+Die Index-Seiten .py Dateien findet Ihr unter ....kodi/addons/script.module.lastship/lib/recources/lib/sources/de
 
 - Android 
 	- `/Android/data/org.xbmc.kodi/files/.kodi/addons/`
