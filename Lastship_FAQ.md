@@ -108,6 +108,7 @@ Die Funktion der folgenden Seiten ist auf Grund Fehlender Entwickler nicht gewä
 |Serienstream	 |serienstream.to    | 08.01.2018 |
 |SeriesEver      |seriesever.net     | 12.01.2017 |
 |Streamit        |streamit.ws        | 17.03.2017 |
+|Tata	         |tata.to	     | 20.01.2018 |
 |View4u 	 |view4u.co   	     | 14.07.2017 |
 
 
@@ -348,6 +349,20 @@ wenn aktiviert, wird im Hauptmenü die Kategorie Meine Liste angezeigt
 
 Funktion nur mit Trakt Konto (und anderen Konten)
 
+*Trakt Bibliothek Automatisch Synchronisieren*
+
+Dadurch es nun möglich, das lokale Trak.tv Filme/Serien automatisch mit dem Trakt.tv Server synchronisiert werden (gesehen Status)
+
+Hierbei ist es egal ob die Filme/Serien in der Bibliothek liegen, oder nur in den Favouriten, sie werden auf jeden Fall gesynct
+
+Funktioniert mit Kodi Favouriten und auch mit SuperFavouriten
+
+In der oberen Ecke wird der Synchronistations Vorgang angezeigt
+
+In Lastship unter Werkzeuge - Einstellungen (Allgemein) findet Ihr ganz unten "Trakt Bibliothek Automatische Synchronisierung"
+
+Hier kann gewählt werden: Synchronisierung bei Kodi Start oder in der 2. Zeile einen Zeitintervall einstellen 
+
 ####**Einstellungen Wiedergabe**
 
 **Standard Aktion (default):**   Verzeichnis
@@ -460,9 +475,33 @@ Wenn in Kodi unter:
 
 Addons-Seitenmenü, Automatische Aktualisierung auf AUS gestellt ist, wird Lastship nicht automatisch aktualisiert
 
-**LASTSHIP: Cache löschen/Index Seiten löschen**
+**LASTSHIP: Cache (Speicher) löschen**
 
-Löscht den Cache (Speicher) von Lastship
+Löscht den Cache (Speicher) von Lastship, ist wie bei jedem Internet Browser
+
+Keine Angst, hierbei passiert nichts!!
+
+**LASTSHIP: Index Seiten Cache (Speicher) löschen**
+
+Löscht den Index Seiten Cache (Speicher) von Lastship
+
+Das ist jener Speicher, wo gesuchte bzw. besuchte Index Seiten gespeichert werden, damit diese beim nächsten mal schneller geladen werden
+
+Keine Angst, hierbei passiert nichts!!
+
+**LASTSHIP: Metadaten Speicher löschen**
+
+In diesem Cache (Speicher) werden Informationen zu Filmen/Serien (Covers, TMDb bzw. IMDB Links, Beschreibungen usw.) gespeichert
+
+Das ermöglicht einen schnelelrn Abruf der Informationen
+
+Beim löschen des Metadaten Speicher werden diese Infos gelöscht
+
+Keine Angst, hierbei passiert nichts!!
+
+**LASTSHIP: Lösche alle Speicher**
+
+Hier werden ALLE Caches (Speicher) gelöscht (Metadaten, Index Seiten und Lastship Cache)
 
 Keine Angst, hierbei passiert nichts!!
 
