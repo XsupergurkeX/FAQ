@@ -775,6 +775,22 @@ Es wird kurz: *Download in Progress* angezeigt
 
 Ihr findet den Film/Serie dann in Eurem Download Ordner
 
+**Speicherort der TV Serien (TV Shows) & Filme (Movies)**
+
+Serien Pfad:  *...userdata/addon_data/plugin.video.lastship/TV Shows*
+
+Filme Pfad:   *...userdata/addon_data/plugin.video.lastship/Movies*
+
+Ihr könnt den Pfad auch ändern
+
+*Wenn Ihr den Pfad nicht auf einen Pfad Eurer Wahl (z.B. Netzwerk) ändern könnt (weil das Feld "ausgegraut" ist, dann geht wie folgt vor:*
+
+- Kodi Starten und geöffnet lassen
+
+Dann mit dem Windows Explorer/ES File Explorer zu dem oben angeführten Pfad gehen und den Ordner löschen
+
+Zurück in Kodi kann nun der Wunschpfad eingetragen werden
+
 ### 2.8 URL Resolver Konfiguration
 
 Es besteht die Möglichkeit, in den Einstellungen des URL Resolvers die Priorität der Hoster festzulegen also welche Hoster als ersters angezeigt bzw. verwendet werden sollen.
@@ -1040,13 +1056,13 @@ Serien & Filme
 
 Dieser Speicherort ist wichtig, da Ihr diesen zur Bibliothek selbst hinzufügen müsst
 
-Ihr könnt den Pfad auch ändern
-
 Serien Pfad:  *...userdata/addon_data/plugin.video.lastship/TV Shows*
 
 Filme Pfad:   *...userdata/addon_data/plugin.video.lastship/Movies*
 
-*Wenn Ihr den Pfad nicht auf einen Pfad Eurer Wahl (z.B. Netzwerk) ändern könnt, dann geht wie folgt vor:*
+Ihr könnt den Pfad auch ändern
+
+*Wenn Ihr den Pfad nicht auf einen Pfad Eurer Wahl (z.B. Netzwerk) ändern könnt (weil das Feld "ausgegraut" ist), dann geht wie folgt vor:*
 
 - Kodi Starten und geöffnet lassen
 
@@ -1485,13 +1501,15 @@ Vidiz
 
 Flashx
 
-**Fehlende Artworks (Filmcover)**
+**Fehlende Artworks (Serien/Filmcover)**
 
-Bei neueren Artwork kann es helfen, sich bei Fanart.tv einen API-Key zu besorgen und den in den Konten-Einstellungen einzutragen
+Kann verschieden Ursachen haben, z.B. weil unser TMDB-Key veraltet ist
 
-Noch besser dort einen Premium-acc anlegen, dann bekommt man die Bilder schneller
+Eine Lösung ist dann ein Update von uns und folgendes, falls die Artworks dann immer noch nicht angezeigt werden:
 
-*Helfen kannn auch folgendes:*
+1.plugin.video.lastship deinstallieren
+
+2. Kann generell oft bei Artwork Problemen helfen:
 
 Löschen des kompletten thumbnails Ordners (wird bei Kodi Neustart wieder neu angelegt):
 
@@ -1500,6 +1518,12 @@ Löschen des kompletten thumbnails Ordners (wird bei Kodi Neustart wieder neu an
 und löschen der Textures13.db:
 
 ...kodi/userdata/Database/Texture13.db
+
+3.plugin.video.lastship neu installieren (eventuell vorher noch *Kodi* Cache löschen)
+
+Bei neueren Artwork kann es helfen, sich bei Fanart.tv einen API-Key zu besorgen und den in den Konten-Einstellungen einzutragen
+
+Noch besser dort einen Premium-acc anlegen, dann bekommt man die Bilder schneller
 
 TitanSkin und Artwork Probleme sind bekann, liegt am TitanSkin
 
