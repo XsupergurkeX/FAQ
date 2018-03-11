@@ -112,7 +112,7 @@ Die Funktion der folgenden Seiten ist auf Grund Fehlender Entwickler nicht gewä
 
 Für die Verwendung von Serienstream.to und Seriesever.net, ist auf deren Homepage das Anlegen eines Benutzer Kontos erforderlich.
 
-Für die Verwendung von Alluc muss ein Benutzerkonto erstellt werden (siehe Kapitel Konten/Alluc), jedoch wird diese Seite demnächst leider schließen
+Für die Verwendung von Alluc muss ein Benutzerkonto erstellt werden (siehe Kapitel Konten/Alluc), jedoch wird diese Seite demnächst leider schließen und es kann KEINE neue Registrierung mehr gemacht werden
 
 Als E-Mailadresse kann auch eine Wegwerf-EMail-Adresse verwendet werden
 
@@ -849,39 +849,7 @@ Serienstream und Seriesever gibt es nicht viel zu erklären. Einfach auf der jew
 
 **Alluc**
 
-Benutzung des Alluc-Scrapers
-
-In Lastship wurde ein Plugin für den Multi-Indexer "alluc.ee" integriert. 
-
-Unter Index Seiten ein- oder ausgeschaltet, Standard ist AUS
-
-Um Alluc zu benutzen, braucht man einen persönlichen API-Key, den man automatisch bekommt, wenn man dort ein Benutzerkonto anlegt
-
-Auf der Seite http://accounts.alluc.com klickt man auf den Link "register" und gibt auf der folgenden Seite einen Benutzernamen, eine E-Mail Adresse und ein Passwort an
-
-Die E-Mail Adresse kann auch eine Einmal- bzw. "Wegwerf"-Adresse sein, die man nur für die Anmeldung benutzt
-
-Dann kreuzt man "Ich bin kein Roboter" an und falls man dazu aufgefordert wird, löst man das angezeigte Captcha
-
-"Sign me up for the Alluc newsletter" kann man abwählen und bestätigt
-
-Noch "I agree to the terms of use and privacy policy" und klickt den "Save"-Button
-
-Man bekommt dann eine Nachricht an die angegebene E-Mail Adresse von "noreply@alluc.net" (falls man die Nachricht vermisst, im Junk/Spam-Ordner nachschauen)
-
-In der Nachricht ist ein Aktivierungscode und ein Link
-
-Nachdem man diesen Link im Browser aufgerufen und damit den Acount bestätigt hat, wird eine Seite mit den Zugangsdaten und einem API-key angezeigt
-
-Den API-Key kopiert man und trägt ihn in den Lastship-Einstellungen unter "Konten" bei Alluc ein (es gibt dort einen Punkt "Alluc API-Key")
-
-Ist das erledigt, hat man seinen Alluc-Account in Lastship integriert und kann den Anbieter genießen
-
-Limit für Ergebnisse kann selbst bestimmt werden, Standard sind 10 Ergebnisse
-
-Wer Alluc im Browser ausprobieren möchte, bevor er sich dort anmeldet, kann das unter http://www.alluc.ee tun 
-
-Gibt man hinter dem Suchbegriff "lang:de" ein, bekommt man nur Links zu deutschen Inhalten.
+Die Seite wird von den Betreibern eingestellt. Daher kann man sich nicht mehr Registrieren
 
 ## 2.6 Untertitel
 
