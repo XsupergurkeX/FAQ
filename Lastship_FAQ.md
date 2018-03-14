@@ -491,6 +491,16 @@ Funktioniert mit Kodi Favouriten und auch mit SuperFavouriten
 
 In der oberen Ecke wird der Synchronistations Vorgang angezeigt
 
+**Nightly Update**
+
+Unter Werkzeuge - Einstellungen (Allgemein) findet Ihr ganz unten die Funktion Nightly Updates
+
+Wird diese Einstellung aktiviert, so werden aus der Entwickler Version (~nightly), die Updates aktualisiert
+
+Da die ~nightly Version aber auch Fehler beinhalten kann sollte gut überlegt werden diese Funktion zu nutzen
+
+Am besten nutzen es User, die auch wissen wie sie wieder zu einer funktionsfähigen Version zurückspringen können
+
 ### Einstellungen Wiedergabe
 
 **Standard Aktion (default):**   Verzeichnis
