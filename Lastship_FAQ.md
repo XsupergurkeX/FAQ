@@ -96,7 +96,7 @@ Die Funktion der folgenden Seiten ist auf Grund Fehlender Entwickler nicht gewä
 |Kinoking        |kinoking.to        | 30.08.2017 |
 |Kinow           |kinow.to           | 23.05.2017 |
 |KinoX           |kinox.to           | 12.01.2017 |       
-|Movie2k         |movie2k.ac/ag      | 01.09.2017 |
+|Movie2k         |movie2k.sh/ag      | 01.09.2017 |
 |Movie2z         |movie2z.to/de      | 03.09.2017 |
 |Movie4k         |movie4k.to         | 13.02.2017 |
 |MovieTown       |movietown.org      | 30.08.2017 |
@@ -106,6 +106,7 @@ Die Funktion der folgenden Seiten ist auf Grund Fehlender Entwickler nicht gewä
 |Serienstream	 |serienstream.to    | 08.01.2018 |
 |SeriesEver      |seriesever.net     | 12.01.2017 |
 |Streamit        |streamit.ws        | 17.03.2017 |
+|Szene-streamz   |szene-streamz.com  | 14.03.2018 |
 |Tata	         |tata.to	     | 20.01.2018 |
 |View4u 	 |view4u.co   	     | 14.07.2017 |
 
