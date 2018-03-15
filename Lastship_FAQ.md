@@ -496,11 +496,23 @@ In der oberen Ecke wird der Synchronistations Vorgang angezeigt
 
 Unter Werkzeuge - Einstellungen (Allgemein) findet Ihr ganz unten die Funktion Nightly Updates
 
-Wird diese Einstellung aktiviert, so werden aus der Entwickler Version (~nightly), die Updates aktualisiert
+Wird diese Einstellung aktiviert, muss Lastship einmal verlassen werden
 
-Da die ~nightly Version aber auch Fehler beinhalten kann sollte gut überlegt werden diese Funktion zu nutzen
+Im Anschluss befindet sich ein neuer Menü Eintrag, Nightly Updates, in Lastship 
+
+Die ~Nightly ist eine Entwickler Version und kann auch Fehler beinhalten
+
+Es sollte gut überlegt werden diese Funktion zu nutzen
 
 Am besten nutzen es User, die auch wissen wie sie wieder zu einer funktionsfähigen Version zurückspringen können
+
+Das Update Fenster erscheint immer 2x mal, da es einmal für plugin.video.lastship ist und das zweite mal für script.module.lastship
+
+Sollte ein Update Fehlerhaft sein, so geht wie folgt vor:
+
+Im Ordner ....kodi / addons befindet sich ein Ordner mit script.module.lastship und plugin.video.lastship, BEIDE Ordner löschen
+
+Im Anschluss Lastship aus dem Repo installieren
 
 ### Einstellungen Wiedergabe
 
@@ -1477,6 +1489,16 @@ Sollte dies der Fall sein, bitte den aktuellste Version des "URLResolver" über 
 [Download](https://github.com/lastship/lastship-common/tree/master/zips/script.module.urlresolver)
 
 ## 3.3 Beobachtungen und Fehler im Betrieb
+
+**Fehlerhaftes Lastship Update verursacht Probleme**
+
+Es kann vorkommen, dass ein Update Fehlerhaft ist und dann Probleme auftreten (z.B. alle Hoster werden übersprungen oder es kommt beim Start von Lastship eine Fehlermeldung usw.)
+
+In diesem Fall müsst Ihr nicht warten, bis wir es beheben, sondern könnt selbst eine Version zurück springen
+
+In Kodi: Addons - Addon Browser (Schachtel) - aus .zip Datei installieren - dann müsst Ihr den Kodipfad suchen (Kap.5.3)- addons - packages
+
+Hier die alte plugin.video.lastship und script.module.lastship wählen und installieren
 
 **URL Resolver Einstellungen werden nach Update gelöscht**
 
