@@ -514,6 +514,34 @@ Im Ordner ....kodi / addons befindet sich ein Ordner mit script.module.lastship 
 
 Im Anschluss Lastship aus dem Repo installieren
 
+**Fehlerhafte Provider erkennen**
+
+Diese Funktion hilft den Entwicklern bei der Fehlersuche und jeder User kann hierbei mithelfen
+
+Sollte mal ein Provider seinen Seitenaufbau ändern und das Plugin nicht mehr funktionieren wird das mit diesem Feature erkannt und der Provider wird vorübergehen nicht mehr verwendet
+
+*Aktiviert stehen folgende Settings zur Verfügung:*
+
+Anzahl Errors für Deaktivierung: 
+
+Wie oft darf ein Provider einen unbekannten Error werfen bevor er deaktiviert wird
+
+Deaktivierten Provider überprüfen nach Stunden: 
+
+Ist ein Provider deaktiviert wird er nach X Stunden wieder freigeschalten und der Error-Counter auf 0 gesetzt
+
+Damit können eventuelle Updates oder wieder online kommen des Providers automatisch berücksichtigt werden
+
+Hat man die Option aktiviert erscheint ein neuer Menüpunkt in den Werkzeugen: 
+
+*Anzeigen fehlerhafter Provider*
+
+Klickt man drauf, erscheint ein Dialog mit den fehlerhaft erkannten Providern, wie oft ein Error registriert wurde, wann zuletzt und mit welchem Tag (für debug-zwecke)
+
+Rot eingefärbte Einträge bedeuten dieser Provider ist im Moment deaktiviert
+
+Ein Löschen des Indexseiten-Speichers setzt die Statistiken und Deaktivierungen zurück
+
 ### Einstellungen Wiedergabe
 
 **Standard Aktion (default):**   Verzeichnis
