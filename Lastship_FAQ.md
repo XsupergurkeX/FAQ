@@ -542,6 +542,12 @@ Rot eingefärbte Einträge bedeuten dieser Provider ist im Moment deaktiviert
 
 Ein Löschen des Indexseiten-Speichers setzt die Statistiken und Deaktivierungen zurück
 
+Wenn diese Funktion aktiviert ist, dann sendet Lastship Fehlerhafte Index Seiten-Informationen an unseren Forum Server
+
+Es sendet einmalig, sobald ein Provider deaktiviert wird
+
+Es sendet den Namen der Indexseite und wie lange diese auf dem Gerät deaktiviert ist
+
 ### Einstellungen Wiedergabe
 
 **Standard Aktion (default):**   Verzeichnis
