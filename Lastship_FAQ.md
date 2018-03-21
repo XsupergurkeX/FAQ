@@ -93,6 +93,7 @@ Die Funktion der folgenden Seiten ist auf Grund Fehlender Entwickler nicht gewä
 |Horrorkino      |horrorkino.do.am   | 02.06.2017 |
 |iLoad           |iload.to           | 12.01.2017 |
 |KinoDogs        |kinodogs.to        | 28.01.2017 |
+|Kinoger         |kinoger.com	     | 21.03.2018 |
 |Kinoking        |kinoking.to        | 30.08.2017 |
 |Kinow           |kinow.to           | 23.05.2017 |
 |KinoX           |kinox.to           | 12.01.2017 |       
@@ -500,6 +501,8 @@ Wird diese Einstellung aktiviert, muss Lastship einmal verlassen werden
 
 Im Anschluss befindet sich ein neuer Menü Eintrag, Nightly Updates, in Lastship 
 
+Lastship wird nur aktualisiert, wenn auf *Nightly Updates* geklickt wird
+
 Die ~Nightly ist eine Entwickler Version und kann auch Fehler beinhalten
 
 Es sollte gut überlegt werden diese Funktion zu nutzen
@@ -532,21 +535,13 @@ Ist ein Provider deaktiviert wird er nach X Stunden wieder freigeschalten und de
 
 Damit können eventuelle Updates oder wieder online kommen des Providers automatisch berücksichtigt werden
 
-Hat man die Option aktiviert erscheint ein neuer Menüpunkt in den Werkzeugen: 
-
-*Anzeigen fehlerhafter Provider*
-
-Klickt man drauf, erscheint ein Dialog mit den fehlerhaft erkannten Providern, wie oft ein Error registriert wurde, wann zuletzt und mit welchem Tag (für debug-zwecke)
-
-Rot eingefärbte Einträge bedeuten dieser Provider ist im Moment deaktiviert
-
 Ein Löschen des Indexseiten-Speichers setzt die Statistiken und Deaktivierungen zurück
 
 Wenn diese Funktion aktiviert ist, dann sendet Lastship Fehlerhafte Index Seiten-Informationen an unseren Forum Server
 
-Es sendet einmalig, sobald ein Provider deaktiviert wird
+Es sendet einmalig, sobald ein Fehler erkannt wird
 
-Es sendet den Namen der Indexseite und wie lange diese auf dem Gerät deaktiviert ist
+Es sendet den Namen der Indexseite 
 
 ### Einstellungen Wiedergabe
 
