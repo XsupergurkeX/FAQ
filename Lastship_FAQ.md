@@ -509,7 +509,7 @@ Es sollte gut überlegt werden diese Funktion zu nutzen
 
 Am besten nutzen es User, die auch wissen wie sie wieder zu einer funktionsfähigen Version zurückspringen können
 
-Das Update Fenster erscheint immer 2x mal, da es einmal für plugin.video.lastship ist und das zweite mal für script.module.lastship
+Das Update Fenster erscheint immer 2x mal, da es einmal für plugin.video.lastship und das zweite mal für script.module.lastship ist
 
 Sollte ein Update Fehlerhaft sein, so geht wie folgt vor:
 
@@ -843,6 +843,8 @@ Es kann jeder User einen persönlichen TMDB API-Key anfordern und diesen in Last
 
 - unter "Stats" ist ersichtlich, wie viele Zugriffe es mit diesem API-Key gegeben hat
 
+Dieser API Key kann auch im Metahandler eingetragen werden, wenn Ihr es möchtet (siehe weiter unten TVDB Konto)
+
 **Trakt Konto einrichten:**
 
 Trakt.tv bietet viele Möglichkeiten, wie z.B. das Synchronisieren des Fortsetzungspunktes auf deren Server
@@ -902,6 +904,50 @@ Serienstream und Seriesever gibt es nicht viel zu erklären. Einfach auf der jew
 **Alluc**
 
 Die Seite wird von den Betreibern eingestellt. Daher kann man sich nicht mehr Registrieren
+
+**TheTVDB**
+
+Dieses Konto kann nicht in Lastship eingetragen werden, sonder NUR im *Metahandler*
+
+Damit jedoch alle verfügbaren Konten hier zusammen stehen, wird der TVDB API-Key trotzdem erklärt
+
+Es besteht die Möglichkeit eigene API Keys im Metahandler einzutragen
+
+Der Metahandler verwendet einen allgemeinen TVDB API-Key und einen TMDB API-Key, den ALLE User verwenden
+
+Es kann jeder User aber auch einen persönlichen API-Key (Zugangsschlüssel) anfordern und diesen im Metahandler eintragen 
+
+Voraussetzung ist natürlich, dass ein Konto vom jeweiligen Anbieter vorhanden ist
+
+Auf  https://www.thetvdb.com/ Registrieren und ein Benutzerkonto anlegen, dazu auf login klicken
+
+Im Anschluss auf „Register for an account“ klicken
+
+Es wird dann ein Bestätigungslink an die angegebene E-Mailadresse gesendet
+
+Den Link in der E-Mail bestätigen, Fertig
+
+Das TVDB Konto ist nun erstellt
+
+Um nun den API Key zu erhalten, ist es notwendig, sich anzumelden
+
+Im Anschluss daran folgend Link besuchen/öffnen: https://www.thetvdb.com/?tab=apiregister
+
+Am unteren Ende steht: Project Name und Project Website
+
+Hier muss irgendetwas (beliebiges) eingetragen werden
+
+Dann auf „Retrieve API Key“ klicken und man bekommt den TVDB API Key
+
+Dieser Key kann dann im Metahandler eingetragen werden
+
+*Der Metahandler ist hier zu finden:*
+
+Einstellungen- System – Addons – Abhängigkeiten verwalten – metahandler
+
+Das Kontexmenü öffnen und Einstellungen wählen
+
+Nun kann unter TMBD oder TVDB der eigene Key (Schlüssel) eingegeben werden
 
 ## 2.6 Untertitel
 
