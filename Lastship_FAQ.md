@@ -96,7 +96,9 @@ Die Funktion der folgenden Seiten ist auf Grund Fehlender Entwickler nicht gewä
 |Kinoger         |kinoger.com	     | 21.03.2018 |
 |Kinoking        |kinoking.to        | 30.08.2017 |
 |Kinow           |kinow.to           | 23.05.2017 |
-|KinoX           |kinox.to           | 12.01.2017 |       
+|KinoX           |kinox.to           | 12.01.2017 |  
+|Moovie	         |securelink	     | 04.05.2018 |
+|Movie-gg        |movies.gg	     | 04.05.2018 |
 |Movie2k         |movie2k.sh/ag      | 01.09.2017 |
 |Movie2z         |movie2z.to/de      | 03.09.2017 |
 |Movie4k         |movie4k.to         | 13.02.2017 |
@@ -110,13 +112,16 @@ Die Funktion der folgenden Seiten ist auf Grund Fehlender Entwickler nicht gewä
 |Szene-streamz   |szene-streamz.com  | 14.03.2018 |
 |Tata	         |tata.to	     | 20.01.2018 |
 |View4u 	 |view4u.co   	     | 14.07.2017 |
+|VodHD	         |vodhd.to	     | 04.05.2018 |
 
 
 Für die Verwendung von Serienstream.to und Seriesever.net, ist auf deren Homepage das Anlegen eines Benutzer Kontos erforderlich.
 
-Für die Verwendung von Alluc muss ein Benutzerkonto erstellt werden (siehe Kapitel Konten/Alluc), jedoch wird diese Seite demnächst leider schließen und es kann KEINE neue Registrierung mehr gemacht werden
-
 Als E-Mailadresse kann auch eine Wegwerf-EMail-Adresse verwendet werden
+
+Die Seite VodHD ist Standardmäßig deaktiviert, da diese Seite eine Premium Seite ist, dass heißt es muss für die Nutzung bezahlt werden. Infos zu Bezahlung und Anmeldung auf https://vodhd.to/
+
+Alluc hat geschlossen und es kann KEINE neue Registrierung mehr gemacht werden, bisherige sind aber noch gültig
 
 Diese Daten dann bitte in Lastship unter: Werkzeuge - Konten - Serienstream eingeben, ab da kann Serienstream genutzt werden
 
