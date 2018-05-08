@@ -1570,6 +1570,26 @@ Sollte dies der Fall sein, bitte den aktuellste Version des "URLResolver" über 
 
 ## 3.3 Beobachtungen und Fehler im Betrieb
 
+**Premium Links werden übersprungen, normale Streams laufen, bzw. Ladekreis kurz sichtbar aber kein Stream**
+
+Es kommt oft vor, dass Streams von Premium Anbietern (z.B. Premiumize, RealDebrid, AllDebrid, MegaDebrid usw.) nicht laufen
+
+Entweder werden diese sofort übersprungen oder der Ladekreis ist kurz sichtbar aber kein Stream wird abgespielt
+
+Normale Streams laufen hingegen ohne Probleme
+
+Eine mögliche Lösung (die schon Erfolge gezeigt hat)ist folgende:
+
+Im URLReslover die *Cache Funktion* auf AUS schalten
+
+Erreichbar direkt über Lastship:
+
+Werkzeuge - Konten-Debrid Dienste - URLResolver Einstellungen - Cache Funktion benutzen auf AUS stellen
+
+Oder über Werkzeuge und ganz unten URLResolver Einstellungen
+
+Eventuell noch *Cache Funktion zurücksetzen* klicken
+
 **Fehlerhaftes Lastship Update verursacht Probleme**
 
 Es kann vorkommen, dass ein Update Fehlerhaft ist und dann Probleme auftreten (z.B. alle Hoster werden übersprungen oder es kommt beim Start von Lastship eine Fehlermeldung usw.)
