@@ -958,6 +958,10 @@ Nun kann unter TMBD oder TVDB der eigene Key (Schlüssel) eingegeben werden
 
 **VodHD.to**
 
+VodHD muss unter Index Seiten, in Lastship, extra aktiviert werden
+
+Zusätzlich muss in Lastship unter Wiedergabe - Höchste Qualität, 4K eingestellt sein, damit der Anbieter angezeigt wird
+
 Dieser Anbieter (Index Seite/Webseite) ist ein Premium Anbiter für den bezahlt werden muss
 
 Informationen zum Anbieter sind hier zu finden: https://vodhd.to/
@@ -968,15 +972,28 @@ Bezahlt werden kann z.B. mit Bitcoins, Paysafecard usw.
 
 *Anleitung zum sichern bezahlen mit Paysafecard:*
 
-1.Seite https://www.wkv.com/ besuchen und gewünschten Betrag wählen (5€)
+1. Seite https://www.wkv.com/ besuchen und gewünschten Betrag wählen (5€)
 
 2. Neues Kundenkonto Anlegen und alle folgenden Schritte bis zur Bezahlung befolgen
 
 3. Nach der Bezahlung wird die Paysafecard angezeigt bzw. per E-Mail zugeschickt
 
-   Diese Paysafecard muss dann uf VodHD hochgeladen werden
+   Diese Paysafecard muss dann später auf VodHD hochgeladen werden
+ 
+   Paysafcard kann auch im Handel erworben werden, dann muss die Karte abfotografiert oder eingescannt werden
 
-Auf VodHD anmelden und 
+4. Auf VodHD anmelden
+
+5. Nach dem Kauf öffnet ihr ein [Supportticket](https://www.vodhd.to/forum/index.php?/support/)durch klick auf "Neue Supportanfrage erstellen" und gebt dort die Daten der Paysafecard an und ladet den Scan/Foto hoch
+Als Titel bietet sich an "Account aktivieren" zu schreiben
+
+Die Daten werden gecheckt und innerhalb von 24 Stunden werden die Accountdaten für den Premiumzugang zugesendet
+
+Es werden 3 wichtige Informationen für das Lastship Konto benötigt, welche sich in der zugesendeten E-Mail befinden oder Ihr findet diese Informationen zusätzlich auch auf VodHD (rechts oben der Brief) unter Nachrichten:
+
+Login, Passwort, Streama-URL
+
+StreamURL komplett so in Lastship eintragen wie sie zugesendet wurden: http://IP Adresse:Port
 
 ## 2.6 Untertitel
 
