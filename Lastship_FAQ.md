@@ -788,9 +788,11 @@ Voraussetzung ist natürlich, dass ein Konto vom jeweiligen Anbieter vorhanden i
 
 Bei vielen Anbietern, kann zur Registrierung eine Wegwerf E-Mailadresse verwendet werden, ggf. mehrere Anbieter probieren
 
-Premiumdienste wie zum Beispiel RealDebrid, Premiumize usw. werden im URLResolver konfiguriert
+Premiumdienste wie zum Beispiel RealDebrid, Premiumize usw. werden im URLResolver konfiguriert und in Lastship dann farblich dargestellt
 
 In Lastship kann über *URLResolver Einstellungen-Universelle Resolver* darauf zugegriffen werden
+
+Premiumdienste wie zum Beispiel VodHD werden in Lastship konfiguriert und werden daher NICHT farblich dargestellt
 
 **Fanart tv**
 
@@ -908,7 +910,7 @@ Serienstream und Seriesever gibt es nicht viel zu erklären. Einfach auf der jew
 
 **Alluc**
 
-Die Seite wird von den Betreibern eingestellt. Daher kann man sich nicht mehr Registrieren
+Die Seite wurde von den Betreibern eingestellt. Daher kann man sich nicht mehr Registrieren. Bestehende Konten funktionieren zum Teil noch
 
 **TheTVDB**
 
@@ -953,6 +955,28 @@ Einstellungen- System – Addons – Abhängigkeiten verwalten – metahandler
 Das Kontexmenü öffnen und Einstellungen wählen
 
 Nun kann unter TMBD oder TVDB der eigene Key (Schlüssel) eingegeben werden
+
+**VodHD.to**
+
+Dieser Anbieter (Index Seite/Webseite) ist ein Premium Anbiter für den bezahlt werden muss
+
+Informationen zum Anbieter sind hier zu finden: https://vodhd.to/
+
+Auf der Webseite VodHd ein Benutzerkonto Anlegen
+
+Bezahlt werden kann z.B. mit Bitcoins, Paysafecard usw.
+
+*Anleitung zum sichern bezahlen mit Paysafecard:*
+
+1.Seite https://www.wkv.com/ besuchen und gewünschten Betrag wählen (5€)
+
+2. Neues Kundenkonto Anlegen und alle folgenden Schritte bis zur Bezahlung befolgen
+
+3. Nach der Bezahlung wird die Paysafecard angezeigt bzw. per E-Mail zugeschickt
+
+   Diese Paysafecard muss dann uf VodHD hochgeladen werden
+
+Auf VodHD anmelden und 
 
 ## 2.6 Untertitel
 
