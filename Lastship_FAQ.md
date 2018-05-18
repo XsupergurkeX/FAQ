@@ -79,10 +79,9 @@ Die Funktion der folgenden Seiten ist auf Grund Fehlender Entwickler nicht gewä
 
 | Name           | Domain            | Hinzugefügt        |
 |:-------------- |:----------------- | :------------------|
-|Alluc  |alluc.ee | 13.08.2017|
+
 |Animebase	 |anime-base.net     | 07.05.2017 |
 |Animeloads      |anime-loads.org    | 23.02.2017 |
-|BurningSeries   |bs.to              | 12.01.2017 |
 |Cine            |cine.to            | 12.01.2017 |
 |Cinenator       |cinenator.com      | 06.04.2017 |
 |DirectDownLoad  |ddl.me             | 12.01.2017 |
@@ -908,10 +907,6 @@ Dieser Bestätigungslink, öffnet auf IMDb noch ein Feld, in dem eine Captcha Ab
 
 Serienstream und Seriesever gibt es nicht viel zu erklären. Einfach auf der jeweilgen Homepage ein Benutzerkonto erstellen und dann Benutzername, E-Mail und Passwort in Lastship eintragen
 
-**Alluc**
-
-Die Seite wurde von den Betreibern eingestellt. Daher kann man sich nicht mehr Registrieren. Bestehende Konten funktionieren zum Teil noch
-
 **TheTVDB**
 
 Dieses Konto kann nicht in Lastship eingetragen werden, sonder NUR im *Metahandler*
@@ -1655,6 +1650,12 @@ Es ist nach dem URLResolver Update KEINE settings.xml vorhanden!!
 Ihr findet die settings.xml hier: ....kodi/userdata/addon_data/script.module.urlresolver
 
 **Probleme mit bs.to**
+
+BS.to geht nicht mehr, da der API Key (Zugangspunkt Schlüssel) geändert wurde und wir keinen neuen bekommen
+
+Ausserdem wurden Captcha eingeführt und diese lassen sich in Kodi (noch) nicht lösen
+
+Folgedes ist nicht mehr aktuell, bleibt aber vorerst als "Notiz" stehen:
 
 Laut Auskunft der Betreiber von BS.to, die sagen:
 
