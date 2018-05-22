@@ -82,7 +82,6 @@ Die Funktion der folgenden Seiten ist auf Grund Fehlender Entwickler nicht gewä
 
 |Animebase	 |anime-base.net     | 07.05.2017 |
 |Animeloads      |anime-loads.org    | 23.02.2017 |
-|Cine            |cine.to            | 12.01.2017 |
 |Cinenator       |cinenator.com      | 06.04.2017 |
 |DirectDownLoad  |ddl.me             | 12.01.2017 |
 |FilmPalast      |filmpalast.to      | 12.01.2017 |
@@ -104,7 +103,6 @@ Die Funktion der folgenden Seiten ist auf Grund Fehlender Entwickler nicht gewä
 |MovieTown       |movietown.org      | 30.08.2017 |
 |Netzkino        |netzkino.de        | 16.04.2017 |  
 |Proxer		 |proxer.me          | 14.07.2017 |
-|Pureanime	 |pure-anime.tv      | 24.03.2017 |
 |Serienstream	 |serienstream.to    | 08.01.2018 |
 |SeriesEver      |seriesever.net     | 12.01.2017 |
 |Streamit        |streamit.ws        | 17.03.2017 |
@@ -119,8 +117,6 @@ Für die Verwendung von Serienstream.to und Seriesever.net, ist auf deren Homepa
 Als E-Mailadresse kann auch eine Wegwerf-EMail-Adresse verwendet werden
 
 Die Seite VodHD ist Standardmäßig deaktiviert, da diese Seite eine Premium Seite ist, dass heißt es muss für die Nutzung bezahlt werden. Infos zu Bezahlung und Anmeldung auf https://vodhd.to/
-
-Alluc hat geschlossen und es kann KEINE neue Registrierung mehr gemacht werden, bisherige sind aber noch gültig
 
 Diese Daten dann bitte in Lastship unter: Werkzeuge - Konten - Serienstream eingeben, ab da kann Serienstream genutzt werden
 
@@ -1636,6 +1632,23 @@ In Kodi: Addons - Addon Browser (Schachtel) - aus .zip Datei installieren - dann
 
 Hier die alte plugin.video.lastship und script.module.lastship wählen und installieren
 
+**Lastship ist sehr langsam**
+
+Lastship ist als ganzes sehr langsam, im Menü und zum teile dauert es Minuten (z.B wenn man Traktlisten aufruft)
+
+Kann an Trakt.tv liegen, wenn die Server wieder mal sehr langsam sind
+
+Es gibt aber auch noch eine andere Möglichkeit:
+
+Wenn ein Provider File auf eine falsche IP Adresse verweist 
+
+Provider (source de files ) werden an verschiedenen stellen initialisiert
+
+Wenn es da irgendwo bei einem Webabruf hängt, hängen alle weiteren Lastship Operationen
+
+*Bitte wie folgt testen:*  ALLE Provider aus dem Source Ordner entfernen/verschieben und einzeln nach und nach wieder zurück kopieren und testen wleche den Fehler verursacht
+
+
 **URL Resolver Einstellungen werden nach Update gelöscht**
 
 Lösung: die Option *"Cache-Funktion benutzen"* ausgeschaltet, befindet sich in den URL Resolver Einstellungen
@@ -1655,7 +1668,7 @@ BS.to geht nicht mehr, da der API Key (Zugangspunkt Schlüssel) geändert wurde 
 
 Ausserdem wurden Captcha eingeführt und diese lassen sich in Kodi (noch) nicht lösen
 
-Folgedes ist nicht mehr aktuell, bleibt aber vorerst als "Notiz" stehen:
+*Folgedes ist nicht mehr aktuell, bleibt aber vorerst als "Notiz" stehen:*
 
 Laut Auskunft der Betreiber von BS.to, die sagen:
 
@@ -1728,13 +1741,12 @@ Am unteren Ende der Trakt Homepage, findet Ihr das Import Menü für Filme (Impo
 **Trakt watched Status & Lastship**
 
 Folgendes Problem sollte eigentlich nicht mehr Auftreten
+
 - einmal in Lastship "mit trakt angesehen" markierte Filme lassen sich nicht mehr als "mit trakt ungesehen" markieren und werden auf trakt.tv aber auch nicht als watched übernommen
 
 - Staffeln in Serien lassen sich nicht einzeln als watched oder unwatched markieren
 
 Die Markierung einer Staffel als "watched/unwatched" markiert immer gleich alle Staffeln
-
-*Lösung:* derzeit keine
 
 **Trakt arbeitet sehr langsam/Inhalte werden nur langsam geladen**
 
