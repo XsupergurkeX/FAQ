@@ -98,16 +98,18 @@ Die Funktion der folgenden Seiten ist auf Grund Fehlender Entwickler nicht gewä
 |Moovie	         |securelink	     | 04.05.2018 |
 |Movie-gg        |movies.gg	     | 04.05.2018 |
 |Movie2k         |movie2k.sh/ag      | 01.09.2017 |
-|Movie2z         |movie2z.to/de      | 03.09.2017 |
+|Movie4k-lt      |movie4k.lt	     | 08.06.2018 |
 |Movie4k         |movie4k.to         | 13.02.2017 |
 |MovieTown       |movietown.org      | 30.08.2017 |
 |Netzkino        |netzkino.de        | 16.04.2017 |  
 |Proxer		 |proxer.me          | 14.07.2017 |
 |Serienstream	 |serienstream.to    | 08.01.2018 |
 |SeriesEver      |seriesever.net     | 12.01.2017 |
+|Streamdream     |streamdream.ws     | 09.03.2018 |
 |Streamit        |streamit.ws        | 17.03.2017 |
 |Szene-streamz   |szene-streamz.com  | 14.03.2018 |
 |Tata	         |tata.to	     | 20.01.2018 |
+|TMovie	         |tmovie.to	     | 09.03.2018 |
 |View4u 	 |view4u.co   	     | 14.07.2017 |
 |VodHD	         |vodhd.to	     | 04.05.2018 |
 
