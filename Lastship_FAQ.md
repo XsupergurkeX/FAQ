@@ -79,7 +79,7 @@ Die Funktion der folgenden Seiten ist auf Grund Fehlender Entwickler nicht gewä
 
 | Name           | Domain            | Hinzugefügt        |
 |:-------------- |:----------------- | :------------------|
-
+|		 |		     |		  |
 |Animebase	 |anime-base.net     | 07.05.2017 |
 |Animeloads      |anime-loads.org    | 23.02.2017 |
 |Cinenator       |cinenator.com      | 06.04.2017 |
