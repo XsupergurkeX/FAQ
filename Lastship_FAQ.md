@@ -80,13 +80,16 @@ Die Funktion der folgenden Seiten ist auf Grund Fehlender Entwickler nicht gewä
 | Name           | Domain            | Hinzugefügt        |
 |:-------------- |:----------------- | :------------------|
 |		 |		     |		  |
+|Amazon  	 |amazon.de  	     | 14.06.2018 |
 |Animebase	 |anime-base.net     | 07.05.2017 |
 |Animeloads      |anime-loads.org    | 23.02.2017 |
-|Cinenator       |cinenator.com      | 06.04.2017 |
+|Cinematrix      |cinematrix.to      | 15.07.2018 |
+|Cinemaxx        |cinemaxx.cc	     | 27.06.2918 |
 |DirectDownLoad  |ddl.me             | 12.01.2017 |
 |FilmPalast      |filmpalast.to      | 12.01.2017 |
 |Foxx            |foxx.to            | 24.08.2017 | 
 |HDfilme         |hdfilme.tv         | 12.01.2017 |
+|HDKino	         |hdkino.to	     | 18.06.2018 |
 |HDStreams	 |hd-streams.org     | 14.06.2017 |
 |Horrorkino      |horrorkino.do.am   | 02.06.2017 |
 |iLoad           |iload.to           | 12.01.2017 |
@@ -97,19 +100,17 @@ Die Funktion der folgenden Seiten ist auf Grund Fehlender Entwickler nicht gewä
 |KinoX           |kinox.to           | 12.01.2017 |  
 |Moovie	         |securelink	     | 04.05.2018 |
 |Movie-gg        |movies.gg	     | 04.05.2018 |
-|Movie2k         |movie2k.sh/ag      | 01.09.2017 |
+|Movie2k         |movie2k.sc/ag      | 01.09.2017 |
 |Movie4k-lt      |movie4k.lt	     | 08.06.2018 |
 |Movie4k         |movie4k.to         | 13.02.2017 |
 |MovieTown       |movietown.org      | 30.08.2017 |
 |Netzkino        |netzkino.de        | 16.04.2017 |  
 |Proxer		 |proxer.me          | 14.07.2017 |
 |Serienstream	 |serienstream.to    | 08.01.2018 |
-|SeriesEver      |seriesever.net     | 12.01.2017 |
 |Streamdream     |streamdream.ws     | 09.03.2018 |
 |Streamit        |streamit.ws        | 17.03.2017 |
 |Szene-streamz   |szene-streamz.com  | 14.03.2018 |
 |Tata	         |tata.to	     | 20.01.2018 |
-|TMovie	         |tmovie.to	     | 09.03.2018 |
 |View4u 	 |view4u.co   	     | 14.07.2017 |
 |VodHD	         |vodhd.to	     | 04.05.2018 |
 
@@ -122,9 +123,11 @@ Die Seite VodHD ist Standardmäßig deaktiviert, da diese Seite eine Premium Sei
 
 Diese Daten dann bitte in Lastship unter: Werkzeuge - Konten - Serienstream eingeben, ab da kann Serienstream genutzt werden
 
+bzw. Werkzeuge - Konten - VodHD eingeben, ab da kann VodHD genutzt werden
+ 
 Für die Verwendung von foxx.to muss zusätzlich das script.module.request installiert sein/werden (wird normalerweise bei der Installation mit installiert)
 
-Empfehlungen und Vorschläge für neue Seiten können über das Lastship Forum unter dem Bereich [Lastship](http://lastship.square7.ch/forum/forumdisplay.php?fid=28) angefragt bzw. eingestellt werden.
+Empfehlungen und Vorschläge für neue Seiten können über das Lastship Forum gemacht werden
 
 Die Intergration der eingereichten Seiten ist nicht selbsverständlich und folgt daraufhin auch nicht automatisch. 
 
@@ -173,23 +176,13 @@ Forum: [Link](http://lastship.square7.ch/forum/forumdisplay.php?fid=28)
  
 Die Entwicklung und Änderungen in Lastship können auf Github mitverfolgt werden, der Download sollte jedoch vom Downloadlink oben durchgeführt werden: [Lastship auf Github](https://github.com/lastship?tab=repositories)
 
-Die Aktualisierung von Lastship erfolgt NUR über das Lastship Repository, so wie bei jedem anderen Repo auch. 
+Die Aktualisierung von Lastship erfolgt NUR über das Lastship Repository, so wie bei jedem anderen Repo auch
 
-Nach einem Update, werden dann auch neu hinzugefügte Index-Seiten automatisch angezeigt.
+Nach einem Update, werden dann auch neu hinzugefügte Index-Seiten automatisch angezeigt
 
 Wollt Ihr nicht bis zu einem Update warten, könnt Ihr die aktuellen Daten aus der Lastship -nightly Version downloaden und in das entsprechende Verzeichnis kopieren: 
 
 [plugin.video.lastship](https://github.com/lastship/plugin.video.lastship/tree/nightly)
-
-[script.module.lastship](https://github.com/lastship/script.module.lastship)
-
-Die meisten Änderungen werden im script.module.lastship stattfinden
-
-**Wichtig**
-
-Die Index-Seiten welche so hinzugefügt werden, können sofort verwendet werden, jedoch sind Sie in den Einstellungen (Index-Seiten) NICHT sichtbar. 
-
-Die Sichtbarkeit erfolgt, mit dem nächsten Repo Update!!
 
 **BEACHTE:**
 
@@ -305,7 +298,7 @@ Hier wird die Ansicht (view) eingestellt, wie Filme/Serien/Episoden usw. dargest
 
 Diese Ansichten werden in einer eigenen Datenbank gespeichert:
 
-.....kodi\userdata\addon_data\plugin.video.exodus\views.db
+.....kodi\userdata\addon_data\plugin.video.lastship\views.db
 
 Und so stellt Ihr die Ansichten ein:
 
@@ -511,11 +504,9 @@ Es sollte gut überlegt werden diese Funktion zu nutzen
 
 Am besten nutzen es User, die auch wissen wie sie wieder zu einer funktionsfähigen Version zurückspringen können
 
-Das Update Fenster erscheint immer 2x mal, da es einmal für plugin.video.lastship und das zweite mal für script.module.lastship ist
-
 Sollte ein Update Fehlerhaft sein, so geht wie folgt vor:
 
-Im Ordner ....kodi / addons befindet sich ein Ordner mit script.module.lastship und plugin.video.lastship, BEIDE Ordner löschen
+Im Ordner ....kodi / addons befindet sich ein Ordner mit plugin.video.lastship, diesen Ordner löschen
 
 Im Anschluss Lastship aus dem Repo installieren
 
@@ -705,7 +696,7 @@ Nache einem Lastship Update werden auch neu hinzugefügte Seiten automatisch ang
 
 Das Update erfolgt aber nur, wenn das Lastship Repo installiert ist, wie am Anfang beschrieben
 
-Im Verzeichnis ...kodi/addons/script.module.lastship/lib/resources/lib/sources_de sind die .py Daten der einzelnen Webseiten abgelegt 
+Im Verzeichnis ...kodi/addons/plugin.video.lastship/resources/lib/sources/de sind die .py Daten der einzelnen Webseiten abgelegt 
 
 Hier könnt Ihr auch neue Deutsche Seiten hinzufügen, oder bestehende bearbeiten
 
@@ -751,7 +742,7 @@ Für Flashx müsst Ihr Euch auf Flashx.tv/Flashx.sx ein Benutzerkonto anlegen, d
 
 Öffnet am Handy/Tablet/PC einen Browser mit der angezeigten Adresse von openload (http://olpair.com/) bzw. 
 
-thevideo (https://thevideo.me/pair) bzw. 
+thevideo (https://tvad.me/pair) bzw. 
 
 flashx (https://www.flashx.tv/pair oder www.flashx.sx/pair)
 
@@ -980,7 +971,7 @@ Bezahlt werden kann z.B. mit Bitcoins, Paysafecard usw.
 5. Nach dem Kauf öffnet ihr ein [Supportticket](https://www.vodhd.to/forum/index.php?/support/)durch klick auf "Neue Supportanfrage erstellen" und gebt dort die Daten der Paysafecard an und ladet den Scan/Foto hoch
 Als Titel bietet sich an "Account aktivieren" zu schreiben
 
-Die Daten werden gecheckt und innerhalb von 24 Stunden werden die Accountdaten für den Premiumzugang zugesendet
+Die Daten werden gecheckt und innerhalb von 24 Stunden (bis zu 3 Tagen)  werden die Accountdaten für den Premiumzugang zugesendet
 
 Es werden 3 wichtige Informationen für das Lastship Konto benötigt, welche sich in der zugesendeten E-Mail befinden oder Ihr findet diese Informationen zusätzlich auch auf VodHD (rechts oben der Brief) unter Nachrichten:
 
@@ -1250,7 +1241,7 @@ Ladet euch folgendes Programm für euren Windows Rechner herunter: [grepWin](htt
      
     *Search for (suchen nach):*
     
-    Um alle .strm's von Exodus und Covenant (in einem Arbeitsgang) auf Lastship "umzubenennen" , tragen wir ein "exodus|covenant" (durch das "|"  können wir gleich nach beidem suchen)
+    Um alle .strm's von Placenta und Covenant (in einem Arbeitsgang) auf Lastship "umzubenennen" , tragen wir ein "placenta|covenant" (durch das "|"  können wir gleich nach beidem suchen)
      
 
     *Replace with (ersetzen durch):* 
@@ -1632,7 +1623,7 @@ In diesem Fall müsst Ihr nicht warten, bis wir es beheben, sondern könnt selbs
 
 In Kodi: Addons - Addon Browser (Schachtel) - aus .zip Datei installieren - dann müsst Ihr den Kodipfad suchen (Kap.5.3)- addons - packages
 
-Hier die alte plugin.video.lastship und script.module.lastship wählen und installieren
+Hier die alte plugin.video.lastship wählen und installieren
 
 **Lastship ist sehr langsam**
 
@@ -1644,7 +1635,7 @@ Es gibt aber auch noch eine andere Möglichkeit:
 
 Wenn ein Provider File auf eine falsche IP Adresse verweist 
 
-Provider (source de files ) werden an verschiedenen stellen initialisiert
+Provider (source/de files ) werden an verschiedenen stellen initialisiert
 
 Wenn es da irgendwo bei einem Webabruf hängt, hängen alle weiteren Lastship Operationen
 
@@ -2001,7 +1992,7 @@ In den folgenden Ordnern findet Ihr alle Addons von Kodi
 
 Das Addon Lastship wird  unter plugin.video.lastship und script.module.lastship installiert
 
-Die Index-Seiten .py Dateien findet Ihr unter ....kodi/addons/script.module.lastship/lib/recources/lib/sources/de
+Die Index-Seiten .py Dateien findet Ihr unter ....kodi/addons/plugin.video.lastship/recources/lib/sources/de
 
 - Android 
 	- `/Android/data/org.xbmc.kodi/files/.kodi/addons/`
@@ -2016,8 +2007,3 @@ Die Index-Seiten .py Dateien findet Ihr unter ....kodi/addons/script.module.last
 	- `/storage/.kodi/addons/`
 - Windows
 	- `C:\Users\BENUTZERNAME\AppData\Roaming\Kodi\addons`    (AppData ist ein versteckter Ordner)
-
-
-
-Im Verzeichnis `resources/lib/sources_de` sind die .py Daten  der einzelnen Webseiten abgelegt.
-
