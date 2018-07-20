@@ -170,9 +170,9 @@ Hier ist ein Video von Rechtsanwalt Christian Solmecke, der über das Thema rech
 
 Das Video Addon Lastship  wird über das  LASTSHIP Repository installiert 
 
-Dieses ist hier verfügbar: [Download](https://github.com/lastship/Lastship-Repo/raw/master/zips/repository.lastship/repository.lastship-1.0.1.zip)
+Dieses ist hier verfügbar: [Download](https://github.com/lastship/Lastship-Repo/blob/master/zips/repository.lastship/repository.lastship-1.0.2.zip)
 
-Forum: [Link](http://lastship.square7.ch/forum/forumdisplay.php?fid=28)
+Forum: [Link](http://www.lastship.square7.ch/home/forum/index.php?thread/58-download-lastship-repository/#post128)
  
 Die Entwicklung und Änderungen in Lastship können auf Github mitverfolgt werden, der Download sollte jedoch vom Downloadlink oben durchgeführt werden: [Lastship auf Github](https://github.com/lastship?tab=repositories)
 
@@ -314,7 +314,6 @@ Erklärung zur Datenbank:
 
 speichert eine festgelegte Ansicht über das Lastship Menü, welche bei jedem Seitenaufruf (Pfad: Bsp. Filme -> Trakt -> Sammlung) die - vom Skin in der ViewModes.db gespeicherte -ViewID überscheibt 
 
-Thema: [Link](http://lastship.square7.ch/forum/showthread.php?tid=56)
 
 **Kanäle**
 
@@ -664,7 +663,7 @@ Addons-Seitenmenü, Automatische Aktualisierung auf AUS gestellt ist, wird Lasts
 
 ## 2.3 Index Seiten Aktivieren und Deaktivieren
 
-*Standard:* Alle Index Seiten aktiviert, außer die Seiten wo ein Benutzerkonto erforderlich ist (Alluc, Serienstream, Seriesever)
+*Standard:* Alle Index Seiten aktiviert, außer die Seiten wo ein Benutzerkonto erforderlich ist (Serienstream, VodHD usw.)
 
 In Lastship, unter dem Menüpunkt Werkzeuge, *Index-Seiten*, besteht die Möglichkeit bestimmte Seiten an bzw. auszuschalten, wenn kein Interesse an bestimmten Seiten besteht
 
