@@ -115,17 +115,18 @@ Die Funktion der folgenden Seiten ist auf Grund Fehlender Entwickler nicht gewä
 |VodHD	         |vodhd.to	     | 04.05.2018 |
 
 
-Für die Verwendung von Serienstream.to und Seriesever.net, ist auf deren Homepage das Anlegen eines Benutzer Kontos erforderlich.
+Für die Verwendung von Serienstream.to, ist auf deren Homepage das Anlegen eines Benutzer Kontos erforderlich.
 
 Als E-Mailadresse kann auch eine Wegwerf-EMail-Adresse verwendet werden
 
 Die Seite VodHD ist Standardmäßig deaktiviert, da diese Seite eine Premium Seite ist, dass heißt es muss für die Nutzung bezahlt werden. Infos zu Bezahlung und Anmeldung auf https://vodhd.to/
 
-Diese Daten dann bitte in Lastship unter: Werkzeuge - Konten - Serienstream eingeben, ab da kann Serienstream genutzt werden
+Diese Daten dann bitte in Lastship unter: Werkzeuge - Konten eingeben, ab da kann Serienstream genutzt werden
 
-bzw. Werkzeuge - Konten - VodHD eingeben, ab da kann VodHD genutzt werden
  
 Für die Verwendung von foxx.to muss zusätzlich das script.module.request installiert sein/werden (wird normalerweise bei der Installation mit installiert)
+
+Für die Verwendung von Amazon siehe Kaiptel 2.3 Index Seiten
 
 Empfehlungen und Vorschläge für neue Seiten können über das Lastship Forum gemacht werden
 
@@ -702,6 +703,20 @@ Hier könnt Ihr auch neue Deutsche Seiten hinzufügen, oder bestehende bearbeite
 Bei diesem Pfad handelt es sich um "versteckte Dateien"
 
 Diese müssen erst sichtbar gemacht werden
+
+**In Lastship befindet sich jetzt der erste legale Streaming Anbieter, Amazon**
+
+Dieser Anbieter ist als Standard "DEAKTIVIERT", da er NUR mit einem gültigen Amazon Prime Video Konto funktioniert
+
+Ebenso ist es zur Zeit (noch) nicht möglich, Amazon mit Kodi 18 zu nutzen
+
+Und eine weiter Einschränkung ist, zur Zeit KEINE Inputstream Funktion in Kodi 17
+
+*Um Amazon in Lastship verwenden zu können ist folgendes zwingend notwendig:*
+
+Es muss das Video Addon AmazonVOD, vom Sandmann Repo installiert sein, da Lastship über dieses Addon arbeitet
+
+Das Sandmann Repo bekommt man hier: [Link](https://github.com/Sandmann79/xbmc/blob/master/packages/repository.sandmann79.plugins/repository.sandmann79.plugins-1.0.2.zip)
 
 ## 2.4 Hosterwahl
 
