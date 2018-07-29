@@ -1601,6 +1601,19 @@ Installation fehlgeschlagen --> Installation der Abhängigen fehlgeschlagen
 
 - Danach Lastship aus der offiziellen Lastship Repo installieren und alles funktioniert
 
+**Lastship lässt sich nicht (auf Version 3.0.0) aktualisieren**
+Es wird zwar ein Update angezeigt, jedoch wird dieses nicht gestartet. Eine Fehlermeldung erscheint nicht
+
+LÖSUNG:
+
+Lastship & Lastship Repo deinstallieren
+
+Repo neu installieren und daraus dann das Lastship
+
+Sollte es so nicht funktionieren, dann gleiches wie oben, jedoch vor Neuinstallation im ...kodi/addons/
+
+Ordner plugin.video.lastship (& script.module lastship) löschen
+
 ## 3.2 URL Resolver Fehler
 
 Sollte dies der Fall sein, bitte den aktuellste Version des "URLResolver" über dier folgende Bezugsquellen beziehen:
@@ -1608,6 +1621,12 @@ Sollte dies der Fall sein, bitte den aktuellste Version des "URLResolver" über 
 [Download](https://github.com/lastship/lastship-common/tree/master/zips/script.module.urlresolver)
 
 ## 3.3 Beobachtungen und Fehler im Betrieb
+
+**Film/Serie wird auf einem Gerät gefunden (z.B Android Tablet), auf einem anderen Gerät mit den gleichen Einstellungen nicht (z.B RasPi)**
+
+Ein kostenloses Trakt.tv Konto erstellen
+
+Den Film/die Serie einfach auf die Trakt.tv Watchlist oder Sammlung setzen, dann sollte der Filme/die Serie bei Aufruf in Lastship auch sichtbar sein
 
 **Premium Links werden übersprungen, normale Streams laufen, bzw. Ladekreis kurz sichtbar aber kein Stream**
 
@@ -1654,7 +1673,6 @@ Provider (source/de files ) werden an verschiedenen stellen initialisiert
 Wenn es da irgendwo bei einem Webabruf hängt, hängen alle weiteren Lastship Operationen
 
 *Bitte wie folgt testen:*  ALLE Provider aus dem Source Ordner entfernen/verschieben und einzeln nach und nach wieder zurück kopieren und testen wleche den Fehler verursacht
-
 
 **URL Resolver Einstellungen werden nach Update gelöscht**
 
@@ -1848,7 +1866,7 @@ Eine Lösung ist dann ein Update von uns
 
 Ebenso kann auch folgendes sehr oft helfen, falls die Artworks nicht angezeigt werden:
 
-1.plugin.video.lastship deinstallieren
+1. plugin.video.lastship deinstallieren
 
 2. Kann generell oft bei Artwork Problemen helfen:
 
