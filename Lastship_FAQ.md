@@ -86,6 +86,7 @@ Die Funktion der folgenden Seiten ist auf Grund Fehlender Entwickler nicht gewä
 |Cinematrix      |cinematrix.to      | 15.07.2018 |
 |Cinemaxx        |cinemaxx.cc	     | 27.06.2918 |
 |DirectDownLoad  |ddl.me             | 12.01.2017 |
+|Emby	         |Emby Server /VoDHD | 31.07.2018 |
 |FilmPalast      |filmpalast.to      | 12.01.2017 |
 |Foxx            |foxx.to            | 24.08.2017 | 
 |HDfilme         |hdfilme.tv         | 12.01.2017 |
@@ -112,7 +113,6 @@ Die Funktion der folgenden Seiten ist auf Grund Fehlender Entwickler nicht gewä
 |Szene-streamz   |szene-streamz.com  | 14.03.2018 |
 |Tata	         |tata.to	     | 20.01.2018 |
 |View4u 	 |view4u.co   	     | 14.07.2017 |
-|VodHD	         |vodhd.to	     | 04.05.2018 |
 
 
 Für die Verwendung von Serienstream.to, ist auf deren Homepage das Anlegen eines Benutzer Kontos erforderlich.
@@ -314,17 +314,6 @@ Erklärung zur Datenbank:
 *views.db *
 
 speichert eine festgelegte Ansicht über das Lastship Menü, welche bei jedem Seitenaufruf (Pfad: Bsp. Filme -> Trakt -> Sammlung) die - vom Skin in der ViewModes.db gespeicherte -ViewID überscheibt 
-
-
-**Kanäle**
-
-Hier werden Euch Sky Sparten angezeigt
-
-Diese sind jedoch KEINE Live Streams
-
-Die Sparten dienen nur so als Vorschlag was man schauen könnte
-
-Englischer SkyEPG wird verwendet, Streams sind aber in deutsch
 
 **Meine Filme / Meine TV Serien**
 
@@ -954,9 +943,13 @@ Das Kontexmenü öffnen und Einstellungen wählen
 
 Nun kann unter TMBD oder TVDB der eigene Key (Schlüssel) eingegeben werden
 
-**VodHD.to**
+**Emby**
 
-VodHD muss unter Index Seiten, in Lastship, extra aktiviert werden
+VodHD wurde umgestellt auf Emby Server Suche und daher auch in Lastship angepasst
+
+VodHD heißt jetzt auch in Lastship Emby
+
+Emby muss unter Index Seiten, in Lastship, extra aktiviert werden
 
 Zusätzlich muss in Lastship unter Wiedergabe - Höchste Qualität, 4K eingestellt sein, damit der Anbieter angezeigt wird
 
@@ -987,11 +980,11 @@ Als Titel bietet sich an "Account aktivieren" zu schreiben
 
 Die Daten werden gecheckt und innerhalb von 24 Stunden (bis zu 3 Tagen)  werden die Accountdaten für den Premiumzugang zugesendet
 
-Es werden 3 wichtige Informationen für das Lastship Konto benötigt, welche sich in der zugesendeten E-Mail befinden oder Ihr findet diese Informationen zusätzlich auch auf VodHD (rechts oben der Brief) unter Nachrichten:
+Es werden 4 wichtige Informationen für das Lastship Konto benötigt, welche sich in der zugesendeten E-Mail befinden oder Ihr findet diese Informationen zusätzlich auch auf VodHD (rechts oben der Brief) unter Nachrichten:
 
-Login, Passwort, Streama-URL
+Benutzer, Passwort, Emby Server IP, Emby Port
 
-StreamURL komplett so in Lastship eintragen wie sie zugesendet wurden: http://IP Adresse:Port
+Hier ein Beispiel wie Ihr die IP und Port findet: http://IP Adresse:Port
 
 ## 2.6 Untertitel
 
