@@ -947,6 +947,10 @@ Nun kann unter TMBD oder TVDB der eigene Key (Schlüssel) eingegeben werden
 
 VodHD wurde umgestellt auf Emby Server Suche und daher auch in Lastship angepasst
 
+Emby ist ein MediaCenter wie auch Kodi. Weiter Infos bekommst du bei duckduck.go
+
+Lastship bietet nun die Möglichkeit, eigene Emby Server ( mit eigenem Content / NAS zum Beispiel ) als Client zu verwenden
+
 VodHD heißt jetzt auch in Lastship Emby
 
 Emby muss unter Index Seiten, in Lastship, extra aktiviert werden
@@ -985,6 +989,8 @@ Es werden 4 wichtige Informationen für das Lastship Konto benötigt, welche sic
 Benutzer, Passwort, Emby Server IP, Emby Port
 
 Hier ein Beispiel wie Ihr die IP und Port findet: http://IP Adresse:Port
+
+Bei Emby Server Name, kann ein eigener Name anstelle von Server eingegeben werden
 
 ## 2.6 Untertitel
 
